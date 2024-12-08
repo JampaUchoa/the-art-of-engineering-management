@@ -1,5 +1,6 @@
+# The Art of Engineering Management
 
-# The art of engineering management
+<img src="https://github.com/user-attachments/assets/be896e4d-3afa-4e85-af72-da7da8edb838" alt="drawing" width="200"/>
 
 This open-source book is a comprehensive guide for senior engineers and current engineering managers (EM). After 8 years as an EM in multiple companies, I aim to give back by providing practical advice and insights based on real-world experiences and explaining why the manager role is not one but multiple, depending on the company and team configuration.
 
