@@ -4,21 +4,26 @@
   <img src="https://github.com/user-attachments/assets/be896e4d-3afa-4e85-af72-da7da8edb838">
 </picture>
 
+![GitHub last commit](https://img.shields.io/github/last-commit/JampaUchoa/the-art-of-engineering-management)
+
+
+
 
 ## 📘 Why this book?
 This book serves as a guide for engineering managers (EMs) seeking to enhance their skills and senior engineers aspiring to transition into an EM role. 
 
 It offers practical advice grounded in real-world experiences and illustrates how the role of a manager varies greatly depending on the company and team structure. 
 
-We will explore the journey of the engineering manager role, from the initial decision to step into the role, to achieving mastery in it. 
+We will explore the journey of the engineering manager role, from the initial decision to step into the role to achieving mastery in it. 
 
 By the end of this book, you  will have gained a thorough understanding of key engineering management concepts, equipping them to navigate their roles effectively.
 <hr>
 
 > [!TIP]
-> This book is a work in progress.
+> This book is a *Work in progress* and it can become much better with your support! 
 >
-> Make sure to star this repo to get updated!
+> Consider starring this repo to receive the release updates.  ![GitHub Repo stars](https://img.shields.io/github/stars/JampaUchoa/the-art-of-engineering-management)
+
 
 <hr>
 
@@ -58,8 +63,8 @@ By the end of this book, you  will have gained a thorough understanding of key e
 ## ✍️ Contributing
 Despite being an engineering manager for 8 years in multiple companies, I still learn about new things daily. 
 
-By making this book open-source, I expect to give advice and get input from the readers. 
+Making this book open-source gives back part of my knowledge to the engineering manager community. 
 
-Anyone can contribute to and ask questions about it. 
+Contributions are welcome! Feel free to open any [issues](https://github.com/JampaUchoa/the-art-of-engineering-management/issues) for ideas, feedback, or questions.
 
-Feel free to create any issues or ask me questions in our [Discord](https://discord.gg/ZmRXFkzRPN)!
+If you want to reach me, join the [Discord](https://discord.gg/ZmRXFkzRPN) or send me a [LinkedIn](https://www.linkedin.com/in/jampauchoa/) message!
