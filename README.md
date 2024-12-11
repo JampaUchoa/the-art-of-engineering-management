@@ -5,7 +5,7 @@
 </picture>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/JampaUchoa/the-art-of-engineering-management)
-
+<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>
 
 
 
@@ -23,6 +23,11 @@ By the end of this book, you  will have gained a thorough understanding of key e
 > This book is a *Work in progress* and it can become much better with your support! 
 >
 > Consider starring this repo to receive the release updates.  ![GitHub Repo stars](https://img.shields.io/github/stars/JampaUchoa/the-art-of-engineering-management)
+>
+> Contributions are welcome! Feel free to open any [issues](https://github.com/JampaUchoa/the-art-of-engineering-management/issues) for ideas, feedback, or questions.
+>
+> If you want to reach the author, send me a [LinkedIn](https://www.linkedin.com/in/jampauchoa/) message or an email to `art-of-em@jampa.dev`
+
 
 
 <hr>
@@ -65,6 +70,3 @@ Despite being an engineering manager for 8 years in multiple companies, I still 
 
 Making this book open-source gives back part of my knowledge to the engineering manager community. 
 
-Contributions are welcome! Feel free to open any [issues](https://github.com/JampaUchoa/the-art-of-engineering-management/issues) for ideas, feedback, or questions.
-
-If you want to reach me, join the [Discord](https://discord.gg/ZmRXFkzRPN) or send me a [LinkedIn](https://www.linkedin.com/in/jampauchoa/) message!
