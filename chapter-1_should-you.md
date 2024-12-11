@@ -10,7 +10,7 @@ Fortunately, the tech industry moved on from this idea. The Staff Engineer role 
 
 People mostly decide on the former. Staying technical and avoiding bureaucracy at all costs are the main reasons the best engineers call themselves “hackers.” I had trouble promoting people to manager internally due to a lack of interest in the role, while no senior ever refused a promotion to become staff.
 
-Most engineers prefer going into staff because they think it is a role where they can stay technical, avoid meetings, and continue coding. They believe being promoted to the manager role would require someone to give every piece of expertise acquired so far and forgo being technical entirely.
+Most engineers prefer going into staff because they think it is a role where they can stay technical, avoid meetings, and continue coding. They believe being promoted to the manager role would require someone to give every piece of expertise acquired so far and forget being technical entirely.
 
 However, being an engineering manager is not as dull as it seems. Most of your technical skills won't go to waste. Being a manager allows you to use your learning to develop new skills.
 
@@ -26,7 +26,7 @@ Having a manager means one person attending meetings representing the technical 
 
 ## **The good**
 
-The best thing about being the engineering manager is that you are a force multiplier for the team. A good manager balances themself between area, trying to fill out the team's gaps so every engineer can focus on what they know best, 
+The best thing about being the engineering manager is that you are a force multiplier for the team. A good manager balances themself between areas, trying to fill out the team's gaps so every engineer can focus on what they know best, 
 
 The flexibility of the role means that you can rarely bore yourself. One week, you can tackle tech debt; the other, you can be in charge of hiring. On the other week, if everything is calm, you can help by improving CI/CD so the engineers can ship with better assurance.
 
@@ -71,16 +71,16 @@ That is why the engineering manager needs to be technical. Companies without tec
 
 ### Meetings
 
-There will be many meetings, but you get used to them. Meetings are dreadful for engineers because they must unwind and reenter the focus zone. However, as a manager, the meetings are the work we attend so the engineers can avoid them.
+There will be many meetings, but you get used to them. Meetings are dreadful for engineers because they must unwind and re-enter the focus zone. However, as a manager, the meetings are the work we attend so the engineers can avoid them.
 
 You will also have a say in attending meetings and can choose not to when you think you are not critical. You also have the power (and the responsibility) to make your team meetings more effective.
 
 
 ### Should the manager still code?
 
-You will still code, but not as much as you would like. Some days, you will want to go there to do the wrok yourself. Sometimes, you will also know it would be faster if you did it. Giving to that urge is the most common mistake of newer managers. Your role is not an engineering addition but a force multiplier.
+You will still code, but not as much as you would like. Some days, you will want to go there to do the work yourself. Sometimes, you will also know it would be faster if you did it. Giving to that urge is the most common mistake of newer managers. Your role is not an engineering addition but a force multiplier.
 
-Your deliveries should be outside the sprint delivery because problems may require you to deprioritize your other work to resolve them. Since multiple engineers will be coding, this can be the first thing you can drop, but if you drop sprint work, you will block someone. 
+Your deliveries should be outside the sprint delivery because problems may require you to deprioritize your other tasks to resolve them. Since multiple engineers will be coding, this can be the first thing you can drop, but if you drop sprint work, you will block someone. 
 
 
 ## The Ugly
