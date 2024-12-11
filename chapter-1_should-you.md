@@ -125,3 +125,15 @@ Even as a Staff Engineer, you must still focus on work other than coding. The te
 It is rare, but if you want to be *less *technical, consider moving into product management. The only requirement might be being in a company long enough to be trusted with a lateral move. 
 
 The proportion between openings is the same for both roles because both are needed in a team. However, I used to work on teams where the EM served as the PM because the latter was shared, so the EM must also have product skills. If Product Management interests you, read about the Process, which, despite being EM’s responsibility, is shared with a PM, and the Product pillar, which is the other way around.
+
+<hr>
+
+Next: [Getting promoted to EM >](#) - **Coming Soon**
+
+<hr>
+
+This book is a *Work in progress* and it can become much better with your support! 
+
+* Consider starring this repo to receive the release updates.  ![GitHub Repo stars](https://img.shields.io/github/stars/JampaUchoa/the-art-of-engineering-management)
+* Contributions are welcome! Feel free to open any [issues](https://github.com/JampaUchoa/the-art-of-engineering-management/issues) for ideas, feedback, or questions.
+* If you want to reach me, join the [Discord](https://discord.gg/ZmRXFkzRPN) or send me a [LinkedIn](https://www.linkedin.com/in/jampauchoa/) message!
