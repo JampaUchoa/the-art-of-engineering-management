@@ -23,7 +23,7 @@ This book details the engineering manager's journey from deciding to take the ro
 ## 🔑 Key Chapters
 
 1. Becoming an EM
-- Should you become an engineering manager?
+- [Should you become an engineering manager?](chapter-1_should-you.md)
 - Getting promoted to EM
 - Navigating the manager interviews
 - Your first 90 days
