@@ -30,7 +30,7 @@ By the end of this book, you  will have gained a thorough understanding of key e
 - Navigating the manager interviews
 - Your first 90 days
 
-2. Pillars of Management
+2. Manager's essentials
 - Driving an effective process
 - Shipping successful products
 - Empowering people to greatness
