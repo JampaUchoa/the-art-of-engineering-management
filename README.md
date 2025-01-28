@@ -12,9 +12,9 @@
 ## 📘 Why this book?
 This book serves as a guide for engineering managers (EMs) seeking to enhance their skills and senior engineers aspiring to transition into an EM role. 
 
-It offers practical advice grounded in real-world experiences and illustrates how the role of a manager varies greatly depending on the company and team structure. 
+It offers practical advice grounded in real-world experiences and illustrates how a manager's role varies greatly depending on the company and team structure. 
 
-We will explore the journey of the engineering manager role, from the initial decision to step into the role to achieving mastery in it. 
+We will explore the journey of the engineering manager, from the initial decision to step into the role to achieving mastery of it. 
 
 By the end of this book, you  will have gained a thorough understanding of key engineering management concepts, equipping them to navigate their roles effectively.
 <hr>
@@ -63,10 +63,4 @@ By the end of this book, you  will have gained a thorough understanding of key e
  <a href="https://discord.gg/ZmRXFkzRPN" alt="Join our discord!">
 <img src="https://img.shields.io/badge/Discord-%235865F2.svg?label=Community&logo=discord&logoColor=white">
 </a>
-<hr>
-
-## ✍️ Contributing
-Despite being an engineering manager for 8 years in multiple companies, I still learn about new things daily. 
-
-Making this book open-source gives back part of my knowledge to the engineering manager community. 
 
