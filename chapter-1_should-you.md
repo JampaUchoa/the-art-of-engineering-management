@@ -120,7 +120,7 @@ The proportion between openings is the same for both roles because both are need
 
 <hr>
 
-Next: [Getting promoted to EM >](#) - **Coming Soon**
+Next: [Getting promoted to EM >](chapter-2_getting-there.md)
 
 <hr>
 

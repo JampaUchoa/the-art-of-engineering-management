@@ -36,7 +36,7 @@ By the end of this book, you  will have gained a thorough understanding of key e
 
 1. Becoming an EM
 - [Should you become an engineering manager?](chapter-1_should-you.md)
-- Getting promoted to EM
+- [Getting promoted to engineering manager](chapter-2_getting-there.md)
 - Navigating the manager interviews
 - Your first 90 days
 
