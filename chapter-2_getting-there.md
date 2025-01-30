@@ -42,7 +42,7 @@ Another important trait is curiosity, which is essential for giving feedback wit
 
 ### Force multiplier
 
-One of the most impactful things you can do is aim to become a force multiplier. This concept is under-noticed among engineers but can make a sizable difference in a project. Force multiplier work is one that, when delivered, will allow other people to deliver faster. Whether you want to be a Staff Engineer or an Engineering Manager, this is the most crucial bar you will need to clear. A staff engineer or an architect does not do 2-10x the work of senior engineers. Still, they make teams 2-10x more productive by working on areas that will improve productivity by making architecture improvements or removing roadblocks.
+One of the most impactful things you can do is aim to become a force multiplier. This concept is under-noticed among engineers but can make a sizable difference in a project. Force multiplier work is one that, when delivered, will allow other people to deliver faster. Whether you want to be a Staff Engineer or an Engineering Manager, this is the most crucial bar you will need to clear. A staff engineer or an architect does not do 2-10x the work of senior engineers. Still, they make teams 2-10x more productive by working on areas that will have a great impact, like making architecture improvements or removing roadblocks.
 
 For example, a team impacted by constantly shipped bugs leads an engineer to create critical automated testing. This prevents bugs from breaking production and speeds up every engineer on the team by reassuring them that their tickets will not break when shipping, saving hours of debugging.
 
