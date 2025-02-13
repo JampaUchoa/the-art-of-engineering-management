@@ -71,7 +71,7 @@ In the end, if a promotion does not happen, you can highlight your managerial ac
 
 <hr>
 
-Next: [Navigating the manager interviews >](#) - **Coming Soon**
+Next: [Your first 90 days](chapter-4_your-first-days.md)
 
 <hr>
 
