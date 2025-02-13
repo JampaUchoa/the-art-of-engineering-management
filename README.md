@@ -5,30 +5,22 @@
 </picture>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/JampaUchoa/the-art-of-engineering-management)
-<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a></p>
-
 
 
 ## 📘 Why this book?
-This book serves as a guide for engineering managers (EMs) seeking to enhance their skills and senior engineers aspiring to transition into an EM role. 
 
-It offers practical advice grounded in real-world experiences and illustrates how a manager's role varies greatly depending on the company and team structure. 
+This book serves as a guide for engineering managers to refine their skills and supports senior engineers transitioning into management roles. You'll find practical advice drawn from real-world experiences that shows how the EM role varies significantly across different companies and team structures.
 
-We will explore the journey of the engineering manager, from the initial decision to step into the role to achieving mastery of it. 
+We'll explore the engineering manager's journey from deciding to step into leadership to mastering the craft. By the end, you'll understand essential management concepts and gain tools to excel in your role.
 
-By the end of this book, you  will have gained a thorough understanding of key engineering management concepts, equipping them to navigate their roles effectively.
-<hr>
 
 > [!TIP]
-> This book is a *Work in progress* and it can become much better with your support! 
+> **Work in Progress - Your Input Matters!**  
+> Help shape this book's development:
 >
-> Consider starring this repo to receive the release updates.  ![GitHub Repo stars](https://img.shields.io/github/stars/JampaUchoa/the-art-of-engineering-management)
->
-> Contributions are welcome! Feel free to open any [issues](https://github.com/JampaUchoa/the-art-of-engineering-management/issues) for ideas, feedback, or questions.
->
-> If you want to reach the author, send me a [LinkedIn](https://www.linkedin.com/in/jampauchoa/) message or an email to `art-of-em@jampa.dev`
-
-
+> - 🌟 Star the repo for release updates ![GitHub Repo stars](https://img.shields.io/github/stars/JampaUchoa/the-art-of-engineering-management)
+> - 💡 Share ideas via [issues](https://github.com/JampaUchoa/the-art-of-engineering-management/issues)
+> - 📬 Contact the author: [LinkedIn](https://www.linkedin.com/in/jampauchoa/) or `art-of-em@jampa.dev`
 
 <hr>
 
@@ -59,7 +51,7 @@ By the end of this book, you  will have gained a thorough understanding of key e
 
 <hr>
 
-#### 🪶 Ask the author / Talk with fellow managers
+#### 🪶 Connect & Collaborate
  <a href="https://discord.gg/ZmRXFkzRPN" alt="Join our discord!">
 <img src="https://img.shields.io/badge/Discord-%235865F2.svg?label=Community&logo=discord&logoColor=white">
 </a>
