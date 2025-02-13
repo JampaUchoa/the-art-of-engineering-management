@@ -1,8 +1,8 @@
 # Your first days as a Manager
 
-To succeed as a manager, you need clarity on your destination and a team that trusts it’s worth pursuing. Your first days are critical for absorbing context and building rapport—it's an opportunity to leverage first impressions and the most free time you’ll have before taking on more responsibilities.
+To succeed as a manager, you need clarity on your destination and a team that trusts it’s worth pursuing. Your first days are critical for absorbing context and establishing trust — it's an opportunity to leverage first impressions and the most free time you’ll have before taking on more responsibilities.
 
-For your initial weeks, focus on two goals: **understanding context** and **establishing trust**.
+For your initial weeks, focus on two goals: **understanding context** and **building rapport**.
 
 ## Getting Context
 
