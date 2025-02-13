@@ -6,6 +6,8 @@ For your initial weeks, focus on two goals: **understanding context** and **buil
 
 ## Getting Context
 
+![areas-sm](https://github.com/user-attachments/assets/cc72fb5f-e8a3-40b3-981d-bed4a59ccbe7)
+
 #### Your Company and the Industry
 
 Start by grasping how your company operates within its industry and how it stacks up against competitors. The key is identifying how the business *actually* makes money—outsiders often guess incorrectly.
