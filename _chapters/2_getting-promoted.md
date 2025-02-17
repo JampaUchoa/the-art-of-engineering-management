@@ -1,13 +1,6 @@
 ---
 title: "Getting promoted"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-coverImage: "/assets/blog/hello-world/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
-author:
-  name: Tim Neutkens
-  picture: "/assets/blog/authors/tim.jpeg"
-ogImage:
-  url: "/assets/blog/hello-world/cover.jpg"
+ready: true
 ---
 
 # Getting promoted to Engineering Manager
@@ -80,15 +73,3 @@ Like many others, I worked as a tech lead for a growing startup. My responsibili
 Then, when it was apparent I was managing everything but on paper, I talked with my CTO, who gave me the title the next week and charged me with hiring a second team for a new company initiative.
 
 In the end, if a promotion does not happen, you can highlight your managerial achievements during interviews with other companies. This leads to our next chapter…
-
-<hr>
-
-Next: [Your first 90 days](chapter-4_your-first-days.md)
-
-<hr>
-
-This book is a *Work in progress* and it can become much better with your support! 
-
-* Consider starring this repo to receive the release updates.  ![GitHub Repo stars](https://img.shields.io/github/stars/JampaUchoa/the-art-of-engineering-management)
-* Contributions are welcome! Feel free to open any [issues](https://github.com/JampaUchoa/the-art-of-engineering-management/issues) for ideas, feedback, or questions.
-* If you want to reach me, join the [Discord](https://discord.gg/ZmRXFkzRPN) or send me a [LinkedIn](https://www.linkedin.com/in/jampauchoa/) message!

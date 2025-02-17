@@ -1,13 +1,6 @@
 ---
 title: "Should I become a manager?"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus."
-coverImage: "/assets/blog/dynamic-routing/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
-author:
-  name: JJ Kasper
-  picture: "/assets/blog/authors/jj.jpeg"
-ogImage:
-  url: "/assets/blog/dynamic-routing/cover.jpg"
+ready: true
 ---
 
 # Should you become a manager?
@@ -72,7 +65,7 @@ If you want to start your own company, getting into engineering management is a 
 
 ## **The bad**
 
-Mistakes in your team might not be your fault, but they will **always **be your responsibility.
+Mistakes in your team might not be your fault, but they will **always** be your responsibility.
 
 If your engineer says he can ship something in 2 weeks, but it takes 2 months, it will be your responsibility to be accountable for that deadline. Another example would be if something goes wrong, like the production going offline, it will also be your responsibility to prevent it from happening again. Anything that goes wrong makes you the person accountable for preventing future errors.
 
@@ -130,8 +123,3 @@ It is rare, but if you want to be *less technical*, consider moving into product
 
 The proportion between openings is the same for both roles because both are needed in a team. However, I used to work on teams where the EM served as the PM because the latter was shared, so the EM must also have product skills. If Product Management interests you, read about the Product and Process chapter. The PM owns the former and the EM the latter, but both are responsible for executing well within a team.
 
-<hr>
-
-Next: [Getting promoted to EM >](chapter-2_getting-there.md)
-
-<hr>
