@@ -81,3 +81,25 @@ article {
     max-width: 720px;
     margin: 0 auto;
 }
+.home-page{
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 400px 1fr;
+    max-width: 1200px;
+    margin: 60px auto;
+    picture{
+        img, source{
+            border-radius: 50%;
+            width: 400px;
+            object-fit: cover;
+        }
+    }
+    p{
+        margin: calc(1em + 1ex) 0;
+        line-height: calc(1em + 1ex);
+    }
+    .intro-text{
+        max-width: 600px;
+    }
+}
