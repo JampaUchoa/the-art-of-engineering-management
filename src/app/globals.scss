@@ -18,11 +18,15 @@ body {
     font-weight: 900;
     color: #303030;
     align-items: center;
+    text-decoration: none;
+    justify-content: center;
+
     svg{
         margin: 0 10px;
         height: 65px;
         align-self: center;
     }
+
 }
 .title{
     text-transform: uppercase;
@@ -39,67 +43,3 @@ footer {
     text-align: center;
 }
 
-aside {
-    // background-color: #fafafa;
-    font-size: .8rem;
-    background-color: #f5f5f5;
-    position: fixed;
-    height: 100vh;
-    right: 0;
-    width: 300px;
-    a {
-        color: #444;
-        text-decoration: none;
-        display: block;
-        border-radius: 5px;
-        padding: 8px 12px;
-        padding-right: 50px;
-        font-weight: normal;
-        transition: all 0.12s ease;
-        text-overflow: ellipsis;
-        overflow: hidden;
-    }
-
-    a:hover {
-        background-color: #aaa4;
-    }
-}
-
-main {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 200px auto 300px;
-}
-
-.content{
-    background-color: #fff;
-}
-
-article {
-    padding: 20px;
-    border-radius: 5px;
-    max-width: 720px;
-    margin: 0 auto;
-}
-.home-page{
-    margin: 0 auto;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 400px 1fr;
-    max-width: 1200px;
-    margin: 60px auto;
-    picture{
-        img, source{
-            border-radius: 50%;
-            width: 400px;
-            object-fit: cover;
-        }
-    }
-    p{
-        margin: calc(1em + 1ex) 0;
-        line-height: calc(1em + 1ex);
-    }
-    .intro-text{
-        max-width: 600px;
-    }
-}

@@ -1,10 +1,8 @@
-import { Intro } from "@/app/_components/intro";
+import { Home } from "@/app/_components/intro/home";
 
 export default function Index() {
 
   return (
-    <>
-          <Intro />
-    </>
+    <Home />
   );
 }

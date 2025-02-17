@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 import "./globals.scss";
-import Sidebar from "./_components/sidebar";
+import Header from "./_components/header";
 
 export const metadata: Metadata = {
   title: `The Art of Engineering Management`,
@@ -51,11 +51,10 @@ export default function RootLayout({
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
-      <body className={""}>
+      <body>
+        <Header />
         <main>
-          <div className="empty"></div>
           <div className="content">{children}</div>
-          <Sidebar />
         </main>
       </body>
     </html>

@@ -13,12 +13,12 @@ export default function ChapterNavigator({ current }: { current: Post }) {
         <div>
             {previous && (
             <div>
-                <a href={`/${previous.slug}`}>{"<"}</a>
+                <a href={`/chapters/${previous.slug}`}>{"<"}</a>
             </div>
             )}
             {next && (
                 <div>
-                    <a href={`/${next.slug}`}>{next.title}{" >"}</a>
+                    <a href={`/chapters/${next.slug}`}>{next.title}{" >"}</a>
                 </div>
             )}
         </div>

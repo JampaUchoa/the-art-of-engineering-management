@@ -9,6 +9,13 @@
     --paragraph-spacing: 1.5em;
 }
 
+article {
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 88ch;
+    margin: 0 auto;
+}
+
 /* Base typography */
 .book-content {
     line-height: var(--line-height);
@@ -49,7 +56,7 @@
 
 /* Paragraph styling */
 .book-content p {
-    margin: 0 calc(1em + 1ex);
+    margin: calc(1em + 1ex) 0;
     line-height: calc(1em + 1ex);
 }
 
