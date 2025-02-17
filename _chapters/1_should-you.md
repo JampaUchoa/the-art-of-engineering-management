@@ -10,7 +10,7 @@ ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"
 ---
 
-# Should I become a manager?
+# Should you become a manager?
 
 It wasn't a conscious decision when I became an engineering manager ages ago. I was a tech lead in a growing project, so we started hiring frantically, and I got in charge of new responsibilities like interviewing, onboarding, and then managing. Those responsibilities made me stop coding as a primary function. Then my boss said, “I guess you are the engineering manager now.”
 
