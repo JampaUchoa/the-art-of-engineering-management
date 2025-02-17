@@ -1,12 +1,7 @@
-import Footer from "@/app/_components/footer";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import cn from "classnames";
-import { ThemeSwitcher } from "./_components/theme-switcher";
 
-import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import "./globals.scss";
+import Sidebar from "./_components/sidebar";
 
 export const metadata: Metadata = {
   title: `The Art of Engineering Management`,
@@ -56,11 +51,12 @@ export default function RootLayout({
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
-      <body
-        className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
-      >
-        <div className="">{children}</div>
-        <Footer />
+      <body className={""}>
+        <main>
+          <div className="empty"></div>
+          <div className="content">{children}</div>
+          <Sidebar />
+        </main>
       </body>
     </html>
   );

@@ -1,15 +1,14 @@
 import Link from "next/link";
-import { ThemeSwitcher } from "./theme-switcher";
+import Logo from "@/logo";
 
 const Header = () => {
   return (
-    <div>
-      <h2 className="">
-        <Link href="/" className="">
+      <Link  className="header" href="/">
+        <Logo />
+        <h2 className="title">
           The Art of Engineering Management
-        </Link>
-      </h2>
-    </div>
+        </h2>
+      </Link>
   );
 };
 

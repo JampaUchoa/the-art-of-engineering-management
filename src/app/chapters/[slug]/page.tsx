@@ -3,11 +3,10 @@ import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/api";
 import markdownToHtml from "@/lib/markdownToHtml";
 import Container from "@/app/_components/container";
-import Header from "@/app/_components/header";
 import { PostBody } from "@/app/_components/post-body";
-import { PostTitle } from "@/app/_components/post-title";
-import Sidebar from "@/app/_components/sidebar";
-
+import ChapterFooter from "@/app/_components/chapter-footer";
+import ChapterNavigator from "@/app/_components/chapter-navigator";
+import "./page.scss";
 export default async function Post(props: Params) {
   const params = await props.params;
   const post = getPostBySlug(params.slug);
@@ -19,18 +18,15 @@ export default async function Post(props: Params) {
   const content = await markdownToHtml(post.content || "");
 
   return (
-    <main>
       <Container>
-        <Header />
-        <article className="">
-          <Sidebar/>
-          <PostTitle>
-            {post.title}
-          </PostTitle>
-          <PostBody content={content} />
+        <article>
+          <div className="book-content">
+            <PostBody content={content} />
+          </div>
+          <ChapterNavigator current={post} />
+          <ChapterFooter />
         </article>
       </Container>
-    </main>
   );
 }
 
