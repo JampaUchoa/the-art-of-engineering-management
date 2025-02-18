@@ -1,0 +1,63 @@
+.chapter-navigator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 1rem;
+    max-width: 320px;
+    margin: 0 auto;
+    .next {
+        flex-grow: 1;
+        text-align: right;
+    }
+
+    a {
+        border: 3px solid var(--accent-color);
+        border-bottom: 3px solid var(--accent-color-darker);
+        background-color: var(--accent-color);
+        color: #fff;
+        padding: 7px 5px;
+        text-decoration: none;
+        transition: all 0.2s ease;
+        border-radius: 15px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+
+        span{
+            display: block;
+        }
+        .subtext {
+            color: #fafafa;
+            font-size: 0.85rem;
+        }
+        .chapter-title{
+            font-size: 1.2rem;
+            margin: 0;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+
+        &:hover {
+            background-color: var(--accent-color-darker);
+            border-color: var(--accent-color-darker);
+            color: #fff;
+            .subtext {
+                color: #fff;
+            }    
+        }
+
+        &.disabled {
+            pointer-events: none;
+            opacity: 0.9;
+            background-color: var(--secondary-text);
+            color: var(--background);
+        }
+    }
+
+    svg {
+        vertical-align: middle;
+        font-size: 3rem;
+        padding: 0 4px;
+    }
+}
