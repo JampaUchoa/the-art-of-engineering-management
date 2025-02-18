@@ -2,10 +2,9 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/api";
 import markdownToHtml from "@/lib/markdownToHtml";
-import Container from "@/app/_components/container";
 import { PostBody } from "@/app/_components/post-body";
 import ChapterFooter from "@/app/_components/chapter-footer";
-import ChapterNavigator from "@/app/_components/chapter-navigator";
+import ChapterNavigator from "@/app/_components/chapter/navigator";
 import "./page.scss";
 export default async function Post(props: Params) {
   const params = await props.params;
@@ -18,15 +17,13 @@ export default async function Post(props: Params) {
   const content = await markdownToHtml(post.content || "");
 
   return (
-      <Container>
-        <article>
-          <div className="book-content">
-            <PostBody content={content} />
-          </div>
-          <ChapterNavigator current={post} />
-          <ChapterFooter />
-        </article>
-      </Container>
+    <article>
+      <div className="book-content">
+        <PostBody content={content} />
+      </div>
+      <ChapterNavigator current={post} />
+      <ChapterFooter />
+    </article>
   );
 }
 

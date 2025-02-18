@@ -3,6 +3,7 @@
     --secondary-text: #666;
     --background: #fff;
     --accent-color: #2b6cb0;
+    --accent-color-darker: #054487;
     --blockquote-border: #e5e7eb;
     --image-border: #f1f1f1;
     --line-height: 1.6;
@@ -21,7 +22,7 @@ article {
     line-height: var(--line-height);
     color: var(--primary-text);
     margin: 0 auto;
-    padding: 2rem 1rem;
+    padding: 2rem 1rem 0;
     font-size: 1.15rem;
 }
 
