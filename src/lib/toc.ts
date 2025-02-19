@@ -7,7 +7,7 @@ const tableOfContents = [
                 "slug": "1_should-you"
             },
             {
-                "title": "How a Promotion Happens",
+                "title": "Getting Promoted",
                 "slug": "2_getting-promoted"
             },
             {
@@ -16,6 +16,10 @@ const tableOfContents = [
             {
                 "title": "First Days",
                 "slug": "4_first-days"
+            },
+            {
+                "title": "Shaping up your role",
+                "slug": "5_which-manager-you-will-be"
             }
         ]
     },

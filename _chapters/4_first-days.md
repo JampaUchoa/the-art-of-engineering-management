@@ -70,3 +70,13 @@ Ask “silly” questions freely—your fresh perspective often reveals overlook
 Observe discussions actively. Share insights from past experiences when relevant, and defer decisions until you’re confident.
 
 If pressed to decide prematurely (e.g., by a PM accustomed to your predecessor’s taking decisions), ask clarifying questions to come up with solutions as team.
+
+During your first few days, make an effort to keep things moving, but avoid rushing into action before you feel confident. Some managers make the mistake of acting too early—and even worse, trying to shape the new company in the image of their previous workplace.
+
+Take the time to learn and adopt the positive aspects of the new culture. Some companies have a more reserved, straight-to-business approach with minimal small talk, while others are more vocal and operate like a passionate, outspoken pirate crew. Embrace what you have.
+
+## Getting out of the onboarding
+
+Onboarding officially ends when your director has transferred every responsibility they managed while covering your role. This will happen gradually, so be proactive in removing the "training wheels" progressively. And once you’re running your squad, you’re not alone—continue to rely on your director and team when needed.
+
+The skills and knowledge you’ve acquired so far will be invaluable in shaping your team’s future. We're just beginning!

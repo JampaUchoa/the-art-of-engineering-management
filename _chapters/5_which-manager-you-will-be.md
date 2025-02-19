@@ -1,12 +1,12 @@
 ---
-title: "What you need to do"
+title: "Shaping up your role"
 ---
 
-## What role will you perform
+# Shaping up your role
 
 The engineering manager role varies widely across companies—sometimes within the same organization. Your priorities will not be defined by your director but by your team’s unique challenges and dynamics.
 
-You will be there but guarantee that the team delivers and is healthy to keep delivering, the things that will require your attention are mostly reinforcing the weakest aspects your the team at the given time, dealing with bottlenecks and recurring roadblocks, and ensuring they are handled before it becomes a bigger problem
+You will be there to guarantee that the team delivers and is healthy to keep delivering, the things that will require your attention are mostly reinforcing the weakest aspects your the team at the given time, dealing with bottlenecks and recurring roadblocks, so they are handled before it becomes a bigger problem
 
 ### Escalate, intervene or hire
 

@@ -15,7 +15,7 @@ Fortunately, the tech industry moved on from this idea. The Staff Engineer role 
 
 People mostly decide on the former. Staying technical and avoiding bureaucracy at all costs are the main reasons the best engineers call themselves “hackers.” I had trouble promoting people to manager internally due to a lack of interest in the role, while no senior ever refused a promotion to become staff.
 
-Most engineers prefer going into staff because they think it is a role where they can stay technical, avoid meetings, and continue coding. They believe being promoted to the manager role would require someone to give every piece of expertise acquired so far and forgo being technical entirely.
+Most engineers prefer going into staff because they think it is a role where they can stay technical, avoid meetings, and continue coding. They believe being promoted to the manager role would require someone to give every piece of expertise acquired so far and quit being technical entirely.
 
 However, being an engineering manager is not as dull as it seems. Most of your technical skills won't go to waste. Being a manager allows you to use your learning to develop new skills.
 
