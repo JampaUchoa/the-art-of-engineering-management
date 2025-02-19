@@ -1,0 +1,43 @@
+.header{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .side-links{
+        font-size: 1.5em;
+        svg{
+            margin: 0 10px;
+            padding: 5px;
+            color: var(--secondary-text);
+        }
+        .moon, .sun{
+            color: var(--background);
+            background-color: var(--primary-text);
+            border-radius: 50%;
+        }
+    }
+    .logo{
+        display: flex;
+        padding: 25px 0 10px;
+        font-weight: 400;
+        color: var(--primary-text);
+        align-items: center;
+        text-decoration: none;
+        justify-content: center;
+
+        .title{
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 1.24em;
+            letter-spacing: -.04em;
+            font-weight: 500;
+        }
+        
+        svg{
+            height: 65px;
+            align-self: center;
+        }
+    }
+
+
+}

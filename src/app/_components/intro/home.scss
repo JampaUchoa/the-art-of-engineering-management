@@ -42,10 +42,10 @@
             line-height: 1.4;
         }
         span{
-            color: #AAA;
+            color: var(--secondary-text);
         }
         a{
-            color: #03528a;
+            color: var(--accent-color);
             font-weight: 500;
         }
         a, span{

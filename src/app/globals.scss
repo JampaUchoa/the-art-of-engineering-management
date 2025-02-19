@@ -1,9 +1,33 @@
+:root {
+    --primary-text: #333;
+    --secondary-text: #666;
+    --background: #fff;
+    --accent-color: #2b6cb0;
+    --accent-color-darker: #054487;
+    --blockquote-border: #e5e7eb;
+    --image-border: #f1f1f1;
+    --line-height: 1.6;
+    --paragraph-spacing: 1.5em;
+}
+
+/* Optional dark mode */
+:root.dark {
+    --primary-text: #e5e7eb;
+    --secondary-text: #9ca3af;
+    --background: #1a1a1a;
+    --blockquote-border: #374151;
+    --image-border: #374151;
+    --accent-color: #2b6cb0;
+    --accent-color-darker: #054487;
+}
+
 body {
     font-family: Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: var(--primary-text);
+    background-color: var(--background);
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -11,35 +35,3 @@ body {
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
 }
-
-.header{
-    display: flex;
-    padding: 25px 0 10px;
-    font-weight: 900;
-    color: #303030;
-    align-items: center;
-    text-decoration: none;
-    justify-content: center;
-
-    svg{
-        margin: 0 10px;
-        height: 65px;
-        align-self: center;
-    }
-
-}
-.title{
-    text-transform: uppercase;
-    margin: 0;
-    font-size: 1.34em;
-    word-spacing: -0.05em;
-    letter-spacing: -0.05em;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-

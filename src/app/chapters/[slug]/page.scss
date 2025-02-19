@@ -1,14 +1,4 @@
-:root {
-    --primary-text: #333;
-    --secondary-text: #666;
-    --background: #fff;
-    --accent-color: #2b6cb0;
-    --accent-color-darker: #054487;
-    --blockquote-border: #e5e7eb;
-    --image-border: #f1f1f1;
-    --line-height: 1.6;
-    --paragraph-spacing: 1.5em;
-}
+
 
 article {
     padding: 20px;
@@ -161,18 +151,3 @@ article {
         font-size: 1.1rem;
     }
 }
-
-// /* Optional dark mode */
-// @media (prefers-color-scheme: dark) {
-//     :root {
-//         --primary-text: #e5e7eb;
-//         --secondary-text: #9ca3af;
-//         --background: #1a1a1a;
-//         --blockquote-border: #374151;
-//         --image-border: #374151;
-//     }
-    
-//     .book-content {
-//         background-color: var(--background);
-//     }
-// }
