@@ -1,74 +1,56 @@
-# A statically generated blog example using Next.js, Markdown, and TypeScript
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/f521777e-98b9-46cf-90a0-f6528da20cc3">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/dcdcb977-25b9-4cee-98c6-5a461a4e7158">
+  <img src="https://github.com/user-attachments/assets/be896e4d-3afa-4e85-af72-da7da8edb838">
+</picture>
 
-This is the existing [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript.
+![GitHub last commit](https://img.shields.io/github/last-commit/JampaUchoa/the-art-of-engineering-management)
 
-This example showcases Next.js's [Static Generation](https://nextjs.org/docs/app/building-your-application/routing/layouts-and-templates) feature using Markdown files as the data source.
+## 📘 Why this book?
 
-The blog posts are stored in `/_chapters` as Markdown files with front matter support. Adding a new Markdown file in there will create a new blog post.
+This book serves as a guide for engineering managers to refine their skills and supports senior engineers transitioning into management roles. You'll find practical advice drawn from real-world experiences that shows how the EM role varies significantly across different companies and team structures.
 
-To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) and [`remark-html`](https://github.com/remarkjs/remark-html) to convert the Markdown files into an HTML string, and then send it down as a prop to the page. The metadata of every post is handled by [`gray-matter`](https://github.com/jonschlinkert/gray-matter) and also sent in props to the page.
+We'll explore the engineering manager's journey from deciding to step into leadership to mastering the craft. By the end, you'll understand essential management concepts and gain tools to excel in your role.
 
-## Demo
 
-[https://next-blog-starter.vercel.app/](https://next-blog-starter.vercel.app/)
+> [!TIP]
+> **Work in Progress - Your Input Matters!**  
+> Help shape this book's development:
+>
+> - 🌟 Star the repo for release updates ![GitHub Repo stars](https://img.shields.io/github/stars/JampaUchoa/the-art-of-engineering-management)
+> - 💡 Share ideas via [issues](https://github.com/JampaUchoa/the-art-of-engineering-management/issues)
+> - 📬 Contact the author: [LinkedIn](https://www.linkedin.com/in/jampauchoa/) or `art-of-em@jampa.dev`
 
-## Deploy your own
+<hr>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/blog-starter)
+## 🔑 Key Chapters
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog-starter&project-name=blog-starter&repository-name=blog-starter)
+1. Becoming an EM
+- [Should you become an engineering manager?](chapter-1_should-you.md)
+- [Getting promoted to engineering manager](chapter-2_getting-there.md)
+- Navigating the manager interviews
+- [Your first 90 days](chapter-4_your-first-days.md)
 
-### Related examples
+2. Manager's essentials
+- Driving an effective process
+- Shipping successful products
+- Empowering people to greatness
+- How much you should (still) care about programming
 
-- [AgilityCMS](/examples/cms-agilitycms)
-- [Builder.io](/examples/cms-builder-io)
-- [ButterCMS](/examples/cms-buttercms)
-- [Contentful](/examples/cms-contentful)
-- [Cosmic](/examples/cms-cosmic)
-- [DatoCMS](/examples/cms-datocms)
-- [DotCMS](/examples/cms-dotcms)
-- [Drupal](/examples/cms-drupal)
-- [Enterspeed](/examples/cms-enterspeed)
-- [Ghost](/examples/cms-ghost)
-- [GraphCMS](/examples/cms-graphcms)
-- [Kontent.ai](/examples/cms-kontent-ai)
-- [MakeSwift](/examples/cms-makeswift)
-- [Payload](/examples/cms-payload)
-- [Plasmic](/examples/cms-plasmic)
-- [Prepr](/examples/cms-prepr)
-- [Prismic](/examples/cms-prismic)
-- [Sanity](/examples/cms-sanity)
-- [Sitecore XM Cloud](/examples/cms-sitecore-xmcloud)
-- [Sitefinity](/examples/cms-sitefinity)
-- [Storyblok](/examples/cms-storyblok)
-- [TakeShape](/examples/cms-takeshape)
-- [Tina](/examples/cms-tina)
-- [Umbraco](/examples/cms-umbraco)
-- [Umbraco heartcore](/examples/cms-umbraco-heartcore)
-- [Webiny](/examples/cms-webiny)
-- [WordPress](/examples/cms-wordpress)
-- [Blog Starter](/examples/blog-starter)
+3. Mastering
+- Delegating effectively
+- 1:1 meetings
+- Giving feedback
+- Preventing burnout
+- Managing everyone's attention
+- Hiring great engineers
+- Addressing performance issues/firing
+- Promoting people
 
-## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+<hr>
 
-```bash
-npx create-next-app --example blog-starter blog-starter-app
-```
-
-```bash
-yarn create next-app --example blog-starter blog-starter-app
-```
-
-```bash
-pnpm create next-app --example blog-starter blog-starter-app
-```
-
-Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-# Notes
-
-`blog-starter` uses [Tailwind CSS](https://tailwindcss.com) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3).
+#### 🪶 Connect & Collaborate
+ <a href="https://discord.gg/ZmRXFkzRPN" alt="Join our discord!">
+<img src="https://img.shields.io/badge/Discord-%235865F2.svg?label=Community&logo=discord&logoColor=white">
+</a>
