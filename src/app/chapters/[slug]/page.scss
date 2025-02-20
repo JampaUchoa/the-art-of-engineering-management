@@ -1,8 +1,6 @@
 
 
 article {
-    padding: 20px;
-    border-radius: 5px;
     max-width: 88ch;
     margin: 0 auto;
 }
@@ -12,7 +10,6 @@ article {
     line-height: var(--line-height);
     color: var(--primary-text);
     margin: 0 auto;
-    padding: 2rem 1rem 0;
     font-size: 1.15rem;
 }
 
@@ -136,7 +133,6 @@ article {
 @media (max-width: 768px) {
     .book-content {
         font-size: 1rem;
-        padding: 1rem;
     }
     
     .book-content h1 {

@@ -2,15 +2,18 @@
 import Link from "next/link";
 import Logo from "@/logo";
 import "./header.scss";
-import { FiGithub, FiMoon, FiSun } from "react-icons/fi";
+import { FiGithub, FiMoon, FiSun, FiTwitter } from "react-icons/fi";
 import { useEffect, useState } from "react";
 const Header = () => {
 
-  const [theme, setTheme] = useState(localStorage.getItem('theme'));
+  const defaultTheme = typeof window !== 'undefined' ? window.localStorage.getItem('theme') : null;
+  const [theme, setTheme] = useState(defaultTheme);
+
   useEffect(() => {
+    if (typeof window === 'undefined') return;
     if (!theme) {
       const defaultTheme = preferedTheme();
-      localStorage.setItem('theme', defaultTheme);
+      window.localStorage.setItem('theme', defaultTheme);
       document.documentElement.classList.add(defaultTheme);
     } else {
       document.documentElement.classList.add(theme);
@@ -22,9 +25,9 @@ const Header = () => {
   }
 
   function toggleDarkMode() {
-    const currentTheme = localStorage.getItem('theme') || preferedTheme();
+    const currentTheme = window.localStorage.getItem('theme') || preferedTheme();
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    localStorage.setItem('theme', newTheme);
+    window.localStorage.setItem('theme', newTheme);
     document.documentElement.classList.remove(currentTheme);
     document.documentElement.classList.add(newTheme);
     setTheme(newTheme)
@@ -45,7 +48,12 @@ const Header = () => {
           <FiSun className="sun" onClick={toggleDarkMode} /> :
           <FiMoon className="moon" onClick={toggleDarkMode} />
         }
+        <a href="https://github.com/JampaUchoa/the-art-of-engineering-management" target="_blank" rel="noopener noreferrer">
         <FiGithub />
+        </a>
+        <a href="https://twitter.com/jampauchoa" target="_blank" rel="noopener noreferrer">
+        <FiTwitter />
+        </a>
       </div>
     </div>
   );

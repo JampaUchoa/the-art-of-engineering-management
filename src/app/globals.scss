@@ -34,4 +34,11 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
+    padding: 2rem 1rem 0;
+}
+
+@media (max-width: 768px) {
+    body{
+        padding: 1rem;
+    }
 }
