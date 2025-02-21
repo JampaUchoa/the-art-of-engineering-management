@@ -56,4 +56,24 @@
         }
 
     }
+    .buttons{
+        margin: 0 auto;
+        text-align: center;
+        background-color: var(--image-border);
+    }
+    .chapter-navigator{
+        display: inline-block;
+        text-align: center;
+        max-width: auto;
+        margin: 0 auto;
+        .next{
+            gap: 5px;
+            display: flex;
+            padding: 7px 15px;
+            text-align: center;
+        }
+        svg{
+            font-size: 2rem;
+        }
+    }
 }

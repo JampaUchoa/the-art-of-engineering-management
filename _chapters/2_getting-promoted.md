@@ -13,7 +13,7 @@ But afterward, whether the option is to go the Staff or Manager route, clearing 
 
 This “business need” means getting promoted to the levels above senior will depend not entirely on the engineer but also on their company. It makes it much more difficult to be promoted in a stalled company since new squads are rarely formed, and when one manager leaves, many people will compete internally for the opening role.
 
-It also means that aggressive companies, like startups with extensive funding, are much more attractive since they constantly need to find new ways to capture their addressable market. This, in turn, makes hiring happen frequently, and with new squads come new managers.
+It also means that aggressive companies, like startups with extensive funding, are much more attractive since they constantly need to find new ways to capture their addressable market. This makes hiring happen frequently, and with new squads come new managers.
 
 If you want to move fast in your career, consider joining a startup where you will likely have more opportunities to tackle significant problems and develop your skills faster. It trades stability and salary for a career fast track.
 
