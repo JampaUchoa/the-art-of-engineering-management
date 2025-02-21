@@ -1,6 +1,7 @@
 .header{
 
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
     align-items: center;
     .side-links{
@@ -42,4 +43,9 @@
     }
 
 
+}
+@media (max-width: 768px) {
+    .header{
+        grid-template-columns: 0 1fr auto;
+    }
 }
