@@ -12,9 +12,9 @@
     }
 
     a {
-        border: 3px solid var(--accent-color);
-        border-bottom: 3px solid var(--accent-color-darker);
-        background-color: var(--accent-color);
+        border: 3px solid #2b6cb0;
+        border-bottom: 3px solid #054487;
+        background-color: #2b6cb0;
         color: #fff;
         padding: 7px 5px;
         text-decoration: none;
@@ -39,8 +39,8 @@
         }
 
         &:hover {
-            background-color: var(--accent-color-darker);
-            border-color: var(--accent-color-darker);
+            background-color: #054487;
+            border-color: #054487;
             color: #fff;
             .subtext {
                 color: #fff;
