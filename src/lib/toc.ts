@@ -4,22 +4,19 @@ const tableOfContents = [
         "subtopics": [
             {
                 "title": "Should You Become a Manager?",
-                "slug": "1_should-you"
+                "slug": "1_should-you-become-an-engineering-manager"
             },
             {
                 "title": "Getting Promoted",
-                "slug": "2_getting-promoted"
             },
             {
                 "title": "Navigating Interviews"
             },
             {
                 "title": "First Days",
-                "slug": "4_first-days"
             },
             {
                 "title": "Shaping up your role",
-                "slug": "5_which-manager-you-will-be"
             }
         ]
     },
