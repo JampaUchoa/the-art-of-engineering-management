@@ -76,9 +76,9 @@ article {
 
 /* Images */
 .book-content img {
-    max-width: 100%;
+    max-width: min(100%, 580px);
     height: auto;
-    margin: 2rem auto;
+    margin: 2rem 0;
     display: block;
     border-radius: 4px;
 }

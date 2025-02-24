@@ -5,6 +5,7 @@ ready: true
 
 # Getting promoted to Engineering Manager
 
+![Crossing the chasm](/assets/chapters/chapter-2-intro.svg)
 ### Betting on the right horse
 
 Up to the senior engineering level, being promoted depends only on the proficiency bar achieved regarding technical proficiency and communication.

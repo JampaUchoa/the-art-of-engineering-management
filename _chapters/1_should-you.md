@@ -13,6 +13,8 @@ Fortunately, the tech industry moved on from this idea. The Staff Engineer role 
 
 > Should I become a staff engineer or an engineer manager?
 
+![Where to go next?](/assets/chapters/chapter-1-head.svg)
+
 People mostly decide on the former. Staying technical and avoiding bureaucracy at all costs are the main reasons the best engineers call themselves “hackers.” I had trouble promoting people to manager internally due to a lack of interest in the role, while no senior ever refused a promotion to become staff.
 
 Most engineers prefer going into staff because they think it is a role where they can stay technical, avoid meetings, and continue coding. They believe being promoted to the manager role would require someone to give every piece of expertise acquired so far and quit being technical entirely.
@@ -117,7 +119,9 @@ If the problems above turn you off, consider pursuing the Staff Engineer role. H
 
 Even as a Staff Engineer, you must still focus on work other than coding. The technical chapters in this book are still worth reading, like the “Programming Pillar,” since it becomes a shared responsibility between staff and managers. Consider looking at the 1:1s and giving feedback chapters since this is something you also need to master.
 
-### Product Manager
+![The illusion of choice](/assets/chapters/chapter-1-path.svg)
+
+### The wildcard option: Product Manager
 
 It is rare, but if you want to be *less technical*, consider moving into product management. The only requirement might be being in a company long enough to be trusted with a lateral move. 
 
