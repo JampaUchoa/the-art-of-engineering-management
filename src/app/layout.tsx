@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import "./globals.scss";
 import Header from "./_components/header/header";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   title: `The Art of Engineering Management`,
@@ -55,6 +56,7 @@ export default function RootLayout({
         <Header />
         <main>
           <div className="content">{children}</div>
+          <GoogleAnalytics gaId="G-BZZ49T668Z" />
         </main>
       </body>
     </html>
