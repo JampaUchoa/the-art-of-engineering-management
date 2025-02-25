@@ -19,7 +19,7 @@
             cursor: pointer;
         }
     }
-    .logo{
+    .logo {
         display: flex;
         padding: 25px 0 10px;
         font-weight: 400;
@@ -27,6 +27,13 @@
         align-items: center;
         text-decoration: none;
         justify-content: center;
+
+        &:hover{
+            color: var(--accent-color);
+            svg{
+                transform: rotate(45deg) scale(1.25);
+            }
+        }
 
         .title{
             text-transform: uppercase;
@@ -39,6 +46,8 @@
         svg{
             height: 65px;
             align-self: center;
+            transition: transform 0.12s ease;
+            // will-change: transform;
         }
     }
 
