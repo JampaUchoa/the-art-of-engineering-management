@@ -25,19 +25,20 @@ We'll explore the engineering manager's journey from deciding to step into leade
 
 ## 🔑 Key Chapters
 
-1. Becoming an EM
-- [Should you become an engineering manager?](chapter-1_should-you.md)
-- [Getting promoted to engineering manager](chapter-2_getting-there.md)
-- Navigating the manager interviews
-- [Your first 90 days](chapter-4_your-first-days.md)
+1. Becoming
+- [Should You Become a Manager?](https://taoem.com/chapters/1/should-you-become-an-engineering-manager)
+- Getting Promoted
+- Navigating Interviews
+- Your First Days
+- Going where you are needed
 
-2. Manager's essentials
+2. Essentials
 - Driving an effective process
 - Shipping successful products
 - Empowering people to greatness
 - How much you should (still) care about programming
 
-3. Mastering
+3. Techniques
 - Delegating effectively
 - 1:1 meetings
 - Giving feedback
