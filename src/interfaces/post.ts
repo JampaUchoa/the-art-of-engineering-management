@@ -3,4 +3,5 @@ export type Post = {
   title: string;
   content: string;
   ready?: boolean;
+  section: string;
 };

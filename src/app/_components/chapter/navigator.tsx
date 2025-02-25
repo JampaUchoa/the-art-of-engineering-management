@@ -20,7 +20,7 @@ export default function ChapterNavigator({ current }: { current: Post }) {
                 </a>
             ) :
                 (
-                    <a className="next disabled" href="">Stay tuned for more chapters! <FiBook /></a>
+                    <a className="next disabled" href="">New chapters every Tuesday! <FiBook /></a>
                 )
             }
         </div>

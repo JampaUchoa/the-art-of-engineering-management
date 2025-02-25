@@ -9,20 +9,29 @@ export function getPostSlugs() {
   return fs.readdirSync(postsDirectory);
 }
 
+export function getChapters() {
+  const files = fs.readdirSync(postsDirectory);
+  return files.map(file => {
+    return file.split("_")[0];
+  })
+}
+
 export function getPostBySlug(slug: string) {
-  const realSlug = slug.replace(/\.md$/, "");
-  const fullPath = join(postsDirectory, `${realSlug}.md`);
+  return getPostById(slug[0]);
+}
+
+export function getPostById(id: string) {
+  const filePath = fs.readdirSync(postsDirectory).find(slug => slug.startsWith(`${id}_`))
+  const fullPath = join(postsDirectory, filePath!);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
 
-  return { ...data, slug: realSlug, content } as unknown as Post;
+  return { ...data, slug: `${id}/${data.slug}`, content } as Post;
 }
 
+
 export function getAllPosts(): Post[] {
-  const slugs = getPostSlugs();
-  const posts = slugs
-    .map((slug) => getPostBySlug(slug))
-    // sort posts by date in descending order
-    .sort((post1, post2) => (post1.slug < post2.slug ? -1 : 1));
+  const chapterIds = getChapters();
+  const posts = chapterIds.map(id => getPostById(id)).filter(post => post.ready);
   return posts;
 }

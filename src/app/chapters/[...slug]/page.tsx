@@ -6,7 +6,8 @@ import { PostBody } from "@/app/_components/post-body";
 import ChapterFooter from "@/app/_components/chapter-footer";
 import ChapterNavigator from "@/app/_components/chapter/navigator";
 import "./page.scss";
-export default async function Post(props: Params) {
+
+export default async function(props: Params) {
   const params = await props.params;
   const post = getPostBySlug(params.slug);
 
@@ -51,7 +52,9 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
 export async function generateStaticParams() {
   const posts = getAllPosts();
 
-  return posts.map((post) => ({
-    slug: post.slug,
+  const slugs =  posts.map((post) => ({
+    slug: post.slug.split("/"),
   }));
+  console.log(slugs);
+  return slugs;
 }

@@ -3,7 +3,10 @@
  */
 const nextConfig = {
     output: 'export',
-   
+    sassOptions: {
+      silenceDeprecations: ['legacy-js-api'],
+    }
+  
     // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
     // trailingSlash: true,
    
