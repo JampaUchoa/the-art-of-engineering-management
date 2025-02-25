@@ -1,5 +1,6 @@
 ---
 title: "Should you become a manager?"
+description: "My retrospective going into engineering management - The good, the bad and the ugly"
 slug: "should-you-become-an-engineering-manager"
 section: "Becoming"
 ready: true

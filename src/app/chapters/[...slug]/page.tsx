@@ -42,10 +42,11 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
     return notFound();
   }
 
-  const title = `${post.title} | The Art of Engineering Management}`;
+  const title = `${post.title} | The Art of Engineering Management`;
 
   return {
     title,
+    description: post.description,
   };
 }
 
