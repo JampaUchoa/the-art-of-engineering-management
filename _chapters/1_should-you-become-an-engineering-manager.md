@@ -14,7 +14,7 @@ At that time, I was happy because transitioning from senior engineer to engineer
 
 Fortunately, the tech industry moved on from this idea. The Staff Engineer role is now a possibility even in smaller companies. So there comes a time in the ambitious senior engineer’s career when they ask themselves:
 
-> Should I become a staff engineer or an engineer manager?
+> Should I become a Staff Engineer or an Engineering Manager?
 
 ![Where to go next?](/assets/chapters/chapter-1-head.svg)
 
