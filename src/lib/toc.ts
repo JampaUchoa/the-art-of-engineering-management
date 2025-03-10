@@ -6,8 +6,8 @@ const plannedChapters = [
     {
         "title": "Becoming",
         "subtopics": [
-            "Should You Become a Manager?",
-            "Getting Promoted",
+            "Should you become a Manager?",
+            "Getting promoted to Engineering Manager",
             "Navigating Interviews",
             "Your First Days",
             "Going where you are needed",

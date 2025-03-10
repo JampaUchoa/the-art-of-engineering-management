@@ -51,7 +51,9 @@ Another important trait is curiosity, which is essential for giving feedback wit
 
 ### Force multiplier
 
-One of the most impactful things you can do is aim to become a force multiplier. This concept is under-noticed among engineers but can make a sizable difference in a project. Force multiplier work is one that, when delivered, will allow other people to deliver faster. Whether you want to be a Staff Engineer or an Engineering Manager, this is the most crucial bar you will need to clear. A staff engineer or an architect does not do 2-10x the work of senior engineers. Still, they make teams 2-10x more productive by working on areas that will have a great impact, like making architecture improvements or removing roadblocks.
+One of the most impactful things you can do is aim to become a force multiplier. This concept is under-noticed among engineers but can make a sizable difference in a project. Force multiplier work is one that, when delivered, will allow other people to deliver faster. 
+
+Whether you want to be a Staff Engineer or an Engineering Manager, this is the most crucial bar you will need to clear. A staff engineer or an architect does not do 2-10x the work of senior engineers. Still, they make teams 2-10x more productive by working on areas that will have a great impact, like making architecture improvements or removing roadblocks.
 
 For example, a team impacted by constantly shipped bugs leads an engineer to create critical automated testing. This prevents bugs from breaking production and speeds up every engineer on the team by reassuring them that their tickets will not break when shipping, saving hours of debugging.
 
@@ -68,12 +70,14 @@ Force multipliers are not easy to detect and are very specific to a codebase, ma
 
 The larger the number of people impacted, the more critical the multiplier aspect is.
 
-Therefore, look for gaps in your team. Your manager can help you identify those, but as someone working actively in the code, you are privileged to know how things are. Asking your fellow engineers what they like/dislike about the project is also a good way to get that information.
+Look for gaps in your team. Your manager can help you identify those, but as someone working actively in the code, you are privileged to know how things are. Asking your fellow engineers what they like/dislike about the project is also a good way to get that information.
 
-Aim to acquire managerial responsibilities over time by having your manager and teammates trust you. The promotion to manager does not occur overnight; it takes months.
+### Getting your foot in the door
+
+Aim to acquire managerial responsibilities over time by having your manager and teammates trust you. The promotion to manager does not occur overnight, it appears so but it takes months.
 
 Like many others, I worked as a tech lead for a growing startup. My responsibilities gradually changed from architecting the codebase to hiring, mentoring, and talking with clients until I stopped coding as my primary responsibility.
 
-Then, when it was apparent I was managing everything but on paper, I talked with my CTO, who gave me the title the next week and charged me with hiring a second team for a new company initiative.
+Then, when it was apparent I was managing everything but on paper, I talked with my CTO, who gave me the title the following week and tasked me me with hiring a second team for a new company initiative.
 
 In the end, if a promotion does not happen, you can highlight your managerial achievements during interviews with other companies. This leads to our next chapter…
