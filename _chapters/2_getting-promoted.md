@@ -11,73 +11,71 @@ ready: true
 ![Crossing the chasm](/assets/chapters/chapter-2-intro.svg)
 ### Betting on the right horse
 
-Up to the senior engineering level, being promoted depends only on the proficiency bar achieved regarding technical proficiency and communication.
+Up to the senior engineering level, promotions depend mainly on meeting the proficiency bar for technical skills and communication abilities. 
 
-But afterward, whether the option is to go the Staff or Manager route, clearing the bar is not enough—there must be a “business need.” The need for a new engineering manager happens when another manager leaves, or a new squad is formed.
+But after reaching senior level, whether the next step is Staff Engineer or Manager, clearing the proficiency bar alone isn't enough—there must also be a "business need." Typically, a new manager role opens when another manager leaves or when a new squad is formed.
 
-This “business need” means getting promoted to the levels above senior will depend not entirely on the engineer but also on their company. It makes it much more difficult to be promoted in a stalled company since new squads are rarely formed, and when one manager leaves, many people will compete internally for the opening role.
+This "business need" means that advancing beyond senior engineer relies not just on you but also on your company's circumstances. It's much harder to get promoted in companies that aren't growing because new squads are rarely formed, and when a managerial position opens up, many internal candidates will compete for it.
 
-It also means that aggressive companies, like startups with extensive funding, are much more attractive since they constantly need to find new ways to capture their addressable market. This makes hiring happen frequently, and with new squads come new managers.
+It also explains why more aggressively growing companies, like well-funded startups, can be attractive. They constantly need to find new ways to capture more market share, resulting in frequent hiring, formation of new squads, and consequently, more managerial roles.
 
-If you want to move fast in your career, consider joining a startup where you will likely have more opportunities to tackle significant problems and develop your skills faster. It trades stability and salary for a career fast track.
+If you want to accelerate your career growth, that's where you should go. You'll likely have greater opportunities to handle significant challenges and rapidly develop your skills. The trade-offs are usually job stability and possibly a lower starting salary.
 
-Before accepting an offer, ensure you know the company's expected growth. Useful metrics, such as company headcount growth over time, Glassdoor reviews, funding rounds, and news notoriety, are measurable and public signs of growth that can be searched before joining.
+Before accepting a new role, take the time to research the company's growth trajectory. Publicly available metrics such as overall headcount growth, Glassdoor reviews, funding rounds, and media coverage are useful indicators of a company's health.
 
-For larger companies, you can also check their customers' experiences on Reddit and other forums, as happy customers generally indicate an upward trend.
+For larger companies, you can also assess their long-term potential by reviewing customer experiences on Reddit or other forums. Satisfied customers are the main signal of a company in a positive trajectory.
 
 ### Being the CEO of your career
 
-The good news is that most senior engineers prefer to become staff engineers rather than become managers. At the companies I worked for, it was challenging to hire a manager internally, so we often had to resort to hiring externally. That didn't happen as usual with the staff engineer role.
+It's important not to take a passive approach to your career advancement. There's a well-known saying in Western culture: "The squeaky wheel gets the grease." In conversations with friends who mentioned deep frustrations at work, I would often ask, "What does your manager say when you discuss it?" Surprisingly often, they had never even brought it up.
 
-However, you should not take a passive approach to getting promoted. The maxim in Western culture is, “The squeaky wheel gets the grease.” In some conversations with friends, they expressed deep woes about something, but when asked, “What does your manager say when you discuss that with them?” I was surprised how often they never even mentioned it.
+Ideally, your manager should initiate conversations about your career development at least every six months. Unfortunately, many managers shy away from this responsibility, and you'll likely need to proactively bring up these discussions yourself.
 
-Ideally, your manager should be having discussions about what's next in your career at least every semester. Still, most managers shy away from that, which puts the need on you to bring that conversation since no one has more stake in your career than you.
+Nobody is more invested in your career than you. Be explicit about your career goals during your one-on-ones with your manager. This enables more relevant feedback tailored to your desired path and helps your manager to identify skills that you should focus on.
 
-Be explicit with your career intentions in 1:1s with your current manager. This will help you get feedback tailored to your desired goals and the skills you need to pursue them.
+If your current manager understands your ambition to move into management, they can more effectively mentor you by highlighting relevant managerial lessons from situations that arise. Without an awareness of your aspirations, they may not take the opportunity to provide valuable context or guidance.
 
-If possible, schedule a skip-level meeting with your director to get advice. This will help you understand the company's challenges at a higher level and build rapport with your potential future manager.
+For example, an engineer lacking managerial skills might hold a decision-making meeting without clearly assigning tasks before the meeting ends. While the manager may choose to cover for them, meaningful feedback or possible alternative solutions might only surface if the manager knows the engineer's ambitions toward management.
 
-If the manager knows their report also wants to become an EM, valuable knowledge can be shared when relevant. Situations that occur can be used to teach and discuss possible actions and frameworks for future scenarios.
+Try to align with your manager and seek opportunities to learn essential managerial skills while still in your current role as an individual contributor—you can do things like interviewing candidates, running some cerimonies and meetings, and interacting with customers directly.
 
-For example, engineers can commit blunders from the perspective of someone who doesn't need managerial skills, like scheduling a meeting to make decisions but not obtaining action points before the end. In this case, their manager is OK with covering for them and ensuring alignment at the meeting's end. However, feedback and possible alternatives will not be given unless the manager knows the IC wants to become a manager.
-
-Focus on aligning with your manager to acquire management skills that can be learned even by a non-manager. These include interviewing candidates, conducting meetings, and interacting with customers.
+If possible, schedule occasional skip-level meetings with your director as well. These conversations offer insights into the company's higher-level challenges and opportunities to build rapport with someone who could potentially become your future boss.
 
 ### Showing signs of leadership
 
-Engineering managers know which ICs they manage and can fill their roles on a day's notice. They are the senior ICs, which others gravitate towards when they need help. They are effective communicators, which also makes them good mentors. They can understand business requirements and analyze technical tradeoffs, making them the "go-to" person when other team members have technical questions.
+Engineering managers generally know exactly which individual contributors (ICs) on their teams are fully prepared to step into managerial roles if needed. Typically, these people are highly competent senior ICs who teammates naturally approach when they need help. They're effective communicators, strong mentors, and are skilled at analyzing business requirements alongside technical tradeoffs. This makes them "go-to" advisors for their colleagues.
 
-Another important trait is curiosity, which is essential for giving feedback without being rude. For example, if someone does something weird in the code in a PR, instead of pointing it out and demanding a fix, ask them why they did it that way and not the ideal approach. This shows them you trust their skills and allows them to learn through their thinking.
+Another invaluable trait managers look for is curiosity, which is essential when offering feedback constructively. For instance, if a colleague writes "bad code" in a PR, instead of calling them out for it, ask why they chose that approach rather than the accepted 'ideal' method. Asking leading questions rather than challanging directly demonstrates trust in their abilities and encourages them to reflect and learn.
 
 ### Force multiplier
 
-One of the most impactful things you can do is aim to become a force multiplier. This concept is under-noticed among engineers but can make a sizable difference in a project. Force multiplier work is one that, when delivered, will allow other people to deliver faster. 
+One of the most powerful actions you can take if you're seeking career growth is to position yourself as a "force multiplier." Although this concept often goes unnoticed among engineers, it can significantly impact a project's success. Force multiplier work refers to activities that, once completed, enable others on the team to deliver their work faster and more effectively.
 
-Whether you want to be a Staff Engineer or an Engineering Manager, this is the most crucial bar you will need to clear. A staff engineer or an architect does not do 2-10x the work of senior engineers. Still, they make teams 2-10x more productive by working on areas that will have a great impact, like making architecture improvements or removing roadblocks.
+Whether your aspiration is to become a Staff Engineer or Engineering Manager, becoming a force multiplier is an essential milestone you'll need to achieve. Staff engineers or architects don't necessarily do 2-10 times the coding work of senior engineers. Instead, they identify the most impactful opportunities making their teams 2-10 times more productive.
 
-For example, a team impacted by constantly shipped bugs leads an engineer to create critical automated testing. This prevents bugs from breaking production and speeds up every engineer on the team by reassuring them that their tickets will not break when shipping, saving hours of debugging.
+For example, if frequent production bugs constantly stall your team's progress, implementing critical automated testing can be a significant multiplier. This ensures improvements can safely ship and saves hours of debugging later.
 
-Another case would be a team that has to work back and forth frequently because new technical requirements constantly change. However, one engineer can produce excellent technical specifications by communicating effectively with stakeholders before writing the first line of code, saving the team hours of rewriting code.
+Another scenario could be a situation where shifting technical requirements frequently force engineers to rewrite code again and again. One engineer who effectively communicates with stakeholders and creates comprehensive technical specifications before coding begins can save the team hours of redundant work.
 
-Force multiplier work increases the productivity of everyone involved. If you make a specific improvement that reduces by 5 minutes of your engineer's time in each task, and if they perform about 3 tasks in a working day. In a team with 5 people, you just gave your team **375 days of work in a year**.
+Force multiplier efforts increase everyone's efficiency. Imagine you reduce your teammates' task times by 5 minutes each, and they complete around 3 tasks per day. Across a 5-person team, you've effectively added up to **375 working days per year** to your team's productivity!
 
-Force multipliers are not easy to detect and are very specific to a codebase, making them more challenging to quantify but having a significant impact.  Good potential candidates are bottlenecks and inefficiencies that drive daily aspects of the engineer's work, for example:
+Identifying possible multipliers can be challenging since they're often highly specific to a particular codebase or team dynamic. However, common areas worth exploring include:
 
-* Overengineered code architecture that requires the engineer to write duplicated code across codebases, with some occasional bugs.
-* Lack of quality control makes the engineers take more time testing their tickets or shipping bugs requiring new tickets to fix.
-* Outdated or reinvent-the-wheel code that introduces a lot of bugs, requires constant attention and makes it hard to find solutions to problems online due to documentation only supporting newer versions.
-* There are non-technical cases of being a force multiplier, such as proposing improvements to the shipping process, such as ticket structure and ceremonies, to avoid additional meeting time.
+* Overly complex architecture forcing engineers to duplicate code across multiple areas of the project, introducing bugs.
+* Lack of robust quality checks that slow engineers due to manual testing and bug-fixing cycles.
+* Outdated technology versions or "reinvent-the-wheel" solutions complicating maintenance and hindering easy troubleshooting from community documentation.
+* Non-technical process inefficiencies, such as unclear ticket structures and ineffective planning ceremonies, adding unnecessary overhead.
 
-The larger the number of people impacted, the more critical the multiplier aspect is.
+The greater the number of people impacted by your improvement, the stronger the multiplier effect.
 
-Look for gaps in your team. Your manager can help you identify those, but as someone working actively in the code, you are privileged to know how things are. Asking your fellow engineers what they like/dislike about the project is also a good way to get that information.
+Look proactively for gaps within your team's workflow or processes. Your manager can help you spot these bottlenecks, but as someone actively coding, you're perfectly placed to notice inefficiencies firsthand. Asking your teammates directly what they like or dislike about the project can also yield valuable insights.
 
 ### Getting your foot in the door
 
-Aim to acquire managerial responsibilities over time by having your manager and teammates trust you. The promotion to manager does not occur overnight, it appears so but it takes months.
+Strive to progressively take on managerial responsibilities through incremental trust-building with your manager and teammates. Promotions to manager roles appears to happens overnight but takes months of gradual progression.
 
-Like many others, I worked as a tech lead for a growing startup. My responsibilities gradually changed from architecting the codebase to hiring, mentoring, and talking with clients until I stopped coding as my primary responsibility.
+Like many others, I started as a tech lead at a growing startup, and my responsibilities gradually shifted—from code architecture tasks to hiring, mentoring, and client interaction. Eventually, I found myself spending most of my time managing and mentoring rather than coding.
 
-Then, when it was apparent I was managing everything but on paper, I talked with my CTO, who gave me the title the following week and tasked me me with hiring a second team for a new company initiative.
+When it became clear that I was essentially doing managerial work without official recognition, I approached my CTO about it. The following week, he officially granted me the title and tasked me with hiring a second team as part of a strategic company initiative.
 
-In the end, if a promotion does not happen, you can highlight your managerial achievements during interviews with other companies. This leads to our next chapter…
+Finally, even if promotion doesn't happen in your current company, the skills and experiences you develop make excellent talking points when interviewing elsewhere. And that sets the stage for our next chapter…
