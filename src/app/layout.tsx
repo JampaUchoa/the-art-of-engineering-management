@@ -51,6 +51,7 @@ export default function RootLayout({
         />
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+        <meta property="og:image" content="https://taoem.com/favicon/web-app-manifest-512x512.png" />
       </head>
       <body>
         <Header />
