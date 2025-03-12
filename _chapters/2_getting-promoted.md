@@ -1,6 +1,6 @@
 ---
 title: "Getting promoted to Engineering Manager"
-description: "How a promotion happens after the Senior level — and how to be prepared for it"
+description: "How a promotion happens — and how to be prepared for it"
 slug: "getting-promoted-to-engineering-manager"
 section: "Becoming"
 ready: true
@@ -9,6 +9,7 @@ ready: true
 # Getting promoted to Engineering Manager
 
 ![Crossing the chasm](/assets/chapters/chapter-2-intro.svg)
+
 ### Betting on the right horse
 
 Up to the senior engineering level, promotions depend mainly on meeting the proficiency bar for technical skills and communication abilities. 
