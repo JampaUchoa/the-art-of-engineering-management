@@ -6,15 +6,15 @@ ready: true
 
 # Your first days as a Manager
 
-To succeed as a manager, you need clarity on your destination and a team that trusts it’s worth pursuing. Your first days are critical for absorbing context and establishing trust—they're an opportunity to leverage first impressions and the most free time you’ll have before the responsibilities of the roles take over.
+To succeed as a manager, you need clarity on where you should be heading and a team that trusts you to take them there. Your first days are critical for absorbing context and establishing trust—they're an opportunity to leverage first impressions and the most free time you'll have before the role responsibilities gradually take over.
 
 Your two main goals for the initial weeks should be to **get context** and **build rapport**.
 
-## Getting Context
+## What you need to know
 
 ![Crossing the chasm](/assets/chapters/chapter-4-intro.svg)
 
-#### Your Company and the Industry
+### Your Company and the Industry
 
 Start by grasping how your company operates within its industry and how it compares to competitors. The key is identifying how the business *actually* makes money—outsiders often guess incorrectly.
 
@@ -26,7 +26,7 @@ How the company makes money will also show what people care about when discussin
 
 The way you operate will also be determined by whether your company is a leader or a challenger in the industry: Leaders avoid risks to their reputation and have many processes to avoid severe incidents or outages, while challengers prioritize speed and delivering over polish. Knowing where your company stands changes your team's approach to shipping features.
 
-#### Your Company and Your Squad
+### Your Company and Your Squad
 
 Every team exists for a reason. Usually, this boils down to solving a **critical problem** or pursuing a **strategic bet** to capture market share. As an Engineering Manager, you need to identify why your squad exists and determine the role it should play.
 
@@ -44,7 +44,7 @@ Documents are often outdated but are invaluable knowledge. They are key to under
 
 One good onboarding tip is to create the next onboarding while you are onboarding: Document your learnings and make a short note or presentation as if the next team member would start right after. Not only is this useful for remembering in the following days, but helps your memory by writing things down. This is immensely helpful when you start hiring people.
 
-### Learning from conversation
+## Learning while building rapport
 
 Conversations will provide more current and candid insights than documentation. While there’s no “wrong” person to talk to initially, prioritize those you’ll interact with most frequently: squadmates (engineers, designers, PMs), your manager, and other Engineering Managers in your group.
 
