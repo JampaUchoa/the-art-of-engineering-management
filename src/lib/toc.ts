@@ -10,7 +10,7 @@ const plannedChapters = [
             "Getting Promoted",
             "Navigating Interviews",
             "Your First Days",
-            "Going where you are needed",
+            "What will you do?",
         ]
     },
     {
