@@ -1,79 +1,187 @@
-
-.home-page{
-    margin: 60px auto;
-    .container{
-        max-width: 1200px;
-        margin: 0 auto;
+// home.scss
+.home-page {
+    max-width: 1100px; // Increased max-width for better spacing
+    margin: 40px auto 80px; // Adjusted margins
+    padding: 0 20px; // Add padding for smaller screens
+  
+    .hero-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px; // Space between text and visual
+      margin-bottom: 80px;
+      padding: 40px 0; // Add vertical padding
+  
+      .intro-text {
+        flex: 1 1 55%; // Allow text to take up more space
+        max-width: 600px; // Limit text width for readability
+  
+        h2 {
+          font-size: 2.8em; // Larger heading
+          font-weight: 600; // Bolder heading
+          line-height: 1.2;
+          margin-bottom: 25px;
+          color: var(--primary-text);
+        }
+  
+        p {
+          font-size: 1.2em; // Slightly larger paragraph text
+          line-height: var(--line-height, 1.7); // Use variable with fallback
+          color: var(--secondary-text); // Use secondary color for context
+          margin-bottom: var(--paragraph-spacing, 1.5em);
+  
+          &:last-of-type {
+            margin-bottom: 35px; // More space before CTA
+          }
+        }
+      }
+  
+      .hero-visual {
+        flex: 1 1 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 400px; // Limit visual size
+  
+        .hero-svg {
+          width: 100%;
+          height: auto;
+          opacity: 0.85;
+          path, circle, rect, polygon {
+             transition: transform 0.3s ease-out;
+          }
+          &:hover {
+            path:first-of-type{
+              transform: translateX(5px);
+            }
+             circle {
+              transform: scale(1.1) rotate(10deg);
+             }
+             rect {
+               transform: rotate(30deg) scale(0.95);
+             }
+          }
+        }
+      }
+  
+      .cta-button {
+        margin-top: 20px; // Space above the button
+  
+        .read-button {
+          display: inline-flex; // Use inline-flex for icon alignment
+          align-items: center;
+          gap: 10px; // Space between icon and text
+          padding: 14px 28px; // Larger padding
+          background-color: var(--accent-color);
+          color: var(--background); // White text on accent background
+          font-size: 1.15em;
+          font-weight: 500;
+          text-decoration: none;
+          border-radius: 8px; // Rounded corners
+          transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
+          svg {
+            font-size: 1.3em; // Adjust icon size
+          }
+  
+          &:hover {
+            background-color: var(--accent-color-darker);
+            transform: translateY(-2px); // Subtle lift effect
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+          }
+  
+          &:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          }
+        }
+      }
     }
-    picture{
-        img, source{
-            border-radius: 50%;
-            width: 300px;
-            object-fit: cover;
-            margin: 0 auto;
-            display: block;    
-        }
-    }
-    p{
-        margin: calc(1em + 1ex) 0;
-        line-height: calc(1em + 1ex);
-        font-size: 1.3em;
-    }
-    .intro-text{
-        max-width: 720px;
-        margin: 0 auto;
-    }
-    .released-chapters {
-        // background-color: #fafafa;
-        font-size: 1rem;
-        max-width: 720px;
-        margin: 0 auto;
-        h2{
-            font-size: 2rem;
-            margin: 1.8rem 0 1rem;
-            font-weight: normal;
-            line-height: 1.3;
-            text-align: center;
-        }
-        h3{
-            font-size: 1.33rem;
-            margin: 1.5rem 0 1rem;
-            font-weight: normal;
-            line-height: 1.4;
-        }
-        span{
-            color: var(--secondary-text);
-        }
-        a{
-            color: var(--accent-color);
-            font-weight: 500;
-        }
-        a, span{
-            text-decoration: none;
-            display: block;
-            padding: 3px 15px;
-            font-size: 1.15em;        
-        }
-
-    }
-    .buttons{
-        margin: 0 auto;
+  
+    // Styling for the Chapters section
+    .chapters-section {
+      padding-top: 40px;
+      border-top: 1px solid var(--image-border); // Separator line
+  
+      h2 {
+        font-size: 2.5rem; // Consistent heading size
+        font-weight: 600;
         text-align: center;
-        background-color: var(--image-border);
+        margin-bottom: 50px; // More space below heading
+        color: var(--primary-text);
+      }
     }
-    .chapter-navigator{
-        display: inline-block;
-        text-align: center;
-        max-width: auto;
-        margin: 0 auto;
-        .next{
-            gap: 5px;
-            display: flex;
-            padding: 7px 15px;
-            text-align: center;
+  
+    // Responsive adjustments
+    @media (max-width: 900px) {
+      .hero-section {
+        flex-direction: column; // Stack elements vertically
+        text-align: center; // Center text when stacked
+  
+        .intro-text {
+          max-width: 720px; // Allow text to be wider when stacked
+          margin-bottom: 40px;
         }
-        svg{
-            font-size: 2rem;
+  
+        .hero-visual {
+          max-width: 350px; // Slightly smaller visual on medium screens
+          margin-top: 20px;
         }
+      }
     }
-}
+  
+    @media (max-width: 768px) {
+      .hero-section {
+        margin-bottom: 60px;
+         padding: 20px 0;
+  
+        .intro-text h2 {
+          font-size: 2.2em; // Slightly smaller heading on mobile
+        }
+  
+        .intro-text p {
+          font-size: 1.1em;
+        }
+      }
+  
+       .chapters-section h2 {
+         font-size: 2rem;
+         margin-bottom: 40px;
+       }
+    }
+  
+  
+    // Remove old styles no longer needed
+    .buttons, .chapter-navigator, .released-chapters {
+      display: none;
+    }
+  
+  }
+  
+  // Remove redundant styles moved to home.scss or adjusted
+  /*
+  .home-page{
+      // ... removed old styles ...
+      .intro-text{
+         // ... removed old styles ...
+      }
+      .released-chapters {
+         // ... removed old styles ...
+      }
+      .buttons{
+         // ... removed old styles ...
+      }
+      .chapter-navigator{
+         // ... removed old styles ...
+      }
+  }
+  */
+  
+  // Keep navigator styles separate if used elsewhere, otherwise integrate or remove.
+  // Assuming navigator is only for the button styling which is now handled by .cta-button
+  /*
+  .chapter-navigator {
+      // ... old styles ...
+  }
+  */

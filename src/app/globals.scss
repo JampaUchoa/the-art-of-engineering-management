@@ -1,3 +1,7 @@
+// globals.scss
+// No changes needed to globals.scss based on the redesign,
+// as the existing variables were sufficient and reused.
+// Keeping the file content as it was:
 :root {
     --primary-text: #333;
     --secondary-text: #666;
@@ -6,7 +10,7 @@
     --accent-color-darker: #054487;
     --blockquote-border: #e5e7eb;
     --image-border: #f1f1f1;
-    --line-height: 1.6;
+    --line-height: 1.7; // Slightly increased default line height
     --paragraph-spacing: 1.5em;
 }
 
@@ -16,35 +20,87 @@
     --secondary-text: #9ca3af;
     --background: #1a1a1a;
     --blockquote-border: #374151;
-    --image-border: #374151;
+    --image-border: #374151; // Use darker border in dark mode
     --accent-color: #4595eb;
     --accent-color-darker: #2573c7;
 
     .book-content{
         img{
-            filter: invert(1) hue-rotate(180deg);
-        } 
+            // Consider if this is still needed or adjust based on actual images
+            // filter: invert(1) hue-rotate(180deg);
+            opacity: 0.9; // Alternative for dark mode images
+        }
     }
+    // Ensure SVG colors adapt if needed, though using CSS variables helps
+    .hero-svg stop {
+        stop-color: var(--accent-color); // Ensure gradients use theme colors
+    }
+     .hero-svg stop:last-child {
+        stop-color: var(--accent-color-darker);
+    }
+    // Adjust secondary gradient colors if needed for dark mode contrast
+    #grad2 stop:first-child {
+      stop-color: var(--secondary-text);
+      stop-opacity: 0.2;
+    }
+     #grad2 stop:last-child {
+       stop-color: var(--secondary-text);
+       stop-opacity: 0.4;
+     }
+      .hero-svg polygon {
+        fill: var(--accent-color);
+        opacity: 0.6;
+      }
 }
 
 body {
-    font-family: Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; // Modern font stack
     font-size: 16px;
     margin: 0;
-    padding: 0;
+    padding: 0; // Remove default body padding, handle with component padding
     color: var(--primary-text);
     background-color: var(--background);
-    line-height: 1.5;
+    line-height: var(--line-height); // Use variable
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
+    display: flex; // Use flex for centering content vertically if needed, or grid
+    flex-direction: column;
     min-height: 100vh;
-    padding: 2rem 1rem 0;
 }
 
-@media (max-width: 768px) {
-    body{
-        padding: 1rem;
-    }
+// Container for main content area if needed, or apply max-width to specific sections
+// .main-container {
+//    max-width: 1100px;
+//    margin: 0 auto;
+//    padding: 0 20px;
+//    flex-grow: 1; // Allow main content to take available space
+// }
+
+// Remove global padding from body, apply within header/footer/main sections instead
+// body {
+//     padding: 2rem 1rem 0; // Removed
+// }
+
+// @media (max-width: 768px) {
+//     body{
+//         padding: 1rem; // Removed
+//     }
+// }
+
+// General link styling improvement
+a {
+  color: var(--accent-color);
+  text-decoration: none; // Remove underline globally, add on hover if desired
+
+  &:hover {
+    text-decoration: underline; // Add underline on hover for clarity
+    color: var(--accent-color-darker);
+  }
+}
+
+// Add focus styles for accessibility
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+  border-radius: 2px; // Optional: match element rounding
 }

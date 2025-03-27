@@ -1,60 +1,137 @@
-.header{
-
+// header.scss
+.header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-around;
+    grid-template-columns: 1fr auto 1fr; // Center logo, leave space on sides
     align-items: center;
-    .side-links{
-        font-size: 1.5em;
-        text-align: right;
-        svg{
-            margin: 0 10px;
-            padding: 5px;
-            color: var(--secondary-text);
-        }
-        .moon, .sun{
-            color: var(--background);
-            background-color: var(--primary-text);
-            border-radius: 50%;
-            cursor: pointer;
-        }
-    }
-    .logo {
-        display: flex;
-        padding: 25px 0 10px;
-        font-weight: 400;
-        color: var(--primary-text);
-        align-items: center;
-        text-decoration: none;
-        justify-content: center;
+    padding: 15px 25px; // Adjusted padding
+    border-bottom: 1px solid var(--image-border); // Subtle separator
+    margin-bottom: 20px; // Space below header
 
-        &:hover{
-            color: var(--accent-color);
-            svg{
-                transform: rotate(45deg) scale(1.25);
+    // Placeholder styles for SSR/initial mount
+    &.header-placeholder {
+      border-bottom: 1px solid transparent; // Match height
+       .logo-placeholder {
+         height: 65px; // Match logo height
+       }
+    }
+
+    .header-left-spacer {
+      // Empty div for grid balancing
+    }
+
+    .logo-link {
+        display: flex;
+        align-items: center;
+        justify-content: center; // Center items within the link
+        gap: 15px; // Space between logo and title
+        text-decoration: none;
+        color: var(--primary-text); // Ensure text color inherits correctly
+
+        &:hover {
+            svg {
+                transform: rotate(15deg) scale(1.1); // More subtle hover effect
+            }
+            .title-wrapper .title,
+            .title-wrapper .subtitle {
+                 color: var(--accent-color); // Color change on hover
             }
         }
 
-        .title{
-            text-transform: uppercase;
-            margin: 0;
-            font-size: 1.24em;
-            letter-spacing: -.04em;
-            font-weight: 500;
+        svg {
+            height: 55px; // Slightly smaller logo
+            width: auto;
+            transition: transform 0.2s ease-out;
         }
-        
-        svg{
-            height: 65px;
-            align-self: center;
-            transition: transform 0.12s ease;
-            // will-change: transform;
+
+        .title-wrapper {
+            text-align: left;
+
+            .title, .subtitle {
+                display: block;
+                text-transform: uppercase;
+                margin: 0;
+                font-weight: 500;
+                letter-spacing: -.03em;
+                line-height: 1.1;
+                 transition: color 0.2s ease;
+            }
+
+            .title {
+                 font-size: 1.1em;
+                 color: var(--primary-text);
+            }
+            .subtitle {
+                font-size: 1.3em;
+                 color: var(--primary-text); // Make subtitle slightly larger/bolder
+                 font-weight: 600;
+            }
         }
     }
 
+    .side-links {
+        display: flex;
+        justify-content: flex-end; // Align icons to the right
+        align-items: center;
+        gap: 15px; // Space between icons
 
+        a, button {
+            display: flex; // Helps center icons vertically
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4em; // Icon size
+            color: var(--secondary-text);
+            text-decoration: none;
+            padding: 8px; // Clickable area
+            border-radius: 50%; // Make hover background round
+            background: none; // Ensure button has no default background
+            border: none; // Ensure button has no default border
+            cursor: pointer;
+            transition: color 0.2s ease, background-color 0.2s ease;
+
+            &:hover {
+                color: var(--primary-text);
+                background-color: var(--image-border); // Subtle background on hover
+            }
+        }
+
+        .theme-toggle-button {
+           // Specific styles for theme toggle if needed, base is covered above
+        }
+    }
 }
+
 @media (max-width: 768px) {
-    .header{
-        grid-template-columns: 0 1fr auto;
+    .header {
+        grid-template-columns: auto 1fr auto; // Adjust grid for smaller screens
+        padding: 10px 15px; // Less padding
+        gap: 10px; // Reduce gap
+
+        .header-left-spacer {
+          display: none; // Remove spacer on small screens
+        }
+
+        .logo-link {
+            grid-column: 1 / 2; // Place logo on the left
+            justify-content: flex-start; // Align logo left
+            gap: 10px;
+
+            svg {
+                height: 45px; // Smaller logo on mobile
+            }
+             .title-wrapper {
+                .title { font-size: 0.9em; }
+                .subtitle { font-size: 1.1em; }
+             }
+        }
+
+        .side-links {
+            grid-column: 3 / 4; // Place links on the right
+            gap: 8px; // Less space between icons
+
+            a, button {
+                font-size: 1.3em;
+                padding: 6px;
+            }
+        }
     }
 }

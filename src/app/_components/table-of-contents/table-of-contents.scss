@@ -1,0 +1,69 @@
+// table-of-contents.scss
+.chapters {
+    display: grid;
+    // Create two columns, adjusting based on available space
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px 30px; // Row and column gap
+    max-width: 900px; // Contain the grid
+    margin: 0 auto; // Center the grid
+  
+    > div { // Styles for each chapter group (Becoming, Essentials, etc.)
+      break-inside: avoid; // Try to prevent groups from breaking across columns
+      padding-bottom: 20px; // Space at the bottom of each group if columns wrap weirdly
+  
+      h3 {
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin-bottom: 1.2rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid var(--accent-color); // Accent border under heading
+        display: inline-block; // Make border only as wide as text
+        color: var(--primary-text);
+      }
+  
+      .subtopics {
+        display: flex;
+        flex-direction: column;
+        gap: 8px; // Space between links/spans
+  
+        .subtopic {
+          a, span {
+            display: block;
+            padding: 8px 12px; // Comfortable padding
+            font-size: 1.1em;
+            text-decoration: none;
+            border-radius: 4px; // Slight rounding
+            transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+            position: relative; // For potential pseudo-elements
+          }
+  
+          a {
+            color: var(--accent-color);
+            font-weight: 500;
+  
+            &:hover {
+              background-color: var(--image-border); // Subtle background on hover
+              color: var(--accent-color-darker);
+               transform: translateX(3px); // Slight shift on hover
+            }
+          }
+  
+          span {
+            color: var(--secondary-text); // Style for non-linked items
+            cursor: default; // Indicate it's not clickable
+             font-style: italic; // Differentiate pending chapters
+          }
+        }
+      }
+    }
+  
+    // Responsive adjustments for the grid
+    @media (max-width: 680px) {
+       grid-template-columns: 1fr; // Single column on smaller screens
+       gap: 30px; // Adjust gap for single column
+  
+       > div h3 {
+         font-size: 1.4rem; // Slightly smaller heading
+       }
+    }
+  }
