@@ -2,7 +2,7 @@ import tableOfContents from "@/lib/toc";
 import TableOfContents from "../table-of-contents/table-of-contents";
 import "./home.scss";
 import "../chapter/navigator.scss";
-import { FiBook, FiBookOpen } from "react-icons/fi";
+import { FiBookOpen } from "react-icons/fi";
 export function Home() {
   const chapter1 = tableOfContents[0].subtopics[0];
 
@@ -33,12 +33,6 @@ export function Home() {
         <h2> Chapters</h2>
         <TableOfContents />
       </div>
-      {/* <picture>
-          <source media="(prefers-color-scheme: dark)" srcSet="https://github.com/user-attachments/assets/f521777e-98b9-46cf-90a0-f6528da20cc3" />
-        <source media="(prefers-color-scheme: light)" srcSet="https://github.com/user-attachments/assets/dcdcb977-25b9-4cee-98c6-5a461a4e7158" />
-          <img src="https://github.com/user-attachments/assets/be896e4d-3afa-4e85-af72-da7da8edb838" />
-        </picture> */}
-
     </div>
   );
 }
