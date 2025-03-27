@@ -1,0 +1,43 @@
+.chapters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    text-align: left;
+  
+    > div {
+      background-color: var(--image-border);
+      border-radius: 6px;
+      padding: 1rem;
+      transition: transform 0.2s ease;
+      &:hover {
+        transform: translateY(-3px);
+      }
+  
+      h3 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+        font-size: 1.25rem;
+      }
+  
+      .subtopics {
+        .subtopic {
+          margin-bottom: 0.4rem;
+  
+          a,
+          span {
+            display: block;
+            color: var(--secondary-text);
+            text-decoration: none;
+            transition: color 0.2s ease;
+          }
+  
+          a:hover {
+            color: var(--accent-color);
+          }
+        }
+      }
+    }
+  }
+  
