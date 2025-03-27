@@ -1,79 +1,120 @@
-
-.home-page{
+.home-page {
     margin: 60px auto;
-    .container{
-        max-width: 1200px;
+  
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    picture {
+      img,
+      source {
+        border-radius: 50%;
+        width: 300px;
+        object-fit: cover;
         margin: 0 auto;
+        display: block;
+      }
     }
-    picture{
-        img, source{
-            border-radius: 50%;
-            width: 300px;
-            object-fit: cover;
-            margin: 0 auto;
-            display: block;    
-        }
+  
+    p {
+      margin: calc(1em + 1ex) 0;
+      line-height: calc(1em + 1ex);
+      font-size: 1.3em;
     }
-    p{
-        margin: calc(1em + 1ex) 0;
-        line-height: calc(1em + 1ex);
-        font-size: 1.3em;
-    }
-    .intro-text{
-        max-width: 720px;
-        margin: 0 auto;
-    }
+  
+    .intro-text,
+    .buttons,
     .released-chapters {
-        // background-color: #fafafa;
-        font-size: 1rem;
-        max-width: 720px;
-        margin: 0 auto;
-        h2{
-            font-size: 2rem;
-            margin: 1.8rem 0 1rem;
-            font-weight: normal;
-            line-height: 1.3;
-            text-align: center;
-        }
-        h3{
-            font-size: 1.33rem;
-            margin: 1.5rem 0 1rem;
-            font-weight: normal;
-            line-height: 1.4;
-        }
-        span{
-            color: var(--secondary-text);
-        }
-        a{
-            color: var(--accent-color);
-            font-weight: 500;
-        }
-        a, span{
-            text-decoration: none;
-            display: block;
-            padding: 3px 15px;
-            font-size: 1.15em;        
-        }
-
+      margin-bottom: 3rem;
     }
-    .buttons{
-        margin: 0 auto;
+  
+    .intro-text {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+  
+    .book-icon {
+      font-size: 100px;
+      color: var(--accent-color);
+      display: block;
+      margin: 0 auto 2rem;
+    }
+  
+    .released-chapters {
+      font-size: 1rem;
+      max-width: 720px;
+      margin: 0 auto;
+  
+      h2 {
+        font-size: 2rem;
+        margin: 1.8rem 0 1rem;
+        font-weight: normal;
+        line-height: 1.3;
         text-align: center;
-        background-color: var(--image-border);
+      }
+  
+      h3 {
+        font-size: 1.33rem;
+        margin: 1.5rem 0 1rem;
+        font-weight: normal;
+        line-height: 1.4;
+      }
+  
+      span {
+        color: var(--secondary-text);
+      }
+  
+      a {
+        color: var(--accent-color);
+        font-weight: 500;
+      }
+  
+      a,
+      span {
+        text-decoration: none;
+        display: block;
+        padding: 3px 15px;
+        font-size: 1.15em;
+      }
     }
-    .chapter-navigator{
-        display: inline-block;
-        text-align: center;
-        max-width: auto;
-        margin: 0 auto;
-        .next{
-            gap: 5px;
-            display: flex;
-            padding: 7px 15px;
-            text-align: center;
-        }
-        svg{
-            font-size: 2rem;
-        }
+  
+    .buttons {
+      margin: 0 auto;
+      text-align: center;
+      background-color: var(--image-border);
     }
-}
+  
+    .chapter-navigator {
+      display: inline-block;
+      text-align: center;
+      max-width: auto;
+      margin: 0 auto;
+  
+      .next {
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        padding: 12px 24px;
+        background-color: var(--accent-color);
+        color: #fff;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+  
+      .next:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+  
+      .next svg {
+        font-size: 2.5rem;
+      }
+  
+      .next .chapter-title {
+        font-size: 1.2em;
+        font-weight: 500;
+      }
+    }
+  }
