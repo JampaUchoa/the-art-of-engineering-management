@@ -1,60 +1,94 @@
 .header{
-
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-around;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    .side-links{
-        font-size: 1.5em;
-        text-align: right;
-        svg{
-            margin: 0 10px;
-            padding: 5px;
-            color: var(--secondary-text);
-        }
-        .moon, .sun{
-            color: var(--background);
-            background-color: var(--primary-text);
-            border-radius: 50%;
-            cursor: pointer;
-        }
-    }
-    .logo {
-        display: flex;
-        padding: 25px 0 10px;
-        font-weight: 400;
-        color: var(--primary-text);
-        align-items: center;
-        text-decoration: none;
-        justify-content: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--image-border);
+    margin-bottom: 2rem;
 
-        &:hover{
-            color: var(--accent-color);
-            svg{
-                transform: rotate(45deg) scale(1.25);
+    .side-links{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 0.5rem;
+        padding-right: 1rem;
+
+        svg{
+            transition: all 0.2s ease;
+            padding: 8px;
+            border-radius: 50%;
+
+            &:hover {
+                background: var(--accent-color);
+                color: white !important;
+                transform: scale(1.1);
             }
         }
 
-        .title{
-            text-transform: uppercase;
-            margin: 0;
-            font-size: 1.24em;
-            letter-spacing: -.04em;
-            font-weight: 500;
-        }
-        
-        svg{
-            height: 65px;
-            align-self: center;
-            transition: transform 0.12s ease;
-            // will-change: transform;
+        .moon, .sun{
+            background: var(--accent-color);
+            color: white !important;
         }
     }
 
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        transition: all 0.2s ease;
+        padding: 1rem;
+        border-radius: 12px;
 
+        svg {
+            height: 60px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .title {
+            font-size: 1.4rem;
+            letter-spacing: -0.03em;
+            line-height: 1.2;
+            background: linear-gradient(45deg, var(--accent-color), var(--primary-text));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-weight: 700;
+            transition: all 0.3s ease;
+        }
+
+        &:hover {
+            transform: translateY(-2px);
+
+            .title {
+                background: linear-gradient(45deg, var(--accent-color-darker), var(--accent-color));
+            }
+
+            svg {
+                transform: rotate(45deg) scale(1.15);
+            }
+        }
+    }
 }
+
 @media (max-width: 768px) {
     .header{
-        grid-template-columns: 0 1fr auto;
+        grid-template-columns: auto 1fr;
+        gap: 1rem;
+
+        .logo {
+            padding: 0.5rem;
+            
+            .title {
+                font-size: 1.1rem;
+            }
+
+            svg {
+                height: 40px;
+            }
+        }
+
+        .side-links {
+            padding-right: 0;
+        }
     }
 }
