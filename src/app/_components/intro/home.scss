@@ -1,79 +1,160 @@
+// home.scss
 
-.home-page{
-    margin: 60px auto;
-    .container{
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    picture{
-        img, source{
-            border-radius: 50%;
-            width: 300px;
-            object-fit: cover;
-            margin: 0 auto;
-            display: block;    
+.home-page {
+    margin: 0 auto; // Remove top margin, handled by header/sections
+    max-width: 1200px; // Set max-width for the whole page content
+    padding: 0 20px; // Add side padding
+
+    .hero-section {
+        display: grid;
+        grid-template-columns: 1fr; // Default to single column
+        align-items: center;
+        gap: 40px; // Space between text and illustration
+        padding: 60px 0; // Vertical padding
+        margin: 0 auto; // Center the section
+        max-width: 1000px; // Limit width for better readability on large screens
+
+        @media (min-width: 768px) {
+            grid-template-columns: 1.2fr 1fr; // Two columns on wider screens
+             gap: 60px;
+        }
+
+        .hero-illustration {
+            width: 100%;
+            max-width: 400px; // Limit illustration size
+            height: auto;
+            justify-self: center; // Center illustration in its grid cell
+            opacity: 0.8;
+
+             @media (max-width: 767px) {
+                order: -1; // Put illustration above text on mobile
+                margin-bottom: 30px;
+                max-width: 300px;
+            }
         }
     }
-    p{
-        margin: calc(1em + 1ex) 0;
-        line-height: calc(1em + 1ex);
-        font-size: 1.3em;
+
+    .intro-text {
+        max-width: 680px; // Keep text block readable
+        // Remove margin: 0 auto; as grid handles layout
+
+        h2 {
+            font-size: 2.8em; // Larger heading
+            font-weight: 600; // Slightly bolder
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            color: var(--primary-text); // Ensure contrast
+             @media (max-width: 767px) {
+                font-size: 2.2em; // Adjust for smaller screens
+                text-align: center;
+            }
+        }
+
+        p {
+            margin: 1.5rem 0;
+            line-height: 1.7; // Improved readability
+            font-size: 1.15em; // Slightly larger paragraph text
+            color: var(--secondary-text); // Softer color for body text
+            max-width: 600px; // Limit line length
+
+             @media (max-width: 767px) {
+                font-size: 1.1em;
+                text-align: center;
+                 margin: 1rem auto;
+            }
+        }
     }
-    .intro-text{
-        max-width: 720px;
-        margin: 0 auto;
+
+    .cta-button-container {
+        margin-top: 2.5rem;
+        text-align: left; // Align button left by default
+
+         @media (max-width: 767px) {
+            text-align: center; // Center button on mobile
+        }
+
+        .chapter-navigator {
+            display: inline-block; // Ensure it doesn't take full width
+
+            .primary-cta {
+                background-color: var(--accent-color);
+                color: var(--button-text-color, #fff); // Use variable or default white
+                padding: 14px 28px;
+                border-radius: 8px;
+                text-decoration: none;
+                font-size: 1.1em;
+                font-weight: 500;
+                display: inline-flex; // Use flex for icon alignment
+                align-items: center;
+                gap: 8px;
+                transition: background-color 0.2s ease, transform 0.2s ease;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); // Subtle shadow
+
+                svg {
+                    font-size: 1.3em; // Adjust icon size
+                    transition: transform 0.2s ease;
+                }
+
+                &:hover {
+                    background-color: var(--accent-color-darker); // Define this variable in root
+                    transform: translateY(-2px);
+                    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+
+                    svg {
+                       transform: translateX(3px);
+                    }
+                }
+            }
+        }
     }
-    .released-chapters {
-        // background-color: #fafafa;
-        font-size: 1rem;
-        max-width: 720px;
-        margin: 0 auto;
-        h2{
-            font-size: 2rem;
-            margin: 1.8rem 0 1rem;
-            font-weight: normal;
+
+    .chapters-section {
+        padding: 60px 0;
+        margin: 40px auto 60px; // Add top margin for separation
+        max-width: 720px; // Consistent width with intro text (or adjust as needed)
+        border-top: 1px solid var(--border-color); // Separator line
+
+        h2 {
+            font-size: 2.2rem;
+            margin: 0 0 2.5rem; // Space below heading
+            font-weight: 600;
             line-height: 1.3;
             text-align: center;
+            color: var(--primary-text);
         }
-        h3{
-            font-size: 1.33rem;
-            margin: 1.5rem 0 1rem;
-            font-weight: normal;
-            line-height: 1.4;
-        }
-        span{
-            color: var(--secondary-text);
-        }
-        a{
-            color: var(--accent-color);
-            font-weight: 500;
-        }
-        a, span{
-            text-decoration: none;
-            display: block;
-            padding: 3px 15px;
-            font-size: 1.15em;        
-        }
+    }
 
-    }
-    .buttons{
-        margin: 0 auto;
-        text-align: center;
-        background-color: var(--image-border);
-    }
-    .chapter-navigator{
+    // Deprecated styles (moved or adjusted)
+    // .buttons, .released-chapters specific styles removed or integrated
+    // .container removed as max-width is handled differently
+
+    // Ensure chapter navigator styles inside CTA don't conflict if reused elsewhere
+    .chapter-navigator:not(.cta-button-container .chapter-navigator) {
+         // Original styles if needed elsewhere, otherwise remove
         display: inline-block;
         text-align: center;
         max-width: auto;
         margin: 0 auto;
-        .next{
+        .next {
             gap: 5px;
             display: flex;
             padding: 7px 15px;
             text-align: center;
         }
-        svg{
+        svg {
             font-size: 2rem;
         }
     }
 }
+
+// Define accent color darker variant in :root or your theme variables if not present
+// :root {
+//   --accent-color-darker: #YOUR_DARKER_COLOR;
+//   --button-text-color: #ffffff;
+//   --border-color: #e0e0e0;
+// }
+// html.dark {
+//   --accent-color-darker: #YOUR_DARKER_COLOR_DARK_MODE;
+//   --button-text-color: #ffffff;
+//   --border-color: #444444;
+// }

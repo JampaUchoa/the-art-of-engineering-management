@@ -1,0 +1,100 @@
+// table-of-contents.scss (New File)
+
+.table-of-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem; // Spacing between chapter sections
+
+    .toc-chapter {
+        // No extra styling needed for the section itself unless adding borders etc.
+    }
+
+    .toc-chapter-title {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 0 0 1rem; // Space below title
+        padding-bottom: 0.5rem; // Space for border
+        border-bottom: 1px solid var(--border-color, #eee); // Subtle separator for chapter title
+        color: var(--primary-text);
+    }
+
+    .toc-subtopics-list {
+        list-style: none; // Remove default bullets
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem; // Spacing between subtopic items
+    }
+
+    .toc-subtopic-item {
+        // No specific item styling needed currently
+    }
+
+    .toc-link {
+        display: inline-block; // Allows padding and hover effects
+        font-size: 1.1em;
+        color: var(--accent-color);
+        text-decoration: none;
+        padding: 4px 0; // Vertical padding for easier clicking
+        position: relative;
+        transition: color 0.2s ease;
+
+        // Underline effect on hover/focus
+        &::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 1px;
+            display: block;
+            margin-top: 2px; // Space between text and underline
+            right: 0;
+            background: var(--accent-color);
+            transition: width 0.3s ease;
+            -webkit-transition: width 0.3s ease;
+        }
+
+        &:hover::after,
+        &:focus::after {
+             width: 100%;
+             left: 0;
+             background-color: var(--accent-color); // Ensure color consistency
+        }
+
+         &:hover,
+         &:focus {
+             color: var(--accent-color-darker); // Slightly darken on hover
+             outline: none; // Remove default focus outline if using custom style
+         }
+
+        &.coming-soon {
+            color: var(--secondary-text);
+            cursor: default;
+            font-style: italic;
+
+            &::after { // Disable underline effect for coming soon
+                display: none;
+            }
+
+             &:hover { // Prevent color change on hover
+                 color: var(--secondary-text);
+             }
+        }
+    }
+}
+
+// Variables needed (ensure defined in :root or theme scope)
+// :root {
+//   --border-color: #eee;
+//   --accent-color: #007bff; // Example accent color
+//   --accent-color-darker: #0056b3; // Example darker accent
+//   --primary-text: #212529;
+//   --secondary-text: #6c757d;
+// }
+// html.dark {
+//   --border-color: #444;
+//   --accent-color: #4dabf7; // Example dark mode accent
+//   --accent-color-darker: #17a2b8; // Example dark mode darker accent
+//   --primary-text: #dee2e6;
+//   --secondary-text: #adb5bd;
+// }

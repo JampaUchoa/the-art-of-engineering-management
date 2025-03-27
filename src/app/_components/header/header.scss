@@ -1,60 +1,157 @@
-.header{
+// header.scss
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-around;
-    align-items: center;
-    .side-links{
-        font-size: 1.5em;
-        text-align: right;
-        svg{
-            margin: 0 10px;
-            padding: 5px;
-            color: var(--secondary-text);
-        }
-        .moon, .sun{
-            color: var(--background);
-            background-color: var(--primary-text);
-            border-radius: 50%;
-            cursor: pointer;
-        }
-    }
-    .logo {
+.header {
+    padding: 15px 0; // Adjusted padding
+    border-bottom: 1px solid var(--border-color, #e0e0e0); // Subtle separator
+    background-color: var(--header-bg, var(--background)); // Optional header background
+    position: sticky; // Make header sticky
+    top: 0;
+    z-index: 100; // Ensure it stays above content
+    // Add a subtle shadow when scrolling (optional, requires JS or advanced CSS)
+    // box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+
+    .header-container {
+        max-width: 1200px; // Consistent max-width
+        margin: 0 auto;
+        padding: 0 20px; // Side padding
         display: flex;
-        padding: 25px 0 10px;
-        font-weight: 400;
-        color: var(--primary-text);
+        justify-content: space-between; // Space out logo and links
         align-items: center;
+    }
+
+    .logo-link { // Changed class name for clarity
+        display: flex;
+        align-items: center;
+        gap: 12px; // Space between logo and title
         text-decoration: none;
-        justify-content: center;
+        color: var(--primary-text);
+        transition: color 0.2s ease;
 
         &:hover{
             color: var(--accent-color);
             svg{
-                transform: rotate(45deg) scale(1.25);
+                transform: rotate(15deg) scale(1.1); // More subtle hover effect
             }
         }
 
-        .title{
+        .title {
             text-transform: uppercase;
             margin: 0;
-            font-size: 1.24em;
-            letter-spacing: -.04em;
-            font-weight: 500;
+            font-size: 1.1em; // Adjusted size
+            letter-spacing: -.03em; // Slightly adjust spacing
+            font-weight: 600; // Slightly bolder title
+            line-height: 1.2; // Adjust line height for two lines
         }
-        
-        svg{
-            height: 65px;
+
+        svg {
+            height: 50px; // Slightly smaller logo for balance
+            width: auto;
             align-self: center;
-            transition: transform 0.12s ease;
-            // will-change: transform;
+            transition: transform 0.2s ease-in-out;
+            fill: currentColor; // Ensure SVG color matches text color or use specific fill
         }
     }
 
+    .side-links {
+        display: flex;
+        align-items: center;
+        gap: 10px; // Space between icons
 
-}
-@media (max-width: 768px) {
-    .header{
-        grid-template-columns: 0 1fr auto;
+        a, .theme-icon {
+            font-size: 1.4em; // Consistent icon size
+            padding: 8px; // Increase clickable area
+            color: var(--secondary-text);
+            display: flex; // Helps center icon if needed
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%; // Make background clicks circular if bg added
+            transition: color 0.2s ease, background-color 0.2s ease;
+
+            &:hover {
+                color: var(--primary-text);
+                 background-color: var(--icon-hover-bg, rgba(0,0,0,0.05)); // Subtle hover background
+            }
+        }
+
+         .theme-toggle-placeholder {
+             width: 38px; // Match approx size of icon+padding
+             height: 38px;
+        }
+
+        .theme-icon {
+            cursor: pointer;
+            // Specific theme toggle styles if needed (e.g., background)
+            // Example:
+            // &.moon { background: #eee; color: #555; }
+            // html.dark &.sun { background: #444; color: #ddd; }
+        }
     }
 }
+
+// Responsive adjustments
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 0;
+
+        .header-container {
+            padding: 0 15px;
+        }
+
+        .logo-link {
+            gap: 8px;
+
+            .title {
+                 font-size: 0.95em; // Smaller title on mobile
+                 // Optionally hide line break content if too cluttered
+                 // br { display: none; }
+                 // content: "Eng Management"; // Simplified title
+            }
+            svg {
+                height: 40px;
+            }
+        }
+
+        .side-links {
+            gap: 5px;
+
+            a, .theme-icon {
+                font-size: 1.3em;
+                padding: 6px;
+            }
+             .theme-toggle-placeholder {
+                 width: 34px;
+                 height: 34px;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+     .header .logo-link .title {
+        // Optionally hide title completely on very small screens
+         // display: none;
+         font-size: 0.85em;
+     }
+      .header .side-links {
+            gap: 2px;
+             a, .theme-icon {
+                font-size: 1.2em;
+            }
+             .theme-toggle-placeholder {
+                 width: 32px;
+                 height: 32px;
+            }
+        }
+}
+
+// Variables for easier theme adjustments (place in your :root/:root.dark)
+// :root {
+//   --header-bg: var(--background);
+//   --icon-hover-bg: rgba(0,0,0,0.05);
+//   --border-color: #e0e0e0;
+// }
+// html.dark {
+//   --header-bg: var(--background);
+//   --icon-hover-bg: rgba(255,255,255,0.1);
+//   --border-color: #333;
+// }
