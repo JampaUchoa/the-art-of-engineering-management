@@ -1,38 +1,44 @@
+// home.tsx
 import tableOfContents from "@/lib/toc";
 import TableOfContents from "../table-of-contents/table-of-contents";
 import "./home.scss";
-import "../chapter/navigator.scss";
-import { FiBookOpen } from "react-icons/fi";
+import { FiBookOpen, FiArrowRight } from "react-icons/fi";
+import { motion } from "framer-motion";
+
 export function Home() {
   const chapter1 = tableOfContents[0].subtopics[0];
 
   return (
     <div className="home-page">
-      <div className="intro-text">
-        <h2>
-          From starting to mastering the craft
-        </h2>
-        <p>
-          In this book, you'll find practical advice drawn from real-world experiences that shows how the Engineering Managenent role varies significantly across different scenarios — and how to suceed no matter which.
-        </p>
-        <p>
-          Learn essential management concepts and gain tools to excel in leading teams to success.
-        </p>
-      </div>
-      <div className="buttons">
-        <div className="chapter-navigator">
-          <a className="next" href={`/chapters/${chapter1.slug}`}>
-            <FiBookOpen />
-            <div>
-              <span className="chapter-title">{"Read"}</span>
+      <section className="hero">
+        <div className="intro-text">
+          <h1 initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }}>
+            Master the Craft of<br />Engineering Leadership
+          </h1>
+          <div className="intro-content">
+            <p className="lead">
+              Practical wisdom distilled from real-world experiences, showing how engineering leadership 
+              transforms across different scenarios – and how to excel in any situation.
+            </p>
+            <div whileHover={{ scale: 1.05 }} className="cta-container">
+              <a href={`/chapters/${chapter1.slug}`} className="cta-button">
+                <FiBookOpen className="icon" />
+                <span>Start Reading</span>
+                <FiArrowRight className="arrow" />
+              </a>
             </div>
-          </a>
+          </div>
         </div>
-      </div>
-      <div className="released-chapters">
-        <h2> Chapters</h2>
+        <div className="decorative-wave"></div>
+      </section>
+
+      <section className="chapters-section">
+        <div className="section-header">
+          <h2>Table of Contents</h2>
+          <p>Explore released chapters and stay tuned for updates</p>
+        </div>
         <TableOfContents />
-      </div>
+      </section>
     </div>
   );
 }

@@ -9,6 +9,7 @@
     "@next/third-parties": "^15.1.7",
     "classnames": "^2.5.1",
     "date-fns": "^3.6.0",
+    "framer-motion": "^12.6.2",
     "gray-matter": "^4.0.3",
     "next": "15.1.7",
     "react": "19.0.0",

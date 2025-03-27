@@ -1,79 +1,107 @@
-
-.home-page{
-    margin: 60px auto;
-    .container{
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-    picture{
-        img, source{
-            border-radius: 50%;
-            width: 300px;
-            object-fit: cover;
-            margin: 0 auto;
-            display: block;    
-        }
-    }
-    p{
-        margin: calc(1em + 1ex) 0;
-        line-height: calc(1em + 1ex);
-        font-size: 1.3em;
-    }
-    .intro-text{
-        max-width: 720px;
-        margin: 0 auto;
-    }
-    .released-chapters {
-        // background-color: #fafafa;
-        font-size: 1rem;
-        max-width: 720px;
-        margin: 0 auto;
-        h2{
-            font-size: 2rem;
-            margin: 1.8rem 0 1rem;
-            font-weight: normal;
-            line-height: 1.3;
-            text-align: center;
-        }
-        h3{
-            font-size: 1.33rem;
-            margin: 1.5rem 0 1rem;
-            font-weight: normal;
-            line-height: 1.4;
-        }
-        span{
-            color: var(--secondary-text);
-        }
-        a{
-            color: var(--accent-color);
-            font-weight: 500;
-        }
-        a, span{
-            text-decoration: none;
-            display: block;
-            padding: 3px 15px;
-            font-size: 1.15em;        
-        }
-
-    }
-    .buttons{
+// home.scss
+:root {
+    --primary-accent: #2563eb;
+    --secondary-accent: #4f46e5;
+    --gradient: linear-gradient(135deg, var(--primary-accent), var(--secondary-accent));
+    --text-primary: #1f2937;
+    --text-secondary: #6b7280;
+    --chapter-card-bg: #ffffff;
+    --chapter-card-border: #e5e7eb;
+  }
+  
+  .home-page {
+    margin: 0 auto;
+    max-width: 1440px;
+    overflow: hidden;
+  
+    .hero {
+      position: relative;
+      padding: 8rem 2rem 12rem;
+      background: var(--gradient);
+      color: white;
+      clip-path: ellipse(100% 100% at 50% 0%);
+  
+      .intro-text {
+        max-width: 800px;
         margin: 0 auto;
         text-align: center;
-        background-color: var(--image-border);
+  
+        h1 {
+          font-size: 3.5rem;
+          line-height: 1.1;
+          margin-bottom: 2.5rem;
+          font-weight: 700;
+          text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+      }
+  
+      .intro-content {
+        .lead {
+          font-size: 1.25rem;
+          line-height: 1.6;
+          max-width: 680px;
+          margin: 0 auto 3rem;
+          opacity: 0.95;
+        }
+      }
+  
+      .decorative-wave {
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        right: 0;
+        height: 120px;
+        background: url("data:image/svg+xml,%3Csvg viewBox='0 0 1440 320' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23ffffff' d='M0,160L60,181.3C120,203,240,245,360,234.7C480,224,600,160,720,138.7C840,117,960,139,1080,149.3C1200,160,1320,160,1380,160L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z'/%3E%3C/svg%3E") no-repeat center bottom;
+        background-size: cover;
+      }
     }
-    .chapter-navigator{
-        display: inline-block;
+  
+    .cta-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 1rem;
+      padding: 1.25rem 2.5rem;
+      background: rgba(255,255,255,0.1);
+      border: 2px solid rgba(255,255,255,0.2);
+      border-radius: 50px;
+      font-size: 1.25rem;
+      font-weight: 600;
+      backdrop-filter: blur(8px);
+      transition: all 0.2s ease;
+  
+      &:hover {
+        background: rgba(255,255,255,0.2);
+        transform: translateY(-2px);
+      }
+  
+      .icon {
+        font-size: 1.5em;
+      }
+  
+      .arrow {
+        margin-left: 0.5rem;
+        transition: transform 0.2s ease;
+      }
+    }
+  
+    .chapters-section {
+      padding: 6rem 2rem;
+      background: #f8fafc;
+  
+      .section-header {
         text-align: center;
-        max-width: auto;
-        margin: 0 auto;
-        .next{
-            gap: 5px;
-            display: flex;
-            padding: 7px 15px;
-            text-align: center;
+        margin-bottom: 4rem;
+  
+        h2 {
+          font-size: 2.5rem;
+          margin-bottom: 1rem;
+          color: var(--text-primary);
         }
-        svg{
-            font-size: 2rem;
+  
+        p {
+          color: var(--text-secondary);
+          font-size: 1.125rem;
         }
+      }
     }
-}
+  }
