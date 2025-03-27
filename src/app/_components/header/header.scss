@@ -1,60 +1,72 @@
-.header{
-
+.header {
+    background-color: var(--header-background);
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px var(--shadow-color);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
     align-items: center;
-    .side-links{
-        font-size: 1.5em;
-        text-align: right;
-        svg{
-            margin: 0 10px;
-            padding: 5px;
-            color: var(--secondary-text);
+  
+    .side-links {
+      font-size: 1.5em;
+      text-align: right;
+  
+      svg {
+        margin: 0 10px;
+        padding: 5px;
+        color: var(--secondary-text);
+        transition: color 0.2s ease;
+      }
+  
+      .moon,
+      .sun {
+        color: var(--background);
+        background-color: var(--primary-text);
+        border-radius: 50%;
+        cursor: pointer;
+  
+        &:hover {
+          color: var(--accent-color);
         }
-        .moon, .sun{
-            color: var(--background);
-            background-color: var(--primary-text);
-            border-radius: 50%;
-            cursor: pointer;
-        }
+      }
     }
+  
     .logo {
-        display: flex;
-        padding: 25px 0 10px;
-        font-weight: 400;
-        color: var(--primary-text);
-        align-items: center;
-        text-decoration: none;
-        justify-content: center;
-
-        &:hover{
-            color: var(--accent-color);
-            svg{
-                transform: rotate(45deg) scale(1.25);
-            }
+      display: flex;
+      padding: 25px 0 10px;
+      font-weight: 400;
+      color: var(--primary-text);
+      align-items: center;
+      text-decoration: none;
+      justify-content: center;
+  
+      &:hover {
+        color: var(--accent-color);
+  
+        svg {
+          transform: rotate(45deg) scale(1.25);
         }
-
-        .title{
-            text-transform: uppercase;
-            margin: 0;
-            font-size: 1.24em;
-            letter-spacing: -.04em;
-            font-weight: 500;
-        }
-        
-        svg{
-            height: 65px;
-            align-self: center;
-            transition: transform 0.12s ease;
-            // will-change: transform;
-        }
+      }
+  
+      .title {
+        text-transform: uppercase;
+        margin: 0;
+        font-size: 1.5em;
+        letter-spacing: -0.04em;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+      }
+  
+      svg {
+        height: 65px;
+        align-self: center;
+        transition: transform 0.12s ease;
+      }
     }
-
-
-}
-@media (max-width: 768px) {
-    .header{
-        grid-template-columns: 0 1fr auto;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      grid-template-columns: 0 1fr auto;
     }
-}
+  }

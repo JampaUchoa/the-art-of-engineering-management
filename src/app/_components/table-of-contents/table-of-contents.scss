@@ -1,0 +1,46 @@
+.chapters {
+    .chapter-card {
+      background-color: var(--card-background);
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px var(--shadow-color);
+  
+      h3 {
+        font-size: 1.5rem;
+        margin: 0 0 1rem;
+        font-family: "Montserrat", sans-serif;
+        color: var(--text);
+      }
+    }
+  
+    .subtopics {
+      padding-left: 20px;
+    }
+  
+    a,
+    span {
+      display: block;
+      padding: 5px 0;
+      font-size: 1.15em;
+      color: var(--text);
+    }
+  
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+    span {
+      color: var(--secondary-text);
+  
+      small {
+        font-size: 0.9em;
+        color: var(--secondary-text);
+      }
+    }
+  }
