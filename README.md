@@ -27,7 +27,7 @@ We'll explore the engineering manager's journey from deciding to step into leade
 
 1. Becoming
 - [Should You Become a Manager?](https://taoem.com/chapters/1/should-you-become-an-engineering-manager)
-- Getting Promoted
+- Getting promoted to Engineering Manager
 - Navigating Interviews
 - Your First Days
 - Going where you are needed

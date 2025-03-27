@@ -12,7 +12,7 @@ Your two main goals for the initial weeks should be to **get context** and **bui
 
 ## What you need to know
 
-![Crossing the chasm](/assets/chapters/chapter-4-intro.svg)
+![What you need to know](/assets/chapters/chapter-4-intro.svg)
 
 ### Your Company and the Industry
 
