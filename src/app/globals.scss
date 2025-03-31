@@ -8,6 +8,7 @@
     --image-border: #f1f1f1;
     --line-height: 1.6;
     --paragraph-spacing: 1.5em;
+    --accent-rgb: 21, 102, 189;
 }
 
 /* Optional dark mode */
@@ -19,7 +20,8 @@
     --image-border: #374151;
     --accent-color: #4595eb;
     --accent-color-darker: #2573c7;
-
+    --accent-rgb: 69, 149, 235;
+    
     .book-content{
         img{
             filter: invert(1) hue-rotate(180deg);
@@ -28,7 +30,7 @@
 }
 
 body {
-    font-family: Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+    font-family: 'Inter', Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -40,7 +42,12 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
-    padding: 2rem 1rem 0;
+    padding: 2rem 1rem 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+    letter-spacing: -0.02em;
 }
 
 @media (max-width: 768px) {
@@ -48,3 +55,24 @@ body {
         padding: 1rem;
     }
 }
+
+/* Add custom scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(var(--accent-rgb), 0.05);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(var(--accent-rgb), 0.3);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(var(--accent-rgb), 0.5);
+}
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700&display=swap');

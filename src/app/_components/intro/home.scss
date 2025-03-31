@@ -1,79 +1,266 @@
-
-.home-page{
-    margin: 60px auto;
-    .container{
-        max-width: 1200px;
-        margin: 0 auto;
+@keyframes float {
+    0% {
+      transform: translateY(0px) rotate(0deg);
     }
-    picture{
-        img, source{
-            border-radius: 50%;
-            width: 300px;
-            object-fit: cover;
-            margin: 0 auto;
-            display: block;    
+    50% {
+      transform: translateY(-10px) rotate(1deg);
+    }
+    100% {
+      transform: translateY(0px) rotate(0deg);
+    }
+  }
+  
+  @keyframes pageFlip {
+    0% {
+      opacity: 0.8;
+    }
+    50% {
+      opacity: 0.4;
+    }
+    100% {
+      opacity: 0.8;
+    }
+  }
+  
+  .home-page {
+    margin: 0 auto;
+    
+    .hero-section {
+      position: relative;
+      min-height: 500px;
+      margin-bottom: 60px;
+      background: linear-gradient(to bottom, rgba(var(--accent-rgb), 0.05), rgba(var(--accent-rgb), 0));
+      border-radius: 20px;
+      overflow: hidden;
+      
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(ellipse at top right, rgba(var(--accent-rgb), 0.1), transparent 70%);
+        z-index: 0;
+      }
+    }
+    
+    .hero-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 20px;
+      position: relative;
+      z-index: 1;
+      
+      @media (max-width: 940px) {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+    
+    .animated-book {
+      width: 260px;
+      height: 260px;
+      margin-right: 60px;
+      animation: float 6s ease-in-out infinite;
+      
+      .book-svg {
+        width: 100%;
+        height: 100%;
+        
+        .book-cover {
+          fill: var(--accent-color);
         }
+        
+        .book-page {
+          fill: var(--background);
+          animation: pageFlip 4s ease-in-out infinite;
+        }
+        
+        .book-spine {
+          fill: var(--accent-color-darker);
+        }
+      }
+      
+      @media (max-width: 940px) {
+        margin-right: 0;
+        margin-bottom: 40px;
+      }
     }
-    p{
-        margin: calc(1em + 1ex) 0;
+    
+    .intro-text {
+      max-width: 600px;
+      
+      h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 24px;
+        line-height: 1.2;
+        background: linear-gradient(to right, var(--primary-text), var(--accent-color));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      
+      p {
+        margin: calc(1em + 0.5ex) 0;
         line-height: calc(1em + 1ex);
-        font-size: 1.3em;
+        font-size: 1.2em;
+        color: var(--secondary-text);
+      }
     }
-    .intro-text{
-        max-width: 720px;
-        margin: 0 auto;
+    
+    .cta-button {
+      margin-top: 30px;
+      
+      .read-button {
+        display: inline-flex;
+        align-items: center;
+        gap: 12px;
+        background-color: var(--accent-color);
+        color: white;
+        padding: 14px 28px;
+        border-radius: 50px;
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 12px rgba(var(--accent-rgb), 0.3);
+        
+        &:hover {
+          background-color: var(--accent-color-darker);
+          transform: translateY(-2px);
+          box-shadow: 0 6px 16px rgba(var(--accent-rgb), 0.4);
+        }
+        
+        svg {
+          font-size: 1.3rem;
+        }
+      }
     }
+    
+    .book-features {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1000px;
+      margin: 0 auto 80px;
+      padding: 0 20px;
+      
+      @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 40px;
+      }
+      
+      .feature {
+        flex: 1;
+        text-align: center;
+        padding: 0 20px;
+        
+        .feature-icon {
+          margin: 0 auto 20px;
+          width: 80px;
+          height: 80px;
+          
+          .icon-bg {
+            fill: rgba(var(--accent-rgb), 0.1);
+          }
+          
+          .icon-path {
+            stroke: var(--accent-color);
+            stroke-width: 2;
+            fill: none;
+          }
+        }
+        
+        h3 {
+          font-size: 1.4rem;
+          font-weight: 600;
+          margin-bottom: 10px;
+          color: var(--primary-text);
+        }
+        
+        p {
+          font-size: 1.1rem;
+          color: var(--secondary-text);
+          line-height: 1.5;
+        }
+      }
+    }
+    
     .released-chapters {
-        // background-color: #fafafa;
-        font-size: 1rem;
+      background-color: rgba(var(--accent-rgb), 0.03);
+      padding: 60px 20px;
+      border-radius: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+      
+      h2 {
+        font-size: 2.2rem;
+        margin: 0 0 40px;
+        font-weight: 600;
+        line-height: 1.3;
+        text-align: center;
+        color: var(--primary-text);
+      }
+      
+      .chapters-container {
         max-width: 720px;
         margin: 0 auto;
-        h2{
-            font-size: 2rem;
-            margin: 1.8rem 0 1rem;
-            font-weight: normal;
-            line-height: 1.3;
-            text-align: center;
+        background-color: var(--background);
+        border-radius: 12px;
+        padding: 30px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+      }
+      
+      h3 {
+        font-size: 1.4rem;
+        margin: 1.5rem 0 1rem;
+        font-weight: 600;
+        line-height: 1.4;
+        color: var(--accent-color);
+        border-bottom: 1px solid rgba(var(--accent-rgb), 0.2);
+        padding-bottom: 10px;
+      }
+      
+      span {
+        color: var(--secondary-text);
+      }
+      
+      a {
+        color: var(--accent-color);
+        font-weight: 500;
+        transition: all 0.2s ease;
+        
+        &:hover {
+          color: var(--accent-color-darker);
+          text-decoration: underline;
         }
-        h3{
-            font-size: 1.33rem;
-            margin: 1.5rem 0 1rem;
-            font-weight: normal;
-            line-height: 1.4;
+      }
+      
+      a, span {
+        text-decoration: none;
+        display: block;
+        padding: 10px 15px;
+        font-size: 1.15em;
+        border-radius: 8px;
+        
+        &:hover {
+          background-color: rgba(var(--accent-rgb), 0.05);
         }
-        span{
-            color: var(--secondary-text);
-        }
-        a{
-            color: var(--accent-color);
-            font-weight: 500;
-        }
-        a, span{
-            text-decoration: none;
-            display: block;
-            padding: 3px 15px;
-            font-size: 1.15em;        
-        }
-
+      }
     }
-    .buttons{
-        margin: 0 auto;
-        text-align: center;
-        background-color: var(--image-border);
+    
+    // Overriding the existing navigator styles
+    .buttons {
+      margin: 0 auto;
+      text-align: center;
+      background-color: transparent;
     }
-    .chapter-navigator{
-        display: inline-block;
-        text-align: center;
-        max-width: auto;
-        margin: 0 auto;
-        .next{
-            gap: 5px;
-            display: flex;
-            padding: 7px 15px;
-            text-align: center;
-        }
-        svg{
-            font-size: 2rem;
-        }
+    
+    .chapter-navigator {
+      display: none; // Hide this as we're using our custom CTA button
     }
-}
+  }
