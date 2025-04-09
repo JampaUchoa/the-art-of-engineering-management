@@ -13,7 +13,7 @@ export function Home() {
           From starting to mastering the craft
         </h2>
         <p>
-          In this book, you'll find practical advice drawn from real-world experiences that shows how the Engineering Managenent role varies significantly across different scenarios — and how to suceed no matter which.
+          In this book, you'll find practical advice drawn from real-world experiences that shows how the Engineering Management role varies significantly across different scenarios — and how to succeed no matter which.
         </p>
         <p>
           Learn essential management concepts and gain tools to excel in leading teams to success.
