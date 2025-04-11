@@ -10,16 +10,13 @@ export function Home() {
     <div className="home-page">
       <div className="intro-text">
         <h2>
-          From starting to mastering the craft
+        Build high-impact teams and products, thrive as a technology leader.
         </h2>
         <p>
-          In this book, you'll find practical advice drawn from real-world experiences that shows how the Engineering Management role varies significantly across different scenarios — and how to succeed no matter which.
-        </p>
-        <p>
-          Learn essential management concepts and gain tools to excel in leading teams to success.
+        Learn practical strategies to master engineering management by leveraging your engineering skills.
         </p>
       </div>
-      <div className="buttons">
+      <div className="buttons intro-text">
         <div className="chapter-navigator">
           <a className="next" href={`/chapters/${chapter1.slug}`}>
             <FiBookOpen />

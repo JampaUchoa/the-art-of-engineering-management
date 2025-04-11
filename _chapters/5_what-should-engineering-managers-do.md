@@ -1,6 +1,7 @@
 ---
 title: "What should Engineering Managers be doing"
 section: "Becoming"
+slug: "what-should-engineering-managers-be-doing"
 ready: true
 ---
 

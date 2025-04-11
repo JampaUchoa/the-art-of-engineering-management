@@ -56,24 +56,19 @@
         }
 
     }
-    .buttons{
-        margin: 0 auto;
-        text-align: center;
-        background-color: var(--image-border);
-    }
     .chapter-navigator{
         display: inline-block;
         text-align: center;
         max-width: auto;
-        margin: 0 auto;
+        padding: 0;
         .next{
-            gap: 5px;
+            gap: 7px;
             display: flex;
-            padding: 7px 15px;
+            padding: 5px 10px;
             text-align: center;
         }
         svg{
-            font-size: 2rem;
+            font-size: 1.3rem;
         }
     }
 }

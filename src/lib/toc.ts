@@ -4,17 +4,17 @@ const chapters = getAllPosts();
 
 const plannedChapters = [
     {
-        "title": "Becoming",
+        "title": "Foundations",
         "subtopics": [
             "Should you become an Engineering Manager?",
-            "Getting promoted to EM",
-            "Navigating manager interviews",
-            "Your first days as a manager",
+            "Getting promoted",
+            "Navigating interviews",
+            "Your first days",
             "What will you do?",
         ]
     },
     {
-        "title": "Essentials",
+        "title": "Pillars of Management",
         "subtopics": [
             "Driving an effective process",
             "Shipping successful products",
@@ -23,16 +23,17 @@ const plannedChapters = [
         ]
     },
     {
-        "title": "Techniques",
+        "title": "The manager toolset",
         "subtopics": [
-            "Delegating effectively",
+            "Effective Delegation",
             "1:1 meetings",
             "Giving feedback",
             "Preventing burnout",
-            "Managing everyone's attention",
+            "Managing attention",
             "Hiring great engineers",
-            "Addressing performance issues/firing",
-            "Promoting people"
+            "Addressing performance issues",
+            "When to let people go",
+            "Giving promotions"
         ]
     }
 ]

@@ -1,6 +1,7 @@
 ---
 title: "Your first days"
 section: "Becoming"
+slug: "your-first-days-as-a-manager"
 ready: true
 ---
 
