@@ -3,6 +3,9 @@
     font-size: 1rem;
     max-width: 720px;
     margin: 0 auto;
+    .subtopic{
+        margin: 0 20px;
+    }
     h2{
         font-size: 2rem;
         margin: 1.8rem 0 1rem;
@@ -22,11 +25,16 @@
     a{
         color: var(--accent-color);
         font-weight: 500;
+        transition: all 0.3s ease;
+        border-radius: 5px;
+        &:hover{
+            background-color: var(--accent-color-alpha);
+        }
     }
     a, span{
         text-decoration: none;
-        display: block;
-        padding: 3px 15px;
+        display: inline-block;
+        padding: 5px;
         font-size: 1.15em;        
     }
 }

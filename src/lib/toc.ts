@@ -4,7 +4,7 @@ const chapters = getAllPosts();
 
 const plannedChapters = [
     {
-        "title": "Foundations",
+        "title": "Management Foundations",
         "subtopics": [
             "Should you become an Engineering Manager?",
             "Getting promoted",
@@ -14,7 +14,7 @@ const plannedChapters = [
         ]
     },
     {
-        "title": "Pillars of Management",
+        "title": "Pillars of Management (Upcoming)",
         "subtopics": [
             "Driving an effective process",
             "Shipping successful products",
@@ -23,7 +23,7 @@ const plannedChapters = [
         ]
     },
     {
-        "title": "The manager toolset",
+        "title": "Manager's toolset (Upcoming)",
         "subtopics": [
             "Effective Delegation",
             "1:1 meetings",
