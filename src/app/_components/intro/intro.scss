@@ -1,5 +1,16 @@
-.home-page {
+.intro {
     margin: 60px auto;
+    display: grid;
+    grid-template-columns: 0.9fr auto;
+    gap: 10px;
+    max-width: 890px;
+    .hero{
+        flex-grow: 1;
+    }
+
+    img{
+        max-height: 320px;
+    }
 
     h2 {
         font-size: 2em;
@@ -48,6 +59,14 @@
         }
         &:hover{
             color: var(--accent-color-darker);
+        }
+    }
+}
+@media (max-width: 768px) {
+    .intro{
+        grid-template-columns: auto;
+        .hero{
+            order: -1;
         }
     }
 }

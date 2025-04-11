@@ -22,7 +22,7 @@
     --accent-color-alpha: #4595eb29;
     --accent-color-darker: #2573c7;
 
-    .book-content{
+    .book-content, .hero{
         img{
             filter: invert(1) hue-rotate(180deg);
         } 
