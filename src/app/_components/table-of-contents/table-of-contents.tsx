@@ -5,7 +5,7 @@ export default function TableOfContents() {
     const table = tableOfContents;
     return (
         <div className="released-chapters">
-            <h2> Chapters</h2>
+            <h2> Table of Contents </h2>
             <div className={"chapters"}>
                 {table.map((chapter, index) => (
                     <div key={index}>
