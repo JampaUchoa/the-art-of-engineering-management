@@ -1,5 +1,5 @@
 ---
-title: "Getting promoted to Engineering Manager"
+title: "Getting promoted"
 description: "How a promotion happens — and how to be prepared for it"
 slug: "getting-promoted-to-engineering-manager"
 section: "Becoming"

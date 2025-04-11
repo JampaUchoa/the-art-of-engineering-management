@@ -1,5 +1,5 @@
 ---
-title: "What should Engineering Managers be doing"
+title: "What will you do?"
 section: "Becoming"
 slug: "what-should-engineering-managers-be-doing"
 ready: true
