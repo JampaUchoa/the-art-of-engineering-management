@@ -6,7 +6,7 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   title: `The Art of Engineering Management`,
-  description: `A book about the engineering manager's journey to mastering the craft`,
+  description: `Learn effective strategies to master engineering management and deliver great products.`,
   openGraph: {
     images: [""],
   },
