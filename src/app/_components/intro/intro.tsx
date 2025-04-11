@@ -10,10 +10,10 @@ export default function Intro() {
     <div className="home-page">
       <div className="intro-text">
         <h2>
-          Build high-impact teams and products, with a practical approach.
+          Build high-impact teams, with a practical approach.
         </h2>
         <p>
-          Learn effective strategies to master engineering management by leveraging your developer skills.
+          Learn effective strategies to master engineering management and deliver great products.
         </p>
       </div>
       <div className="buttons intro-text">
