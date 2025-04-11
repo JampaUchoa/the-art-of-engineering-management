@@ -33,7 +33,7 @@ const plannedChapters = [
             "Hiring great engineers",
             "Addressing performance issues",
             "When to let people go",
-            "Giving promotions"
+            "Promotions"
         ]
     }
 ]
