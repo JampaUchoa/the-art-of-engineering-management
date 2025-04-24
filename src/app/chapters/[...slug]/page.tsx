@@ -6,6 +6,7 @@ import { PostBody } from "@/app/_components/post-body";
 import ChapterFooter from "@/app/_components/chapter-footer";
 import ChapterNavigator from "@/app/_components/chapter/navigator";
 import "./page.scss";
+import SubscribeForm from "@/app/_components/subscribe-form/Form";
 
 export default async function(props: Params) {
   const params = await props.params;
@@ -22,6 +23,7 @@ export default async function(props: Params) {
       <div className="book-content">
         <PostBody content={content} />
       </div>
+      <SubscribeForm/>
       <ChapterNavigator current={post} />
       <ChapterFooter />
     </article>
