@@ -2,9 +2,6 @@ export default function ChapterFooter() {
     return (
         <div className="book-content chapter-footer">
             <p>
-                This book is a <em>work in progress</em> and it can become much better with your support!
-            </p>
-            <p>
                 If you want to get notified by the next chapters, follow me on
                 <a href="https://www.linkedin.com/in/jampauchoa/"> LinkedIn</a>,
                 <a href="https://twitter.com/jampauchoa"> Twitter</a> or by starring the project on

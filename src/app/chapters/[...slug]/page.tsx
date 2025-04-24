@@ -23,8 +23,8 @@ export default async function(props: Params) {
       <div className="book-content">
         <PostBody content={content} />
       </div>
-      <SubscribeForm/>
       <ChapterNavigator current={post} />
+      <SubscribeForm/>
       <ChapterFooter />
     </article>
   );
