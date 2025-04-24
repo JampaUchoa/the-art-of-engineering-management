@@ -3,10 +3,12 @@ import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/api";
 import markdownToHtml from "@/lib/markdownToHtml";
 import { PostBody } from "@/app/_components/post-body";
-import ChapterFooter from "@/app/_components/chapter-footer";
+import dynamic from 'next/dynamic';
 import ChapterNavigator from "@/app/_components/chapter/navigator";
 import "./page.scss";
 import SubscribeForm from "@/app/_components/subscribe-form/Form";
+
+const ChapterFooter = dynamic(() => import("@/app/_components/chapter-footer"));
 
 export default async function(props: Params) {
   const params = await props.params;
