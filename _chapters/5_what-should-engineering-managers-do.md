@@ -94,7 +94,7 @@ Do estimates tend to be inaccurate, leading to missed deadlines or extra work? D
 
 #### Do we over-plan instead of executing?
 
-This is often a **Process** issue, though it might stem from rigid top-down mandates (a **People** aspect involving leadership) that hinder agility.
+This is often a **Process** issue, though it might stem from rigid top-down mandates (a **People** aspect which needs managing up) that hinder agility.
 
 #### Why are some engineers less productive than expected?
 
