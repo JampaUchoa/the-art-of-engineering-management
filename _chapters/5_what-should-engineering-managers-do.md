@@ -15,33 +15,31 @@ Things like your team's structure, their experience level, and the projects they
 
 ![Manager responsibilities over time](/assets/chapters/chapter-5-intro.svg)
 
-### Product - Shipping the right things
+### Product
 
 **Product is the most important pillar**—you can do everything else right, but if what you ship doesn't have an impact on users, the team won't succeed.
 
-Because the product is so vital, some teams have people entirely dedicated to it, like a Product Manager (PM). If your team doesn't have a dedicated PM, you'll need to cover their core responsibilities. Either way, it's your job to ensure these product responsibilities are handled.
+Because the product is so vital, some teams have people entirely dedicated to it, like a Product Manager (PM). If your team doesn't have a dedicated PM, you will need to act as one. Either way someone needs to cover this aspect.
 
 The core responsibilities of this pillar are:
 
--   **Ensure the right things are built.** This involves gathering user feedback, doing market research, or validating ideas with users. It reduces the risk of working on features that deliver no value.
--   **Ensure critical features get done first.** This means sorting priorities based on effort versus impact. This analysis often results in a product roadmap, usually built *together* with the team to get accurate estimates.
--   **Communicate the roadmap and keep stakeholders updated.** Show them what the team plans to deliver and ensure it meets the needs of executives or clients. Expect the roadmap to change as you learn more—new information might change your assessment of a feature's effort or impact, leading you to reshuffle priorities.
+-   **Ensuring the right things are built.** This involves gathering user feedback, doing market research, or validating ideas with users. It reduces the risk of working on features that deliver no value.
+-   **Ensure critical features get done first.** This means sorting priorities based on effort versus impact and getting value sooner to the user. The output of this sorting becomes a product roadmap, which is usually built *together* with the team to get accurate estimates.
+-   **Communicate the roadmap and keep stakeholders updated.** Give visibility to executives / clients on the team plans and ensure it meets their needs. Rebalance priorities as you learn new information, which can change your assessment of a feature's effort and impact.
 
 A key part of this pillar is also knowing when to **push back on building certain features**. As a technical leader, you need to weigh the potential value against the engineering effort involved. Non-technical people rely on you to provide context on how difficult something is to implement. This makes you responsible for evaluating whether a project is truly worth the cost.
 
-### People - Building a healthy team
+### People
 
 Team performance can gradually slow down if your engineers lose morale or feel unsupported. This pillar focuses on building a supportive environment where communication flows well and the team maintains a high bar for engineering performance.
 
-This pillar also covers hiring, which is one of your most critical responsibilities.
-
 The amount of attention this pillar requires scales directly with your team size. Each engineer on your team needs individual feedback, and you need to ensure their needs are met. This focus will vary among engineers: some have high ambitions (like becoming Staff Engineers), while others are happy completing tickets and value having autonomy.
 
-A unique characteristic of this pillar is that it sometimes requires sudden spikes of attention. This is due to tasks you can't delegate, like performance review cycles, hiring interviews, and managing performance improvement plans.
+A unique characteristic of this pillar is that it sometimes requires sudden spikes of attention. This is due to tasks you can't delegate, like performance review cycles, managing performance improvement and hiring interviews.
 
-The good news is that once you build momentum with a capable team that trusts you, this pillar can often run smoothly without constant, hands-on attention. However, you must maintain a good rapport with your engineers and ensure they feel supported. This also means mentoring them and helping them progress in their careers.
+The good news is that once you build momentum with a capable team that trusts you, this pillar can often run smoothly without constant attention. However, you must maintain a good rapport with your engineers, ensure they feel supported and recognize you as a mentor.
 
-### Process - Dividing and conquering
+### Process
 
 The core of the process pillar is about breaking down large projects into tasks that multiple engineers can tackle, and figuring out how those tasks come together to create the final product.
 
@@ -60,7 +58,7 @@ For example, if your project has firm deadlines (like contractual obligations), 
 
 On the other hand, a new team with less experienced engineers might initially just need a whiteboard and a checklist. Knowing your team's specific situation helps you guide them toward an ideal process.
 
-### Programming - A higher level approach
+### Programming
 
 You're likely already familiar with this pillar: maintaining a healthy codebase and architecture. Since this is often a comfort zone for new managers moving from technical roles, be mindful not to focus *too much* here at the expense of other pillars.
 
