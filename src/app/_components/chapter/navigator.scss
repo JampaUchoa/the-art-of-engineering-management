@@ -9,6 +9,9 @@
     .next {
         flex-grow: 1;
         text-align: right;
+        &.disabled{ 
+            text-align: left;
+        }
     }
 
     a {
@@ -49,9 +52,10 @@
 
         &.disabled {
             pointer-events: none;
-            opacity: 0.9;
-            background-color: var(--secondary-text);
+            background-color: var(--primary-text);
             color: var(--background);
+            justify-content: left;
+            gap: 10px;
         }
     }
 

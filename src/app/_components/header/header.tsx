@@ -74,9 +74,6 @@ const Header = () => {
         <a href="https://github.com/JampaUchoa/the-art-of-engineering-management" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository" title="GitHub Repository">
           <FiGithub />
         </a>
-        <a href="https://twitter.com/jampauchoa" target="_blank" rel="noopener noreferrer" aria-label="Twitter Profile" title="Twitter Profile">
-          <FiTwitter />
-        </a>
       </nav>
     </header>
   );

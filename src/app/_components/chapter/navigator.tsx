@@ -1,6 +1,6 @@
 import { Post } from "@/interfaces/post";
 import { getAllPosts } from "@/lib/api";
-import { FiBook, FiChevronRight } from "react-icons/fi";
+import { FiBook, FiChevronRight, FiClock, FiLock } from "react-icons/fi";
 import "./navigator.scss";
 export default function ChapterNavigator({ current }: { current: Post }) {
 
@@ -8,8 +8,12 @@ export default function ChapterNavigator({ current }: { current: Post }) {
     // find the previous and next posts
     const currentIndex = allPosts.findIndex((post) => post.slug === current.slug);
     let next: Post | undefined;
+    let postAvaiableToSubscribers = false;
     if (currentIndex !== -1) {
         next = allPosts[currentIndex + 1];
+    }
+    if (currentIndex === allPosts.length - 1) {
+        postAvaiableToSubscribers = getAllPosts(true).length > allPosts.length;
     }
     return (
         <div className="chapter-navigator">
@@ -22,8 +26,10 @@ export default function ChapterNavigator({ current }: { current: Post }) {
                     <FiChevronRight />
                 </a>
             ) :
-                (
-                    <a className="next disabled" href="">New chapters soon! <FiBook /></a>
+                postAvaiableToSubscribers ? (
+                    <a className="next disabled" href=""> <FiClock /> New chapter available for subscribers only, for now. </a>
+                ) : (
+                    <a className="next disabled" href=""> <FiClock /> New chapters soon! </a>
                 )
             }
         </div>
