@@ -1,9 +1,8 @@
 ---
-title: "Navigating interviews"
-slug: "navigating-engineering-management-interviews"
-section: "Becoming"
+title: Navigating interviews
+section: Becoming
+slug: navigating-engineering-management-interviews
 ready: true
-
 ---
 
 # Navigating the Engineering Manager interview

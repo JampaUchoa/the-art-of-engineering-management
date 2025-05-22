@@ -1,8 +1,8 @@
 ---
-title: "Should you become an Engineering Manager?"
-description: "My reflections on becoming an engineering manager – the good, the bad, and the ugly"
-slug: "should-you-become-an-engineering-manager"
-section: "Becoming"
+title: Should you become an Engineering Manager?
+section: Becoming
+description: My reflections on becoming an engineering manager – the good, the bad, and the ugly
+slug: should-you-become-an-engineering-manager
 ready: true
 ---
 

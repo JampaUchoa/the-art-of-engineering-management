@@ -1,8 +1,8 @@
 ---
-title: "Getting promoted"
-description: "How a promotion happens — and how to be prepared for it"
-slug: "getting-promoted-to-engineering-manager"
-section: "Becoming"
+title: Getting promoted
+section: Becoming
+description: How a promotion happens — and how to be prepared for it
+slug: getting-promoted-to-engineering-manager
 ready: true
 ---
 

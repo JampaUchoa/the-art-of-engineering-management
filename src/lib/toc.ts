@@ -6,18 +6,25 @@ const plannedChapters = [
     {
         "title": "Management Foundations",
         "subtopics": [
-            "Should you become an Engineering Manager?",
-            "Getting promoted",
-            "Navigating interviews",
-            "Your first days",
-            "What will you do?",
+            "Should you Become an Engineering Manager?",
+            "Getting Promoted",
+            "Navigating the Interviews",
+            "Your First Days",
+            "The Four Pillars",
+        ]
+    },
+    {
+        "title": "The Product Pillar",
+        "subtopics": [
+            "The Engineering Role in Shaping the Product",
+            "Avoiding product “derails”",
+            "Getting on the right track"
         ]
     },
     {
         "title": "Pillars of Management (Upcoming)",
         "subtopics": [
             "Driving an effective process",
-            "Shipping successful products",
             "Empowering people to greatness",
             "How much you should (still) care about programming"
         ]
