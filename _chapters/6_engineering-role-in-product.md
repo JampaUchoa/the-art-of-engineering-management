@@ -2,7 +2,7 @@
 title: The Engineering Role in Shaping the Product
 section: Product
 slug: the-engineering-role-in-shaping-product
-ready: true
+ready: false
 ---
 # The Engineering Role in Shaping the Product
 

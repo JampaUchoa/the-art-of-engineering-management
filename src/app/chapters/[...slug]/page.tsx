@@ -55,9 +55,9 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
 }
 
 export async function generateStaticParams() {
-  const posts = getAllPosts();
+  const posts = getAllPosts(true);
 
-  const slugs =  posts.map((post) => ({
+  const slugs = posts.map((post) => ({
     slug: post.slug.split("/"),
   }));
   console.log(slugs);

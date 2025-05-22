@@ -114,4 +114,4 @@ Is there agreement on choices like prioritizing speed over scalability (**Progra
 
 Ignoring debt (**Programming**) or failing to prioritize paying it down (**Process**) can create compounding bottlenecks later.
 
-Now that we understand the key responsibilities, let's explore *how* to tackle them in the next chapter…
+Now that we understand the key responsibilities, let's explore *how* to tackle them in the next chapter, starting with the first pillar: Product.

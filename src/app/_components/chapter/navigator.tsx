@@ -7,7 +7,10 @@ export default function ChapterNavigator({ current }: { current: Post }) {
     const allPosts = getAllPosts();
     // find the previous and next posts
     const currentIndex = allPosts.findIndex((post) => post.slug === current.slug);
-    const next = allPosts[currentIndex + 1];
+    let next: Post | undefined;
+    if (currentIndex !== -1) {
+        next = allPosts[currentIndex + 1];
+    }
     return (
         <div className="chapter-navigator">
             {next ? (

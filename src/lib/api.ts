@@ -30,8 +30,8 @@ export function getPostById(id: string) {
 }
 
 
-export function getAllPosts(): Post[] {
+export function getAllPosts(showHidden: boolean = false): Post[] {
   const chapterIds = getChapters();
-  const posts = chapterIds.map(id => getPostById(id)).filter(post => post.ready);
+  const posts = chapterIds.map(id => getPostById(id)).filter(post => showHidden || post.ready);
   return posts;
 }
