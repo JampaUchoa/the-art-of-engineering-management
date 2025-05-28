@@ -6,19 +6,32 @@ const plannedChapters = [
     {
         "title": "Management Foundations",
         "subtopics": [
-            "Should you Become an Engineering Manager?",
-            "Getting Promoted",
-            "Navigating the Interviews",
-            "Your First Days",
-            "The Four Pillars",
+            "Should You Become an Engineering Manager?",
+            "Getting Promoted to Management",
+            "Navigating the Management Interviews"
+        ]
+    },
+    {
+        "title": "Core Principles",
+        "subtopics": [
+            "Your First Days as a Manager",
+            "What Does an Engineering Manager Do?"
         ]
     },
     {
         "title": "The Product Pillar",
         "subtopics": [
             "The Engineering Role in Shaping the Product",
-            "Avoiding product “derails”",
-            "Assembling a good roadmap"
+            "Why You Should Avoid “derails”"
+        ]
+    },
+    {
+        "title": "Building a Successful Roadmap",
+        "subtopics": [
+            "Breaking Down Large Problems",
+            "Analyzing Tradeoffs",
+            "Delegating Projects",
+            "Assembling and Keeping Up with the Roadmap"
         ]
     },
     {
