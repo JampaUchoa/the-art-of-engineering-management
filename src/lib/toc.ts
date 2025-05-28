@@ -18,7 +18,7 @@ const plannedChapters = [
         "subtopics": [
             "The Engineering Role in Shaping the Product",
             "Avoiding product “derails”",
-            "Getting on the right track"
+            "Assembling a good roadmap"
         ]
     },
     {
