@@ -4,7 +4,7 @@ const chapters = getAllPosts();
 
 const plannedChapters = [
     {
-        "title": "Management Foundations",
+        "title": "Becoming a manager",
         "subtopics": [
             "Should You Become an Engineering Manager?",
             "Getting Promoted to Management",
@@ -14,8 +14,9 @@ const plannedChapters = [
     {
         "title": "Core Principles",
         "subtopics": [
+            // 1:1s
             "Your First Days as a Manager",
-            "What Does an Engineering Manager Do?"
+            "What Does an Engineering Manager Do?",
         ]
     },
     {
