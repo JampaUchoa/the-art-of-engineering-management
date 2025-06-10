@@ -4,7 +4,7 @@ section: Product
 slug: the-engineering-role-in-shaping-product
 ready: true
 ---
-# Why you need to care about Product
+# Why Engineering Managers need to care about Product
 
 Product is the most critical pillar of a squad. It doesn't matter if your tech stack has 100% unit test coverage and your team always delivers on time if the deliveries have no impact. Most startups fail because they run out of cash before shipping a product that people want.
 
