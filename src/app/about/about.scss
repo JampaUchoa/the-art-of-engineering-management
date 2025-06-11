@@ -1,3 +1,9 @@
-.content.about-page img{
-    filter:  brightness(0.75) !important;
+:root.dark {
+    .content.about-page img {
+        filter: brightness(0.75) !important;
+    }
+}
+
+.content.about-page img {
+    max-width: 400px;
 }
