@@ -60,6 +60,9 @@ const Header = () => {
         </div>
       </Link>
       <nav className="side-links" aria-label="Site navigation and tools"> {/* Use nav semantic tag */}
+        {/* <Link href="/about" className="nav-link about-link">
+          About
+        </Link> */}
         <button
           onClick={toggleDarkMode}
           className="theme-toggle-button"

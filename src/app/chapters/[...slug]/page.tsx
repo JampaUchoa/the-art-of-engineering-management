@@ -8,7 +8,7 @@ import ChapterNavigator from "@/app/_components/chapter/navigator";
 import "./page.scss";
 import SubscribeForm from "@/app/_components/subscribe-form/Form";
 
-const ChapterFooter = dynamic(() => import("@/app/_components/chapter-footer"));
+const ChapterFooter = dynamic(() => import("@/app/_components/footer/chapter-footer"));
 
 export default async function(props: Params) {
   const params = await props.params;

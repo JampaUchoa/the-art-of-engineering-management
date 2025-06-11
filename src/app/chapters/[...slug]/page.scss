@@ -83,11 +83,12 @@ article {
     border-radius: 4px;
 }
 
-.book-content figcaption {
-    text-align: center;
-    font-size: 0.9rem;
+.book-content img + em {
+    max-width: min(100%, 580px);
+    font-size: .95rem;
     color: var(--secondary-text);
-    margin-top: 0.5rem;
+    display: block;
+    margin-top: -2em;
 }
 
 /* Utility classes */
