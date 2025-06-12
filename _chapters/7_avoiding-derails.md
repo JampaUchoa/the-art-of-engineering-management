@@ -29,7 +29,7 @@ It is scary when your team has nothing to work on and the upper leadership doesn
 
 You might think that finding new things to do should be primarily the PM's / upper leadership's role, and you’re correct, but sometimes they can drop the ball. Since this affects your whole squad's morale and possibly their jobs, you need to start immediately. 
 
-The situation where you must take control of a product is rare but inevitable. For example, leadership is busy with another project. Sometimes, a PM leaves, and another has to cover a lot of squads. It comes at a point in an engineer manager's career when they must put on their PM shoes and lay tracks themselves.
+The situation where you must take control of a product is rare but inevitable. For example, leadership is busy with another project. Sometimes, a PM leaves, and another has to cover a lot of squads. It comes to a time in an engineer manager's career when they must put on their PM shoes and lay tracks themselves.
 
 Getting out of this situation won't be easy, because even when you find new projects, your team will not start coding immediately. To gain time until the future projects are ready for engineering, you can find new immediate work by having technical brainstorming sessions and bug bashes within your team.
 
