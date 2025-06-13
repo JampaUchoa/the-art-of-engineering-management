@@ -22,11 +22,25 @@
     --accent-color-alpha: #4595eb29;
     --accent-color-darker: #2573c7;
 
-    .book-content, .hero{
-        img{
+    .book-content,
+    .hero {
+        img {
             filter: invert(1) hue-rotate(180deg);
-        } 
+        }
     }
+
+    // Horrible scss hack
+    .logo-link:hover svg {
+
+        .light-petal {
+            fill: var(--accent-color);
+        }
+        .dark-petal {
+            fill: var(--background);
+        }
+    }
+
+
 }
 
 body {
@@ -46,7 +60,7 @@ body {
 }
 
 @media (max-width: 768px) {
-    body{
+    body {
         padding: 1rem;
     }
 }

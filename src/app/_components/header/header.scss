@@ -1,91 +1,126 @@
-
 .header {
     display: grid;
-    grid-template-columns: 1fr auto 1fr; 
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    padding: 15px 25px; 
-    margin-bottom: 20px; 
-    
+    padding: 15px 25px;
+    margin-bottom: 20px;
+
     &.header-placeholder {
-      border-bottom: 1px solid transparent; 
-       .logo-placeholder {
-         height: 65px; 
-       }
+        border-bottom: 1px solid transparent;
+
+        .logo-placeholder {
+            height: 65px;
+        }
+
     }
 
     .logo-link {
         display: flex;
         align-items: center;
-        justify-content: center; 
-        gap: 5px; 
+        justify-content: center;
+        gap: 5px;
         text-decoration: none;
-        color: var(--primary-text); 
+        color: var(--primary-text);
+        transition: all 0.2s ease-out;
 
         &:hover {
             svg {
-                transform: rotate(45deg) scale(1.1); 
-                color: var(--accent-color); 
+                color: var(--accent-color);
+
+                // Dark mode is at globals.scss
+                .dark-petal {
+                    fill: var(--accent-color);
+                }
+
+                .light-petal {
+                    fill: var(--background);
+                }
+
+                .logo-part {
+                    stroke: var(--accent-color);
+                }
+
             }
+
             .title-wrapper .title,
             .title-wrapper .subtitle {
-                 color: var(--accent-color); 
+                color: var(--accent-color);
             }
         }
 
         svg {
-            height: 55px; 
+            height: 55px;
             width: auto;
-            transition: transform 0.2s ease-out;
+
+            .logo-part {
+                // stroke: #020202;
+                stroke: var(--primary-text);
+                stroke-width: 12;
+                vector-effect: non-scaling-stroke
+            }
+
+            .dark-petal {
+                fill: #0a0a0a;
+                // fill: var(--primary-text);
+            }
+
+            .light-petal {
+                fill: #fdfdfd;
+                // fill: var(--background);
+            }
         }
 
         .title-wrapper {
             text-align: left;
 
-            .title, .subtitle {
+            .title,
+            .subtitle {
                 display: block;
                 text-transform: uppercase;
                 margin: 0;
                 font-weight: 500;
                 letter-spacing: -.03em;
                 line-height: 1.1;
-                 transition: color 0.2s ease;
+                transition: color 0.2s ease;
             }
 
             .title {
-                 font-size: 1.1em;
-                 color: var(--primary-text);
+                font-size: 1.1em;
+                color: var(--primary-text);
             }
+
             .subtitle {
                 font-size: 1.3em;
-                 color: var(--primary-text); 
-                 font-weight: 600;
+                color: var(--primary-text);
+                font-weight: 600;
             }
         }
     }
 
     .side-links {
         display: flex;
-        justify-content: flex-end; 
+        justify-content: flex-end;
         align-items: center;
-        gap: 15px; 
+        gap: 15px;
 
-        a, button {
-            display: flex; 
+        a,
+        button {
+            display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.4em; 
+            font-size: 1.4em;
             color: var(--secondary-text);
             text-decoration: none;
-            padding: 8px; 
-            border-radius: 50%; 
-            background: none; 
-            border: none; 
+            padding: 8px;
+            border-radius: 50%;
+            background: none;
+            border: none;
             cursor: pointer;
             transition: color 0.2s ease, background-color 0.2s ease;
 
             &:hover {
                 color: var(--primary-text);
-                background-color: var(--image-border); 
+                background-color: var(--image-border);
             }
         }
     }
@@ -93,33 +128,40 @@
 
 @media (max-width: 768px) {
     .header {
-        grid-template-columns: auto 1fr auto; 
-        padding: 10px 15px; 
-        gap: 10px; 
+        grid-template-columns: auto 1fr auto;
+        padding: 10px 15px;
+        gap: 10px;
 
         .header-left-spacer {
-          display: none; 
+            display: none;
         }
 
         .logo-link {
-            grid-column: 1 / 2; 
-            justify-content: flex-start; 
+            grid-column: 1 / 2;
+            justify-content: flex-start;
             gap: 10px;
 
             svg {
-                height: 45px; 
+                height: 45px;
             }
-             .title-wrapper {
-                .title { font-size: 0.9em; }
-                .subtitle { font-size: 1.1em; }
-             }
+
+            .title-wrapper {
+                .title {
+                    font-size: 0.9em;
+                }
+
+                .subtitle {
+                    font-size: 1.1em;
+                }
+            }
         }
 
         .side-links {
-            grid-column: 3 / 4; 
-            gap: 8px; 
+            grid-column: 3 / 4;
+            gap: 8px;
 
-            a, button {
+            a,
+            button {
                 font-size: 1.3em;
                 padding: 6px;
             }

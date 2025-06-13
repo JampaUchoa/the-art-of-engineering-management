@@ -1,24 +1,66 @@
-const SvgComponent = (props: any) => (
+import * as React from "react";
+const SVGComponent = (props: any) => (
   <svg
+    viewBox="-110 -110 220 220"
     xmlns="http://www.w3.org/2000/svg"
-    preserveAspectRatio="xMidYMid meet"
-    viewBox="0 0 123.104 123.104"
     {...props}
   >
-    <g strokeLinecap="round" transform="translate(38.45970500370959 10) rotate(0 23.09209994228911 51.55180415412201)">
-      <path d="M30 13 C32.77 20.08, 35.54 27.15, 40.18 39 M30 13 C32.58 19.59, 35.16 26.17, 40.18 39 M40.18 39 C46.18 52, 46.18 52, 40.18 65 M40.18 39 C46.18 52, 46.18 52, 40.18 65 M40.18 65 C37.16 72.46, 34.14 79.91, 30 90.1 M40.18 65 C37.1 72.59, 34.02 80.19, 30 90.1 M30 90.1 C24 103.1, 24 103.1, 18 90.1 M30 90.1 C24 103.1, 24 103.1, 18 90.1 M18 90.1 C15.2 84.25, 12.4 78.39, 6 65 M18 90.1 C14.73 83.26, 11.46 76.42, 6 65 M6 65 C0 52, 0 52, 6 39 M6 65 C0 52, 0 52, 6 39 M6 39 C8.92 32.67, 11.84 26.34, 18 13 M6 39 C10.59 29.05, 15.19 19.1, 18 13 M18 13 C24 0, 24 0, 30 13 M18 13 C24 0, 24 0, 30 13" stroke="currentColor" strokeWidth="4" fill="none">
-      </path>
-    </g>
-    <g strokeLinecap="round" transform="translate(41.00164452026888 41.07108540679155) rotate(0 20.480718806147934 20.480718806147934)">
-      <path d="M40.96 20.48 C40.96 21.67, 40.86 22.87, 40.65 24.04 C40.44 25.2, 40.13 26.37, 39.73 27.49 C39.32 28.6, 38.81 29.69, 38.22 30.72 C37.62 31.75, 36.93 32.74, 36.17 33.65 C35.41 34.55, 34.55 35.41, 33.65 36.17 C32.74 36.93, 31.75 37.62, 30.72 38.22 C29.69 38.81, 28.6 39.32, 27.49 39.73 C26.37 40.13, 25.2 40.44, 24.04 40.65 C22.87 40.86, 21.67 40.96, 20.48 40.96 C19.3 40.96, 18.09 40.86, 16.92 40.65 C15.76 40.44, 14.59 40.13, 13.48 39.73 C12.36 39.32, 11.27 38.81, 10.24 38.22 C9.21 37.62, 8.22 36.93, 7.32 36.17 C6.41 35.41, 5.55 34.55, 4.79 33.65 C4.03 32.74, 3.34 31.75, 2.74 30.72 C2.15 29.69, 1.64 28.6, 1.24 27.49 C0.83 26.37, 0.52 25.2, 0.31 24.04 C0.11 22.87, 0 21.67, 0 20.48 C0 19.3, 0.11 18.09, 0.31 16.92 C0.52 15.76, 0.83 14.59, 1.24 13.48 C1.64 12.36, 2.15 11.27, 2.74 10.24 C3.34 9.21, 4.03 8.22, 4.79 7.32 C5.55 6.41, 6.41 5.55, 7.32 4.79 C8.22 4.03, 9.21 3.34, 10.24 2.74 C11.27 2.15, 12.36 1.64, 13.48 1.24 C14.59 0.83, 15.76 0.52, 16.92 0.31 C18.09 0.11, 19.3 0, 20.48 0 C21.67 0, 22.87 0.11, 24.04 0.31 C25.2 0.52, 26.37 0.83, 27.49 1.24 C28.6 1.64, 29.69 2.15, 30.72 2.74 C31.75 3.34, 32.74 4.03, 33.65 4.79 C34.55 5.55, 35.41 6.41, 36.17 7.32 C36.93 8.22, 37.62 9.21, 38.22 10.24 C38.81 11.27, 39.32 12.36, 39.73 13.48 C40.13 14.59, 40.44 15.76, 40.65 16.92 C40.86 18.09, 40.91 19.89, 40.96 20.48 C41.01 21.07, 41.01 19.89, 40.96 20.48" stroke="currentColor" strokeWidth="4" fill="none">
-      </path>
-    </g>
-    <g strokeLinecap="round" transform="translate(38.459704211833014 10.000000478898983) rotate(89.99999999999994 23.09209994228911 51.55180415412201)">
-      <path d="M30 13 C33.27 21.36, 36.55 29.72, 40.18 39 M30 13 C33.06 20.81, 36.12 28.63, 40.18 39 M40.18 39 C46.18 52, 46.18 52, 40.18 65 M40.18 39 C46.18 52, 46.18 52, 40.18 65 M40.18 65 C37.74 71.03, 35.29 77.05, 30 90.1 M40.18 65 C36.91 73.06, 33.64 81.13, 30 90.1 M30 90.1 C24 103.1, 24 103.1, 18 90.1 M30 90.1 C24 103.1, 24 103.1, 18 90.1 M18 90.1 C13.98 81.7, 9.97 73.3, 6 65 M18 90.1 C13.45 80.58, 8.9 71.06, 6 65 M6 65 C0 52, 0 52, 6 39 M6 65 C0 52, 0 52, 6 39 M6 39 C9.72 30.95, 13.43 22.89, 18 13 M6 39 C10.79 28.61, 15.59 18.23, 18 13 M18 13 C24 0, 24 0, 30 13 M18 13 C24 0, 24 0, 30 13" stroke="currentColor" strokeWidth="4" fill="none">
-      </path>
+    <style>
+      {
+      }
+    </style>
+    <defs>
+      <path id="petal-half-left" d="M0 0v-98c-15 0-35 38-30 68Z" />
+      <path id="petal-half-right" d="m0 0 30-30c5-30-15-68-30-68Z" />
+      <path
+        id="petal-shape"
+        d="M30-30c5-30-15-68-30-68s-35 38-30 68a60 60 0 0 1 60 0"
+      />
+    </defs>
+    <g id="logo-compass-flower">
+      <use href="#petal-shape" className="logo-part" />
+      <use href="#petal-shape" className="logo-part" transform="rotate(90)" />
+      <use href="#petal-shape" className="logo-part" transform="rotate(180)" />
+      <use href="#petal-shape" className="logo-part" transform="rotate(270)" />
+      <use
+        href="#petal-half-left"
+        className="dark-petal"
+      />
+      <use
+        href="#petal-half-right"
+        className="light-petal"
+      />
+      <use
+        href="#petal-half-left"
+        transform="rotate(90)"
+        className="dark-petal"
+      />
+      <use
+        href="#petal-half-right"
+        transform="rotate(90)"
+        className="light-petal"
+      />
+      <use
+        href="#petal-half-left"
+        transform="rotate(180)"
+        className="dark-petal"
+      />
+      <use
+        href="#petal-half-right"
+        transform="rotate(180)"
+        className="light-petal"
+      />
+      <use
+        href="#petal-half-left"
+        transform="rotate(270)"
+        className="dark-petal"
+      />
+      <use
+        href="#petal-half-right"
+        transform="rotate(270)"
+        className="light-petal"
+      />
     </g>
   </svg>
-)
-export default SvgComponent
-
-
+);
+export default SVGComponent;
