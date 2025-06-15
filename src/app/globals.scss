@@ -63,7 +63,7 @@ body {
 }
 
 a {
-  color: blue;
+  color: var(--accent-color-darker);
   text-decoration: none; /* Remove underline */
 }
 
