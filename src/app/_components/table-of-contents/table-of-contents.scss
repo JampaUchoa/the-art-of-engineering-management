@@ -2,11 +2,11 @@
     font-size: 1rem;
     max-width: 890px;
     margin: 0 auto;
-    padding: 40px;
+    padding: 35px 38px;
     border-radius: 20px;
     background-color: var(--toc-background);
     backdrop-filter: blur(5px) saturate(1.2);
-    border: 2px solid #1f1f1f1f;
+    border: 1px solid #84848430;
 
     @media (max-width: 768px) {
         padding: 20px;
