@@ -2,19 +2,27 @@
     font-size: 1rem;
     max-width: 890px;
     margin: 0 auto;
-    padding: 40px 40px;
+    padding: 40px;
     border-radius: 20px;
     background-color: var(--toc-background);
     backdrop-filter: blur(5px) saturate(1.2);
     border: 2px solid #1f1f1f1f;
-    .subtopic{
+
+    @media (max-width: 768px) {
+        padding: 20px;
+        margin: 0 -1rem;
+    }
+
+    .subtopic {
         margin: 0 20px;
     }
-    h2{
+
+    h2 {
         font-size: 1.6rem;
         margin: 0;
     }
-    h3{
+
+    h3 {
         font-size: 1.2rem;
         margin: 1.5rem 0 1rem;
         font-weight: 500;
@@ -22,22 +30,27 @@
         color: var(--secondary-text);
         letter-spacing: -0.015em;
     }
-    span{
+
+    span {
         color: var(--secondary-text);
     }
-    a{
+
+    a {
         color: var(--accent-color);
         font-weight: 500;
         transition: all 0.3s ease;
         border-radius: 5px;
-        &:hover{
+
+        &:hover {
             background-color: var(--accent-color-alpha);
         }
     }
-    a, span{
+
+    a,
+    span {
         text-decoration: none;
         display: inline-block;
         padding: 5px;
-        font-size: 1.15em;        
+        font-size: 1.15em;
     }
 }
