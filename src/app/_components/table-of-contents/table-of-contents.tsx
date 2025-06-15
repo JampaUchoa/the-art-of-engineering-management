@@ -1,13 +1,25 @@
-import tableOfContents from "@/lib/toc";
 import Link from "next/link";
 import "./table-of-contents.scss";
-export default function TableOfContents() {
-    const table = tableOfContents;
+
+interface Subtopic {
+  title: string;
+  slug?: string;
+}
+
+interface TocEntry {
+  title: string;
+  subtopics: Subtopic[];
+}
+
+interface TableOfContentsProps {
+  tocEntries: TocEntry[];
+}
+export default function TableOfContents({ tocEntries }: TableOfContentsProps) {
     return (
         <div className="released-chapters">
-            <h2> Table of Contents </h2>
+            <h2> Chapters </h2>
             <div className={"chapters"}>
-                {table.map((chapter, index) => (
+                {tocEntries.map((chapter, index) => (
                     <div key={index}>
                         <h3>{chapter.title}</h3>
                         <div className="subtopics">

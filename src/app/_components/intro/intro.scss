@@ -1,7 +1,7 @@
 .intro {
     margin: 60px auto;
     display: grid;
-    grid-template-columns: 0.9fr auto;
+    grid-template-columns: 1fr auto;
     gap: 10px;
     max-width: 890px;
     .hero{
@@ -67,6 +67,7 @@
         grid-template-columns: auto;
         .hero{
             order: -1;
+            justify-self: center;
         }
     }
 }

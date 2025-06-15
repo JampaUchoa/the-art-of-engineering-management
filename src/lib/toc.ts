@@ -4,7 +4,7 @@ const chapters = getAllPosts();
 
 const plannedChapters = [
     {
-        "title": "Becoming a manager",
+        "title": "🌱 Becoming a manager",
         "subtopics": [
             "Should You Become an Engineering Manager?",
             "Getting Promoted to Management",
@@ -12,7 +12,7 @@ const plannedChapters = [
         ]
     },
     {
-        "title": "Core Principles",
+        "title": "📐 Core Principles",
         "subtopics": [
             // 1:1s
             "Your First Days as a Manager",
@@ -20,14 +20,14 @@ const plannedChapters = [
         ]
     },
     {
-        "title": "The Product Pillar",
+        "title": "📦 The Product Pillar",
         "subtopics": [
             "The Engineering Role in Shaping the Product",
             "Why You Should Avoid “derails”"
         ]
     },
     {
-        "title": "Building a Successful Roadmap",
+        "title": "🧭 Building a Successful Roadmap",
         "subtopics": [
             "Breaking Down Large Problems",
             "Analyzing Tradeoffs",
@@ -36,7 +36,7 @@ const plannedChapters = [
         ]
     },
     {
-        "title": "Pillars of Management (Upcoming)",
+        "title": "🏛️ Pillars of Management (Upcoming)",
         "subtopics": [
             "Driving an effective process",
             "Empowering people to greatness",
@@ -44,7 +44,7 @@ const plannedChapters = [
         ]
     },
     {
-        "title": "Manager's toolset (Upcoming)",
+        "title": "🛠️ Manager's toolset (Upcoming)",
         "subtopics": [
             "Effective Delegation",
             "1:1 meetings",

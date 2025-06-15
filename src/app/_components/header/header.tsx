@@ -16,18 +16,25 @@ const Header = () => {
     const initialTheme = storedTheme || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
     setTheme(initialTheme);
     document.documentElement.classList.add(initialTheme);
+    document.body.classList.add(initialTheme);
   }, []); // Run only once on mount
 
   useEffect(() => {
     // Apply theme class when theme state changes after initial mount
     if (!isMounted || !theme) return;
-    const currentClasses = document.documentElement.classList;
-    if (theme === 'dark' && !currentClasses.contains('dark')) {
-      currentClasses.remove('light');
-      currentClasses.add('dark');
-    } else if (theme === 'light' && !currentClasses.contains('light')) {
-      currentClasses.remove('dark');
-      currentClasses.add('light');
+    const currentDocumentElementClasses = document.documentElement.classList;
+    const currentBodyClasses = document.body.classList;
+
+    if (theme === 'dark') {
+      currentDocumentElementClasses.remove('light');
+      currentDocumentElementClasses.add('dark');
+      currentBodyClasses.remove('light');
+      currentBodyClasses.add('dark');
+    } else if (theme === 'light') {
+      currentDocumentElementClasses.remove('dark');
+      currentDocumentElementClasses.add('light');
+      currentBodyClasses.remove('dark');
+      currentBodyClasses.add('light');
     }
      window.localStorage.setItem('theme', theme);
   }, [theme, isMounted]);

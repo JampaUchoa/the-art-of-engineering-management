@@ -7,6 +7,8 @@
     --accent-color-darker: #054487;
     --blockquote-border: #e5e7eb;
     --image-border: #f1f1f1;
+    --toc-background: rgba(255, 255, 255, 0.16);
+
     --line-height: 1.6;
     --paragraph-spacing: 1.5em;
 }
@@ -21,6 +23,7 @@
     --accent-color: #4595eb;
     --accent-color-alpha: #4595eb29;
     --accent-color-darker: #2573c7;
+    --toc-background: rgba(0, 0, 0, 0.16);
 
     .book-content,
     .hero {
@@ -63,4 +66,13 @@ body {
     body {
         padding: 1rem;
     }
+}
+body.light.home-page-active {
+  background-image: url('/assets/background/light.png');
+  background-size: 50vw;
+}
+
+body.dark.home-page-active {
+  background-image: url('/assets/background/dark.png');
+  background-size: 50vw;
 }
