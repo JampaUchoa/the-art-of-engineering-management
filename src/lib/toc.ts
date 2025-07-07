@@ -14,16 +14,16 @@ const plannedChapters = [
     {
         "title": "📐 Core Principles",
         "subtopics": [
-            // 1:1s
             "Your First Days as a Manager",
             "What Does an Engineering Manager Do?",
+            "1:1s - The most powerful management tool",
         ]
     },
     {
         "title": "📦 The Product Pillar",
         "subtopics": [
             "The Engineering Role in Shaping the Product",
-            "Why You Should Avoid “derails”"
+            "Avoiding product derails"
         ]
     },
     {
