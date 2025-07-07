@@ -2,7 +2,7 @@
 title: Avoiding product “derails”
 section: Product
 slug: avoiding-product-derails
-ready: false
+ready: true
 ---
 
 # Avoiding product “derails”
