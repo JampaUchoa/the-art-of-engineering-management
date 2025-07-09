@@ -33,8 +33,7 @@ Once, an engineer casually mentioned in a 1:1 that they were getting 3-5 false a
 
 ## What You Should Talk About
 
-
-## In an effective 1:1, your conversations will cover two main areas:
+In an effective 1:1, your conversations will cover two main areas:
 
 **Engineer’s Morale (Make them feel heard):**
 
