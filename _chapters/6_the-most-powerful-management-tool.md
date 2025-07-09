@@ -47,18 +47,18 @@ Once, an engineer casually mentioned in a 1:1 that they were getting 3-5 false a
 * Discover how they feel about working with the people they collaborate with, both within the team and across the company.
 * Talk about whether they feel they are growing in their role and if the company is helping them advance their career.
 
-**Roadblocks (Learn from your engineers):**
+**Bottlenecks (Learn from your engineers):**
 
 
 
 * Technical problems that interrupt delivery, like poor tooling or tech debt. For example, are there libraries that are common root causes of our bugs or any areas where they think we’re reinventing the wheel?
 * Unexpected firefighting. Is production almost going down frequently? Are there too many incident pages or critical bug reports?
 * Things that frequently become a bottleneck for them, like a flaky CI/CD pipeline or PRs that take too long to be reviewed.
-* Non-technical roadblocks, like meeting fatigue, frustrating processes, or too much bureaucracy in the software development lifecycle.
+* Non-technical bottlenecks, like meeting fatigue, frustrating processes, or too much bureaucracy in the software development lifecycle.
 
 Learning these things takes time, so don’t rush through these topics. As you build trust, the nature of these conversations will evolve.
 
-When deciding which topics to cover, aim for the conversation to be relevant to what’s happening on the team, such as future projects during roadmap planning. In the middle of a quarter, the conversation will likely steer more toward their feelings about the ongoing work and technical roadblocks they are facing.
+When deciding which topics to cover, aim for the conversation to be relevant to what’s happening on the team, such as future projects during roadmap planning. In the middle of a quarter, the conversation will likely steer more toward their feelings about the ongoing work and technical bottlenecks they are facing.
 
 With that said, not all the 1:1 conversations need to fit the objectives above, especially if things are going well. Sometimes, you can relax and build rapport by discussing random topics like cars, pets, or vacations.
 
