@@ -24,7 +24,7 @@ If you want to accelerate your career growth, that's where you should go. You'll
 
 Before accepting a new role, take the time to research the company's growth trajectory. Publicly available metrics such as overall headcount growth, Glassdoor reviews, funding rounds, and media coverage are useful indicators of a company's health.
 
-For larger companies, you can also assess their long-term potential by reviewing customer experiences on Reddit or other forums. Satisfied customers are the main signal of a company in a positive trajectory.
+For larger companies, you can also assess their long-term potential by reviewing customer experiences on Reddit or other forums. Despite Revenue growth and net-dollar retention being predictors, satisfied customers are ultimately the main signal of a company in a positive trajectory.
 
 ### Being the CEO of your career
 
@@ -38,7 +38,7 @@ If your current manager understands your ambition to move into management, they 
 
 For example, an engineer lacking managerial skills might hold a decision-making meeting without clearly assigning tasks before the meeting ends. While the manager may choose to cover for them, meaningful feedback or possible alternative solutions might only surface if the manager knows the engineer's ambitions toward management.
 
-Try to align with your manager and seek opportunities to learn essential managerial skills while still in your current role as an individual contributor—you can do things like interviewing candidates, running some cerimonies and meetings, and interacting with customers directly.
+Try to align with your manager and seek opportunities to learn essential managerial skills while still in your current role as an individual contributor—you can do things like interviewing candidates, running some ceremonies and meetings, and interacting with customers directly.
 
 If possible, schedule occasional skip-level meetings with your director as well. These conversations offer insights into the company's higher-level challenges and opportunities to build rapport with someone who could potentially become your future boss.
 
@@ -46,7 +46,7 @@ If possible, schedule occasional skip-level meetings with your director as well.
 
 Engineering managers generally know exactly which individual contributors (ICs) on their teams are fully prepared to step into managerial roles if needed. Typically, these people are highly competent senior ICs who teammates naturally approach when they need help. They're effective communicators, strong mentors, and are skilled at analyzing business requirements alongside technical tradeoffs. This makes them "go-to" advisors for their colleagues.
 
-Another invaluable trait managers look for is curiosity, which is essential when offering feedback constructively. For instance, if a colleague writes "bad code" in a PR, instead of calling them out for it, ask why they chose that approach rather than the accepted 'ideal' method. Asking leading questions rather than challanging directly demonstrates trust in their abilities and encourages them to reflect and learn.
+Another invaluable trait managers look for is curiosity, which is essential when offering feedback constructively. For instance, if a colleague writes "bad code" in a PR, instead of calling them out for it, ask why they chose that approach rather than the accepted 'ideal' method. Asking leading questions rather than challenging directly demonstrates trust in their abilities and encourages them to reflect and learn.
 
 ### Force multiplier
 

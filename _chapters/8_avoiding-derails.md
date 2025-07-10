@@ -39,11 +39,6 @@ Getting out of this situation won't be easy, because even when you find new proj
 ### Asking for external help
 If you feel your product roadmap is nearing its end, the easiest thing to do is ask your PM or your director for suggestions. Sometimes, they don't have a clear answer, but they can help you by pointing you toward problems.
 
-## Creating new tracks
-
-### Just asking
-
-If you feel your product roadmap is nearing its end, the easiest thing to do is ask your PM or your director for suggestions. Sometimes, they don't have a clear answer either, but they might be helpful and point you toward potential problems.
 
 ### Opportunity for tackling tech debts
 If you can assemble your roadmap, this is also an opportunity to address tech debt and make architectural improvements, not just to develop new product features.

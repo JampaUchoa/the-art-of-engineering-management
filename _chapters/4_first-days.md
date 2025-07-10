@@ -21,7 +21,7 @@ Therefore, your two main goals for the initial weeks should be to **get context*
 
 Start by understanding how your company operates within its industry and how it compares to competitors. The key is identifying how the business *actually* makes money — outsiders often guess this wrong.
 
-For example, while mobile games might seem to profit from ads or microtransactions, the reality is often that a tiny fraction of players (known as "whales") drive most of the revenue. Without attracting and retaining these high spenders, even popular games can fail. When you join the company, you might think the objective is "making games that attract players" but it might actually be "making games that attract whales."
+For example, in many free-to-play mobile games, a small cohort of players (often called "whales") generates a disproportionate share of revenue compared to ads or microtransactions. As an outsider you might think the objective is "making games that attract players," but when you become an insider you will discover that the objective is "making games that attract whales."
 
 This reflects how many large mobile game companies need to operate. While indie studios can survive on modest earnings, larger companies with high payrolls and overhead costs often cannot.
 

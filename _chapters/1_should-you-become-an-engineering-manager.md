@@ -28,7 +28,7 @@ However, being an engineering manager isn't as dull as it might seem. Most of yo
 
 Some argue that teams don't need managers at all. While that might hold true for a short period, perhaps with a small team of very senior engineers on a simple project, it rarely lasts. It often becomes chaotic once the product grows more complex and more people get involved.
 
-Even at companies like Valve, which famously claimed to have no managers, people naturally step into lead roles—they just aren't permanent positions.
+Even at companies like Valve, which famously claimed to have no managers in the past, still having people acting as project leads and functional managers. These roles simply rotate more fluidly than in most companies.
 
 Having a manager means one person can represent the technical team in meetings, saving valuable focus time for the rest of the engineers. A manager clarifies requirements with stakeholders, pushes back on unrealistic demands, keeps an eye on growing tech debt, and takes charge of hiring great people to scale the team.
 
@@ -86,7 +86,7 @@ Your coding contributions should ideally be outside the critical path. Urgent is
 
 Up to the senior engineer level, promotions primarily depend on your individual skills. However, getting promoted to manager or staff roles often depends on organizational factors, like the team growing or an existing leader leaving. That's why joining a growing company can be advantageous if you want to become a manager faster.
 
-The job market often reflects common organizational structures, where you might see a ratio of **around five to eight engineers per manager**. Consequently, there are significantly more senior engineer roles available than engineering manager positions.
+The job market often reflects common organizational structures, where ratios of **roughly six to eight engineers per manager** is common. Therefore this ratio also reflects the number of open positions.
 
 Accepting a management offer is often a bigger commitment than taking an engineering role. You generally can't hop between companies as easily as a software engineer might. Many companies hesitate to interview management candidates with very short tenures (less than a year or even two) on their resumes.
 
@@ -110,7 +110,7 @@ The worst part of the job, without a doubt, is firing people. I've had to make t
 
 ### Staff Engineer
 
-If the challenges above make management seem unappealing, consider pursuing the Staff Engineer path. Keep in mind, however, that Staff+ roles are often even scarcer than management positions. It's not uncommon to see ratios closer to **one Staff+ engineer for every ten or more engineers**, depending on the organization's needs.
+If the challenges above make management seem unappealing, consider pursuing the Staff Engineer path. Keep in mind, however, that Staff+ roles are often even scarcer than management positions. It's increasingly common to see **one Staff-or-Principal engineer for every ten or more engineers**, depending on the organization's size.
 
 Even as a Staff Engineer, your focus will extend beyond just coding. Much of the technical leadership content in this book, such as the "Programming Pillar" chapter, is relevant, as technical strategy often becomes a shared responsibility between Staff engineers and managers. Skills like conducting 1:1s and giving effective feedback (covered in later chapters) are also crucial for Staff roles, so those chapters are worth reading too.
 
