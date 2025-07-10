@@ -58,7 +58,7 @@ For example, if frequent production bugs constantly stall your team's progress, 
 
 Another scenario could be a situation where shifting technical requirements frequently force engineers to rewrite code again and again. One engineer who effectively communicates with stakeholders and creates comprehensive technical specifications before coding begins can save the team hours of redundant work.
 
-Force multiplier efforts increase everyone's efficiency. Imagine you reduce your teammates' task times by 5 minutes each, and they complete around 3 tasks per day. Across a 5-person team, you've effectively added up to **375 working days per year** to your team's productivity!
+Force multiplier efforts increase everyone's efficiency. Imagine you reduce your teammates' task times by 5 minutes each, and they complete around 3 tasks per day. Across a 5-person team, you've effectively added nearly **40 working days per year** to your team's productivity!
 
 Identifying possible multipliers can be challenging since they're often highly specific to a particular codebase or team dynamic. However, common areas worth exploring include:
 

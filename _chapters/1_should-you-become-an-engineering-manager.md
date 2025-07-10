@@ -86,7 +86,7 @@ Your coding contributions should ideally be outside the critical path. Urgent is
 
 Up to the senior engineer level, promotions primarily depend on your individual skills. However, getting promoted to manager or staff roles often depends on organizational factors, like the team growing or an existing leader leaving. That's why joining a growing company can be advantageous if you want to become a manager faster.
 
-There are roughly five times as many open senior engineer roles as there are engineering manager roles. A typical team structure of five engineers to one manager reflects this reality in the job market.
+The job market often reflects common organizational structures, where you might see a ratio of **around five to eight engineers per manager**. Consequently, there are significantly more senior engineer roles available than engineering manager positions.
 
 Accepting a management offer is often a bigger commitment than taking an engineering role. You generally can't hop between companies as easily as a software engineer might. Many companies hesitate to interview management candidates with very short tenures (less than a year or even two) on their resumes.
 
@@ -110,7 +110,7 @@ The worst part of the job, without a doubt, is firing people. I've had to make t
 
 ### Staff Engineer
 
-If the challenges above make management seem unappealing, consider pursuing the Staff Engineer path. Keep in mind, however, that these roles are even scarcer than management positions, with a typical ratio closer to one Staff+ engineer for every ten engineers, rather than one manager for every five.
+If the challenges above make management seem unappealing, consider pursuing the Staff Engineer path. Keep in mind, however, that Staff+ roles are often even scarcer than management positions. It's not uncommon to see ratios closer to **one Staff+ engineer for every ten or more engineers**, depending on the organization's needs.
 
 Even as a Staff Engineer, your focus will extend beyond just coding. Much of the technical leadership content in this book, such as the "Programming Pillar" chapter, is relevant, as technical strategy often becomes a shared responsibility between Staff engineers and managers. Skills like conducting 1:1s and giving effective feedback (covered in later chapters) are also crucial for Staff roles, so those chapters are worth reading too.
 
