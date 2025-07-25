@@ -25,6 +25,13 @@ const plannedChapters = [
             "The Engineering Role in Shaping the Product",
             "Avoiding product derails"
         ]
+    }, {
+        "title": "🪄 The Process pillar",
+        "subtopics": [
+            "Managing Process",
+            "No free lunch",
+            "The true meaning of Agile",
+        ]
     },
     {
         "title": "🧭 Building a Successful Roadmap",
