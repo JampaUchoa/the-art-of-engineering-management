@@ -2,7 +2,7 @@
 title: Managing process
 section: Process
 slug: managing-process
-ready: false
+ready: true
 ---
 
 # Managing process
