@@ -64,14 +64,14 @@ article {
 .book-content blockquote {
     border-left: 4px solid var(--blockquote-border);
     margin: 1.5rem 0;
-    padding: 1rem 1.5rem;
+    padding: 0 1.5rem;
     font-style: italic;
     color: var(--secondary-text);
     background-color: rgba(0,0,0,0.03);
 }
 
 .book-content blockquote p {
-    margin: 0;
+    margin: 0 0 0.75rem;
 }
 
 /* Images */
