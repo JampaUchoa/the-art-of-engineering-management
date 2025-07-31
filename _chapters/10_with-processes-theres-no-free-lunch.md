@@ -1,7 +1,7 @@
 ---
 title: There is no free lunch when dealing with engineering processes 
 section: Process
-slug: with-processes-theres-no-free-lunch
+slug: theres-no-free-lunch-with-engineering-process
 ready: true
 ---
 
