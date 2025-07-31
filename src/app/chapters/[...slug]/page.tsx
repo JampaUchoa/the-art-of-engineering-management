@@ -56,9 +56,9 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
       url: chapterUrl,
       siteName: "The Art of Engineering Management",
       images: [{
-        url: "https://taoem.com/favicon/web-app-manifest-192x192.png",
-        width: 192,
-        height: 192,
+        url: "https://taoem.com/favicon/favicon-400x400.png",
+        width: 400,
+        height: 400,
         alt: "The Art of Engineering Management Logo",
       }],
       type: "article",
@@ -67,7 +67,7 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
       card: "summary",
       title: post.title,
       description: post.description || "Learn effective strategies to master engineering management and deliver great products.",
-      images: ["https://taoem.com/favicon/web-app-manifest-192x192.png"],
+      images: ["https://taoem.com/favicon/favicon-400x400.png"],
     },
   };
 }
