@@ -1,5 +1,9 @@
 import { getAllPosts } from "./api";
 
+function getChapterNumber(slug: string): number {
+  return parseInt(slug.split('/')[0]);
+}
+
 const chapters = getAllPosts();
 
 const plannedChapters = [
@@ -29,7 +33,7 @@ const plannedChapters = [
         "title": "🪄 The Process pillar",
         "subtopics": [
             "Managing Process",
-            "No free lunch",
+            "There is no free lunch",
             "The true meaning of Agile",
         ]
     },
@@ -72,7 +76,7 @@ let count = 0;
 const tableOfContents = plannedChapters.map((topic) => {
     const subtopics = topic.subtopics.map((subtopic) => {
         count++;
-        const chapter = chapters.find((chapter) => chapter.slug[0] === count.toString());
+        const chapter = chapters.find((chapter) => getChapterNumber(chapter.slug) === count);
         if (chapter) {
             return { title: subtopic, slug: chapter.slug };
         } else {

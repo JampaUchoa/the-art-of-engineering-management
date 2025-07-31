@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/api";
 import markdownToHtml from "@/lib/markdownToHtml";
 import { PostBody } from "@/app/_components/post-body";
-import dynamic from 'next/dynamic';
 import ChapterNavigator from "@/app/_components/chapter/navigator";
 import "./page.scss";
 import SubscribeForm from "@/app/_components/subscribe-form/Form";

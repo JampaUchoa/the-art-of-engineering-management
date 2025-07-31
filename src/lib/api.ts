@@ -5,6 +5,10 @@ import { join } from "path";
 
 const postsDirectory = join(process.cwd(), "_chapters");
 
+function getChapterNumber(slug: string): number {
+  return parseInt(slug.split('/')[0]);
+}
+
 export function getPostSlugs() {
   return fs.readdirSync(postsDirectory);
 }
@@ -33,5 +37,5 @@ export function getPostById(id: string) {
 export function getAllPosts(showHidden: boolean = false): Post[] {
   const chapterIds = getChapters();
   const posts = chapterIds.map(id => getPostById(id)).filter(post => showHidden || post.ready);
-  return posts;
+  return posts.sort((a, b) => getChapterNumber(a.slug) - getChapterNumber(b.slug));
 }
