@@ -1,6 +1,6 @@
 ---
 title: There is no free lunch when dealing with engineering processes 
-description: Avoiding Process Bloat: How processes become bureaucracy that slowly creeps into a team (even when managers have good intentions).
+description: "Avoiding Process Bloat: How processes become bureaucracy that slowly creeps into a team (even when managers have good intentions)."
 section: Process
 slug: theres-no-free-lunch-with-engineering-process
 ready: true
