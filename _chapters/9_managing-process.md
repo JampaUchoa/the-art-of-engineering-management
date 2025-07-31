@@ -26,7 +26,7 @@ Not every process will achieve all three goals. The benefits of a process depend
 
 Your team moves through project phases in a cycle. You'll start in planning mode, then move into building until you deliver and the cycle starts anew. But as your product matures, maintenance takes up an increasing amount of time.
 
-![alt text](images/image1.png)
+![Software Development Lifecycle](/assets/chapters/chapter-9-sdlc.svg)
 
 Processes are associated with each of these three phases. Here are some common examples for each.
 

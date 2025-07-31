@@ -28,7 +28,7 @@ However, being an engineering manager isn't as dull as it might seem. Most of yo
 
 Some argue that teams don't need managers at all. While that might hold true for a short period, perhaps with a small team of very senior engineers on a simple project, it rarely lasts. It often becomes chaotic once the product grows more complex and more people get involved.
 
-Even at companies like Valve, which famously claimed to have no managers in the past, still having people acting as project leads and functional managers. These roles simply rotate more fluidly than in most companies.
+Even at companies like Valve, which famously claimed to have no managers in the past, are still having people acting as project leads and functional managers. These roles simply rotate more fluidly than in most companies.
 
 Having a manager means one person can represent the technical team in meetings, saving valuable focus time for the rest of the engineers. A manager clarifies requirements with stakeholders, pushes back on unrealistic demands, keeps an eye on growing tech debt, and takes charge of hiring great people to scale the team.
 

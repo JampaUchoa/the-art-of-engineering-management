@@ -73,7 +73,7 @@ Look proactively for gaps within your team's workflow or processes. Your manager
 
 ### Getting your foot in the door
 
-Strive to progressively take on managerial responsibilities through incremental trust-building with your manager and teammates. Promotions to manager roles appears to happens overnight but takes months of gradual progression.
+Strive to progressively take on managerial responsibilities through incremental trust-building with your manager and teammates. Promotions to manager roles appear to happen overnight but take months of gradual progression.
 
 Like many others, I started as a tech lead at a growing startup, and my responsibilities gradually shifted—from code architecture tasks to hiring, mentoring, and client interaction. Eventually, I found myself spending most of my time managing and mentoring rather than coding.
 

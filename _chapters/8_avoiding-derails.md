@@ -54,7 +54,7 @@ For example, instead of saying, "We will refactor this to make the code less con
 
 All software is built for someone, so building in a vacuum comes with a significant risk. You will need to identify the ideal customer profile, reach out to them to understand their existing workflows, and seek feedback from your end-users. This method is the most impactful but also requires the most work. 
 
-It's not simple because you can't just send a message to your user asking, “Hey, what should we do?” Nor can you come up with an idea and ask, “Hey, would you use &lt;x> feature?” Users are more likely to say yes to everything to avoid hurting your feelings, and often, they aren't even consciously aware of all their problems.
+It's not simple because you can't just send a message to your user asking, "Hey, what should we do?" Nor can you come up with an idea and ask, "Hey, would you use <x> feature?" Users are more likely to say yes to everything to avoid hurting your feelings, and often, they aren't even consciously aware of all their problems.
 
 So, what do you do? You must move the conversation away from your idea and towards their routine. Focus on their past experiences and current behaviors:
 
