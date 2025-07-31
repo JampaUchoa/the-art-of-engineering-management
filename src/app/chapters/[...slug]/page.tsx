@@ -45,10 +45,30 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
   }
 
   const title = `${post.title} | The Art of Engineering Management`;
+  const chapterUrl = `https://taoem.com/chapters/${post.slug}`;
 
   return {
     title,
     description: post.description,
+    openGraph: {
+      title: post.title,
+      description: post.description || "Learn effective strategies to master engineering management and deliver great products.",
+      url: chapterUrl,
+      siteName: "The Art of Engineering Management",
+      images: [{
+        url: "https://taoem.com/favicon/web-app-manifest-512x512.png",
+        width: 512,
+        height: 512,
+        alt: "The Art of Engineering Management Logo",
+      }],
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description || "Learn effective strategies to master engineering management and deliver great products.",
+      images: ["https://taoem.com/favicon/web-app-manifest-512x512.png"],
+    },
   };
 }
 
