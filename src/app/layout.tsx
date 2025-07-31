@@ -8,7 +8,15 @@ export const metadata: Metadata = {
   title: `The Art of Engineering Management`,
   description: `📚 Learn effective strategies to master engineering management and deliver great products.`,
   openGraph: {
-    images: [""],
+    title: `The Art of Engineering Management`,
+    description: `📚 Learn effective strategies to master engineering management and deliver great products.`,
+    images: [{
+      url: "https://taoem.com/favicon/web-app-manifest-512x512.png",
+      width: 512,
+      height: 512,
+      alt: "The Art of Engineering Management Logo",
+    }],
+    type: "website",
   },
 };
 
@@ -51,7 +59,6 @@ export default function RootLayout({
         />
         <meta name="theme-color" content="#000" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
-        <meta property="og:image" content="https://taoem.com/favicon/web-app-manifest-512x512.png" />
       </head>
       <body>
         <Header />
