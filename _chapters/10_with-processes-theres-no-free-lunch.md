@@ -29,9 +29,11 @@ The new design approval process might have been the right call if the problem wa
 
 Another myth is that even if a process slows the team down, it will always have a worthwhile upside. This isn't always true. "It doesn’t hurt to try" can be famous last words. I've seen processes get implemented that signaled a lack of trust in engineers' skills, which became a one-way door to attrition.
 
-> Good process serves you so you can serve customers. But if you’re not watchful, the process can become the thing. This can happen very easily in large organizations. The process becomes the proxy for the result you want. You stop looking at outcomes and just make sure you’re doing the process right.
+> Good process serves you so you can serve customers. But if you're not watchful, the process can become the thing. This can happen very easily in large organizations. The process becomes the proxy for the result you want. You stop looking at outcomes and just make sure you're doing the process right.
 >
-> It’s not that rare to hear a junior leader defend a bad outcome with something like, “Well, we followed the process.” A more experienced leader will use it as an opportunity to investigate and improve the process. The process is not the thing. It’s always worth asking, do we own the process or does the process own us?
+> <br>
+>
+> It's not that rare to hear a junior leader defend a bad outcome with something like, "Well, we followed the process." A more experienced leader will use it as an opportunity to investigate and improve the process. The process is not the thing. It's always worth asking, do we own the process or does the process own us?
 >
 > — Jeff Bezos, 2016 Letter to Shareholders
 
