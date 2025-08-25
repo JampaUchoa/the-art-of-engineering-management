@@ -1,12 +1,12 @@
 ---
-title: What (Really) Means to Be Agile 
+title: Agile: Rise, fall and what remains
 description: "Avoiding Process Bloat: How processes become bureaucracy that slowly creeps into a team (even when managers have good intentions)."
 section: Process
 slug: what-really-means-to-be-agile
 ready: true
 ---
 
-# What (Really) Means to Be Agile
+# Agile: Rise, fall and what remains
 
 The first thing a new manager might hear when they start is that they need to “understand Agile.” The phrase becomes so ingrained that it creates a feedback loop where pursuing “Agile” becomes the goal itself. Processes are evangelized, and an entire industry of consultants creates a mysticism around frameworks, selling a version of Agile that is rigid, prescriptive, and dogmatic…
 
