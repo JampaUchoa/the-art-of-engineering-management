@@ -1,5 +1,5 @@
 ---
-title: Agile: Rise, fall and what remains
+title: "Agile: Rise, fall and what remains"
 description: "Avoiding Process Bloat: How processes become bureaucracy that slowly creeps into a team (even when managers have good intentions)."
 section: Process
 slug: what-really-means-to-be-agile
