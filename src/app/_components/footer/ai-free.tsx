@@ -3,8 +3,8 @@ import { IoMdFingerPrint } from "react-icons/io";
 
 export default function AIFree() {
     return (
-        <Link href="/about/why-no-ai" className="ai-free-link">
-            <IoMdFingerPrint/>  No generative AI was used in the writing of this book.
+        <Link href="/about/why-no-ai" className="footer-link">
+            <IoMdFingerPrint/> GenAI-free
         </Link>
     );
 }

@@ -49,17 +49,97 @@
         margin: 0 auto;
     }
 
+    .buttons-and-author {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 2em;
+        
+        .author-credit {
+            margin: 0;
+            font-size: 0.95em;
+            opacity: 0.75;
+            font-style: italic;
+            
+            a {
+                color: var(--text-color, #333);
+                text-decoration: none;
+                position: relative;
+                transition: all 0.2s ease;
+                
+                &::before {
+                    content: "— ";
+                    opacity: 0.6;
+                }
+                
+                &:hover {
+                    opacity: 1;
+                    color: var(--accent-color);
+                }
+                
+                &:hover::after {
+                    content: "";
+                    position: absolute;
+                    bottom: -2px;
+                    left: 0;
+                    width: 100%;
+                    height: 1px;
+                    background: var(--accent-color);
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+
     .get-started {
         text-decoration: none;
-        font-size: 1.5em;
-        color: var(--accent-color);
-        font-weight: 900;
-        transition: all 0.3s linear;
-        .chapter-title{
-            border-bottom: 5px solid;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 14px 28px;
+        background: var(--accent-color);
+        color: white;
+        font-size: 1.1em;
+        font-weight: 600;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        position: relative;
+        overflow: hidden;
+        
+        .chapter-title {
+            position: relative;
+            z-index: 2;
         }
-        &:hover{
-            color: var(--accent-color-darker);
+        
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(
+                90deg,
+                transparent,
+                rgba(255, 255, 255, 0.15),
+                transparent
+            );
+            transition: left 0.5s ease;
+        }
+        
+        &:hover {
+            background: var(--accent-color-darker);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+            
+            &::before {
+                left: 100%;
+            }
+        }
+        
+        &:active {
+            transform: translateY(0);
         }
     }
 }

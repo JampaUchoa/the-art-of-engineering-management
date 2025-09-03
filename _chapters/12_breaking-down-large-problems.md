@@ -2,16 +2,16 @@
 title: "Breaking Down Large Problems and Prioritizing the Right Things"
 section: Roadmap
 slug: breaking-down-large-problems
-ready: false
+ready: true
 ---
 
 # Breaking down large problems and prioritizing the right things
 
-The longer your team exists, the more likely you will see feature requests pile up. While this is often a sign of success, it can quickly become overwhelming. This scenario is the opposite of [product derailment](/chapters/8/avoiding-product-derailment). Instead of searching for work, your team is swamped with potential new features.
+The longer your team exists, the more likely you will see feature requests pile up. While this is a sign of success, it quickly becomes overwhelming.
 
 Feature requests come in many forms. They can be abstract, like a CEO saying, “Let's build our own content distribution store,” which requires a lot of refinement. Or, they can be very specific, like, “Every day, we need to send a PDF listing all company actions from that day.”
 
-The challenge is deciding which requests to prioritize, since taking on every project usually isn't an option. And even if you could, it's crucial to confirm that each feature will actually deliver on its promised value.
+The challenge is deciding which requests to prioritize, since taking on every project usually isn't an option.
 
 ## Triaging Feature Requests
 

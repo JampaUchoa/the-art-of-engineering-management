@@ -16,12 +16,15 @@ export default function Intro() {
             Learn effective strategies to master engineering management and deliver great products.
           </p>
         </div>
-        <div className="buttons intro-text">
+        <div className="buttons-and-author intro-text">
           <a className="get-started" href={`/chapters/${chapter1.slug}`}>
             <div>
               <span className="chapter-title">Read &gt;</span>
             </div>
           </a>
+          <p className="author-credit">
+            <a href="/about/author">created by Joao Uchoa</a>
+          </p>
         </div>
       </div>
       <div className="hero">

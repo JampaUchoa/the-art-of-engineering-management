@@ -10,40 +10,40 @@ const plannedChapters = [
     {
         "title": "🌱 Becoming a manager",
         "subtopics": [
-            "Should You Become an Engineering Manager?",
-            "Getting Promoted to Management",
-            "Navigating the Management Interviews"
+            "Should you become an engineering manager?",
+            "Getting promoted to management",
+            "Navigating the management interviews"
         ]
     },
     {
         "title": "📐 Core Principles",
         "subtopics": [
-            "Your First Days as a Manager",
-            "What Does an Engineering Manager Do?",
+            "Your first days as a manager",
+            "What does an engineering manager do?",
             "1:1s - The most powerful management tool",
         ]
     },
     {
         "title": "📦 The Product Pillar",
         "subtopics": [
-            "The Engineering Role in Shaping the Product",
+            "The engineering role in shaping the product",
             "Avoiding product derails"
         ]
     }, {
         "title": "🪄 The Process pillar",
         "subtopics": [
-            "Managing Process",
+            "Managing process",
             "There is no free lunch",
-            "The true meaning of Agile",
+            "The true meaning of agile",
         ]
     },
     {
         "title": "🧭 Building a Successful Roadmap",
         "subtopics": [
-            "Breaking Down Large Problems",
-            "Analyzing Tradeoffs",
-            "Delegating Projects",
-            "Assembling and Keeping Up with the Roadmap"
+            "Breaking down large problems",
+            "Assembling a roadmap",
+            "Effective delegation",
+            "Keeping on track"
         ]
     },
     {
@@ -57,7 +57,7 @@ const plannedChapters = [
     {
         "title": "🛠️ Manager's toolset (Upcoming)",
         "subtopics": [
-            "Effective Delegation",
+            "Effective delegation",
             "1:1 meetings",
             "Giving feedback",
             "Preventing burnout",
