@@ -58,11 +58,11 @@
         .author-credit {
             margin: 0;
             font-size: 0.95em;
-            opacity: 0.75;
+            opacity: 0.85;
             font-style: italic;
             
             a {
-                color: var(--text-color, #333);
+                color: var(--primary-text);
                 text-decoration: none;
                 position: relative;
                 transition: all 0.2s ease;
