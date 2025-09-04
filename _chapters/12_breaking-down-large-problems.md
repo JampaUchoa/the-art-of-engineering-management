@@ -7,7 +7,7 @@ ready: true
 
 # Breaking down large problems and prioritizing the right things
 
-Feature requests pile up as your team matures—a sign of success that quickly becomes overwhelming. These requests range from abstract ideas like "Let's build our own content distribution store" to specific demands like "Send a daily PDF of all company actions." The challenge lies in choosing which requests deserve your team's limited bandwidth.
+Feature requests pile up as your team matures: a sign of success that quickly becomes overwhelming. These requests range from abstract ideas like "Let's build our own content distribution store" to specific demands like "Send a daily PDF of all company actions." The challenge lies in choosing which requests deserve your team's limited bandwidth.
 
 ![Options on where to go](/assets/chapters/chapter-12-intro.svg)
 
@@ -88,7 +88,7 @@ Our first slice focuses on proving the core value with minimal effort. Since we 
 
 ![Version 1 implementation plan showing a simplified approach with manually curated content, bypassing complex user-generated content systems](/assets/chapters/chapter-12-v1-plan.svg)
 
-You might be thinking, "But that doesn't scale! Someone has to manually add all the content, which isn't sustainable." You're right—it doesn't scale. But right now, your goal isn't to scale; it's to prove the core idea has value.
+You might be thinking, "But that doesn't scale! Someone has to manually add all the content, which isn't sustainable." You're right, it doesn't scale. But right now, your goal isn't to scale; it's to prove the core idea has value.
 
 This approach solves the classic *chicken-and-egg problem*: even if you magically launched the entire platform tomorrow, you'd still need to attract creators and consumers. Your first users would arrive to find an empty store.
 
