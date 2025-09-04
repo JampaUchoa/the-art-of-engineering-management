@@ -48,7 +48,7 @@ This framework helps identify the best opportunities by categorizing features in
 
 **Quick Wins:** High-impact, low-effort tasks you can tackle immediately to deliver value quickly.
 
-**Big Bets:** High-impact, high-effort initiatives that will consume most of your team's time. Before starting a big bet, it must be well-planned, properly refined, and can't be broken down into smaller pieces.
+**Big Bets:** High-impact, high-effort initiatives that will consume most of your team's time. Before starting a big bet, it must be well-planned, properly refined, and can't be broken down into smaller scopes.
 
 **Grab Bags:** Low-impact, low-effort tasks worth keeping in the backlog as filler work or onboarding tasks for new engineers.
 
