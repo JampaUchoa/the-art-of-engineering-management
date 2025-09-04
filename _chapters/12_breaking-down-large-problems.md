@@ -1,7 +1,7 @@
 ---
 title: "Distilling Impact and Prioritizing the Right Things"
 section: Roadmap
-slug: breaking-down-large-problems
+slug: prioritizing-the-right-things
 ready: true
 ---
 
