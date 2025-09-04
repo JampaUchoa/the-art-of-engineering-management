@@ -1,27 +1,32 @@
 ---
-title: "Breaking Down Large Problems and Prioritizing the Right Things"
+title: "Distilling Impact and Prioritizing the Right Things"
 section: Roadmap
 slug: breaking-down-large-problems
 ready: true
 ---
 
-# Breaking down large problems and prioritizing the right things
+# Distilling Impact and Prioritizing the Right Things
 
-Feature requests pile up as your team matures: a sign of success that quickly becomes overwhelming. These requests range from abstract ideas like "Let's build our own content distribution store" to specific demands like "Send a daily PDF of all company actions." The challenge lies in choosing which requests deserve your team's limited bandwidth.
+As your team matures, feature requests will quickly start to pile up. Your CEO, customers, enterprise clients, and PMs all have ideas about what problem the team should tackle next, but it's impossible to do them all.
+
+The question becomes not only which requests deserve your team's limited bandwidth, but what is the *perceived problem* in the first place.
 
 ![Options on where to go](/assets/chapters/chapter-12-intro.svg)
 
-## Triaging Feature Requests
+## What made them request it in the first place
+Requests come in multiple ways—from abstract ideas like "Let's redesign our app" to very specific demands like "Send an invoice by email after a purchase." But no matter how they're presented, behind every proposed solution lies a *perceived problem*.
 
-Every request needs to be triaged to determine if it makes sense before writing a single line of code. It's important for the entire team to understand what's driving the demand to define scope in a way that maximizes delivered value.
+This perceived problem, not their proposed solution, is what needs to be scrutinized before writing a single line of code. 
 
-### First question: Why?
+## The two most important questions
+
+### Why?
 
 Your Product Manager is typically responsible for investigating the "why," extracting potential value, and determining how the product can deliver it. But [as we've seen](/chapters/7/the-engineering-role-in-shaping-product), every engineer must understand the product to be effective.
 
 The *why* helps you measure the potential **impact** of a feature when it is shipped, whether this translates to customer engagement, productivity, or direct revenue.
 
-### Second question: How hard?
+### How hard?
 
 Every feature has a cost (development and maintenance). Knowing what these costs are is a core engineering responsibility. This **effort** depends heavily on the team's existing tools and knowledge.
 
@@ -101,6 +106,7 @@ Once the MVP proves demand exists, the second slice addresses the scalability is
 ![Version 2 implementation plan building on V1 success, adding creator tools and user submission capabilities while maintaining proven value](/assets/chapters/chapter-12-v2-plan.svg)
 
 ### Beyond
+
 Now that you're serving both consumers and creators, your team has **validated** the core idea, measured demand, and developed a much deeper understanding of your users. This is the point where you can decide to pivot or invest more deeply. 
 
 You'll likely adjust the original plan based on user feedback, as many initial assumptions will be proven wrong while new demands emerge.
