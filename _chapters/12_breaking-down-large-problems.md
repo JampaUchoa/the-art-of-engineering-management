@@ -38,17 +38,17 @@ Now that we know both the **effort** and the **impact**, the “if and when” o
 
 But before committing to projects, we must ask ourselves: "How can we reduce the **effort** on this project while maintaining most of the **impact**?"
 
-## Prioritization Framework
+### Prioritization Framework
 
 To systematically evaluate features, we can create a prioritization matrix that plots **Impact** against **Effort**:
 
-![Prioritization matrix with Impact on Y-axis and Effort on X-axis, showing four quadrants: Quick Wins, Big Bets, Time Sinks, and Grab Bags](/assets/chapters/chapter-12-prio-matrix.svg)
+![Prioritization matrix with Impact on Y-axis and Effort on X-axis, showing four quadrants: Quick Wins, Big Bets, Time Sinks, and Grab Bags](/assets/chapters/chapter-12-prioritization-matrix.svg)
 
 This framework helps identify the best opportunities by categorizing features into four types:
 
 **Quick Wins:** High-impact, low-effort tasks you can tackle immediately to deliver value quickly.
 
-**Big Bets:** High-impact, high-effort initiatives that will consume most of your team's time. Before starting a big bet, ensure it's well-planned, properly refined, and can't be broken down into smaller pieces.
+**Big Bets:** High-impact, high-effort initiatives that will consume most of your team's time. Before starting a big bet, it must be well-planned, properly refined, and can't be broken down into smaller pieces.
 
 **Grab Bags:** Low-impact, low-effort tasks worth keeping in the backlog as filler work or onboarding tasks for new engineers.
 
